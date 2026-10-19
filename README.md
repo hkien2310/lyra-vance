@@ -31,16 +31,17 @@ lyra-vance/
 
 ## 2. Quy Trình Sản Xuất 4 Bước (Áp Dụng Mọi Video)
 
-### Bước 1: Phân Tích Toàn Diện Từ Link YouTube ([01-phan-tich-nhac.md](file:///Users/hoangkien/Youtube/lyra-vance/01-phan-tich-nhac.md))
-* **User:** Ném link YouTube video mẫu (hoặc bỏ file SEO quét từ `youtube-scraper` vào `projects/XX/doi-thu/`).
+### Bước 1: Phân Tích Toàn Diện Từ Link YouTube + SEO Đối Thủ ([01-phan-tich-nhac.md](file:///Users/hoangkien/Youtube/lyra-vance/01-phan-tich-nhac.md))
+* **User:** Gửi **Link YouTube + Nội dung SEO của đối thủ** (dùng extension `youtube-scraper` bấm `📋 Cào & Copy` rồi dán thẳng vào chat, hoặc bỏ file vào `projects/XX/doi-thu/`).
 * **AI tự động thực thi 100%:**
-  1. Chạy `python3 common/analyze_motion.py projects/XX/doi-thu` để tải video, tách cảnh và xuất lưới ảnh `grids/grid_*.jpg`.
-  2. Chạy `python3 common/analyze_audio.py projects/XX/doi-thu` để đo `BPM`, `Key`, năng lượng dải tần và tách file `*_listen.mp3`.
-  3. Nghe nhạc + xem toàn bộ lưới ảnh `grids/` + đọc SEO/comments.
-  4. Xuất báo cáo 3 mảng (**Phần A: Âm thanh & SEO**, **Phần B: Hình ảnh & Siêu thực**, **Phần C: Chuyển động & Nhịp cắt cảnh**) vào `projects/XX/phan-tich.md`.
+  1. Lưu nội dung SEO & Link vào `projects/XX/doi-thu/seo.md`.
+  2. Chạy `python3 common/analyze_motion.py projects/XX/doi-thu` để tự tải video, tách cảnh và xuất lưới ảnh `grids/grid_*.jpg`.
+  3. Chạy `python3 common/analyze_audio.py projects/XX/doi-thu` để đo `BPM`, `Key`, năng lượng dải tần và tách file `*_listen.mp3`.
+  4. Nghe nhạc + xem toàn bộ lưới ảnh `grids/` + đọc SEO/Top Comments của đối thủ.
+  5. Xuất báo cáo 3 mảng (**Phần A: Âm thanh & SEO**, **Phần B: Hình ảnh & Siêu thực**, **Phần C: Chuyển động & Nhịp cắt cảnh**) vào `projects/XX/phan-tich.md`.
 
 ### Bước 2: Sản Xuất & Chốt Nhạc ([02-san-xuat-nhac.md](file:///Users/hoangkien/Youtube/lyra-vance/02-san-xuat-nhac.md))
-* **AI:** Dựa vào Phần A của `phan-tich.md`, viết **2 phương án** (`Song Title`, `Suno Style Prompt`, `Lyrics`) bám sát công thức âm học và cảm xúc của bài mẫu.
+* **AI:** Dựa vào Phần A của `phan-tich.md`, viết **2 phương án** (`Song Title`, `Suno Style Prompt`, `Lyrics`, kèm gợi ý `YouTube Title / SEO` theo công thức đối thủ).
 * **User:** Chạy nhạc trên Suno/Udio, chọn bản ưng ý nhất $\rightarrow$ AI lưu bản chốt vào `projects/XX/docs-nhac.md`.
 
 ### Bước 3: Thảo Luận Hình Ảnh $\rightarrow$ Test Prompt $\rightarrow$ Sản Xuất Hàng Loạt ([03-san-xuat-hinh-anh.md](file:///Users/hoangkien/Youtube/lyra-vance/03-san-xuat-hinh-anh.md))
@@ -57,7 +58,7 @@ lyra-vance/
 
 ## 3. Lệnh Nhanh Cho User Khi Làm Việc Với AI
 
-* **Bắt đầu dự án mới:** `"Phân tích link này cho project 01: <link_youtube>"`
+* **Bắt đầu dự án mới:** `"Làm Bước 1 cho project 01"` + Dán (`Cmd+V`) nội dung vừa copy từ `youtube-scraper` (chứa sẵn Link YouTube + SEO + Comments).
 * **Sang Bước 2:** `"Làm nhạc Bước 2 cho project 01"`
 * **Sang Bước 3:** `"Sang Bước 3 làm ảnh cho project 01"` $\rightarrow$ *(Test 3–5 câu)* $\rightarrow$ `"Ảnh test ổn rồi, xuất 60 câu vào image.txt"`
 * **Sang Bước 4:** `"Sang Bước 4 làm animate cho project 01"` $\rightarrow$ *(Test 3–5 câu)* $\rightarrow$ `"Video test ổn rồi, xuất toàn bộ vào video.txt"`

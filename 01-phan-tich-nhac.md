@@ -7,15 +7,16 @@ Tài liệu quy định Bước 1: Người dùng chỉ cần **ném link YouTub
 ## 1. Đầu Vào & Thực Thi Tự Động
 
 ### Đầu vào từ Người dùng
-- Người dùng chỉ cần gửi **Link YouTube của video mẫu** (kèm hoặc không kèm file SEO từ `youtube-scraper` trong `projects/XX/doi-thu/`).
+- Người dùng gửi **Link YouTube + Nội dung SEO của đối thủ** (copy 1-click từ extension `youtube-scraper` rồi dán thẳng vào chat, hoặc lưu file vào `projects/XX/doi-thu/`).
 
 ### Các bước AI tự động chạy 100%
-1. **Tải video & Cắt lưới hình ảnh/chuyển động:**
-   - Lưu link YouTube vào `projects/XX/doi-thu/` (nếu chưa có) và chạy:
+1. **Lưu dữ liệu SEO & Tải video + Cắt lưới hình ảnh (`4 FPS`):**
+   - Nếu người dùng dán nội dung SEO + Link YouTube trực tiếp vào chat, AI tự động tạo thư mục `projects/XX/doi-thu/` và lưu vào `projects/XX/doi-thu/seo.md`.
+   - Chạy lệnh:
      ```bash
      python3 common/analyze_motion.py projects/XX/doi-thu
      ```
-   - Script tự động tải `competitor_video.mp4`, phát hiện toàn bộ điểm cắt cảnh (`shots`) và xuất bộ lưới ảnh `projects/XX/doi-thu/grids/grid_*.jpg` bao phủ toàn bộ video.
+   - Script tự động đọc link YouTube từ `seo.md`, tải `competitor_video.mp4`, phát hiện toàn bộ điểm cắt cảnh (`shots`) và xuất bộ lưới ảnh `projects/XX/doi-thu/grids/grid_*.jpg` bao phủ 100% video.
 2. **Đo thông số kỹ thuật Âm thanh (DSP):**
    - Chạy tiếp lệnh:
      ```bash
@@ -23,9 +24,9 @@ Tài liệu quy định Bước 1: Người dùng chỉ cần **ném link YouTub
      ```
    - Lấy chính xác: `BPM`, `Key & Scale`, `Crest Factor`, `Tỷ lệ 6 dải tần số`, `Energy Sections` và file `*_listen.mp3`.
 3. **Nghe Nhạc + Xem Lưới Ảnh (`grids/`) + Đọc SEO:**
-   - Dùng `view_file` nghe trực tiếp file `*_listen.mp3` và xem các tấm lưới ảnh trong `projects/XX/doi-thu/grids/`.
+   - Dùng `view_file` nghe trực tiếp file `*_listen.mp3`, xem các tấm lưới ảnh trong `projects/XX/doi-thu/grids/` và đọc dữ liệu SEO/Top Comments trong `projects/XX/doi-thu/seo.md`.
 4. **Xuất Báo Cáo Tổng Hợp (`projects/XX/phan-tich.md`):**
-   - Lưu toàn bộ kết quả phân tích 3 phần (Âm thanh, Hình ảnh, Chuyển động) vào `projects/XX/phan-tich.md`.
+   - Lưu toàn bộ kết quả phân tích 3 phần (Âm thanh & SEO, Hình ảnh, Chuyển động) vào `projects/XX/phan-tich.md`.
 
 ---
 
