@@ -42,9 +42,9 @@ def find_or_download_video(target_dir: Path) -> Path:
 
     out_mp4 = target_dir / "competitor_video.mp4"
     print(f"[analyze_motion] Đang tải video đối thủ từ {yt_url} -> {out_mp4} ...")
-    cmd = [
-        "uvx",
-        "yt-dlp",
+    import shutil
+    ytdlp_cmd = ["yt-dlp"] if shutil.which("yt-dlp") else ["uvx", "yt-dlp"]
+    cmd = ytdlp_cmd + [
         "-f",
         "bestvideo[height<=720][ext=mp4]+bestaudio[ext=m4a]/best[height<=720][ext=mp4]/best",
         "--merge-output-format",

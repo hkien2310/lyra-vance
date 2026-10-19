@@ -1,66 +1,54 @@
-# 01 - Quy Tắc Phân Tích Nhạc & SEO Đối Thủ (Lyra Vance - Local Workflow)
+# 01 - Quy Tắc Phân Tích Toàn Diện Từ Link YouTube (Âm Thanh + Hình Ảnh + Chuyển Động)
 
-Tài liệu quy định quy trình vận hành Bước 1 tại Local: kết hợp đo đạc tín hiệu âm học bằng script (`common/analyze_audio.py`), nghe trực tiếp bằng Multimodal và mổ xẻ dữ liệu SEO/Comments đối thủ từ `projects/XX/doi-thu/`. Kết quả lưu tại `projects/XX/phan-tich-nhac.md` để làm dữ liệu nền tảng cho Bước 2 (`02-san-xuat-nhac.md`).
-
----
-
-## 1. Quy Trình Đầu Vào & Thực Thi Tự Động (Local)
-
-### Đầu vào tại `projects/XX/doi-thu/`
-Người dùng chỉ cần bỏ vào thư mục `projects/XX/doi-thu/` (ví dụ `projects/01/doi-thu/`):
-1. **File nhạc hoặc video đối thủ** (`.mp3`, `.wav`, `.m4a`, `.mp4`, `.mov`...).
-2. **File SEO đối thủ** (`.md` hoặc `.txt` lưu từ extension `youtube-scraper`, chứa `TITLE`, `DESCRIPTION`, `HASHTAGS`, `TOP COMMENTS`).
-3. *(Tùy chọn)* Ghi chú cảm nhận cá nhân kèm theo câu lệnh (ví dụ: *"Phân tích project 01, bài này đoạn bass giữa bài rất cuốn"*). Nếu người dùng không ghi kèm, tiến hành phân tích thẳng không hỏi lại từng bước.
-
-### Các bước AI tự động thực thi
-1. **Đo thông số kỹ thuật chuẩn (DSP):** Chạy lệnh:
-   ```bash
-   python3 common/analyze_audio.py projects/XX/doi-thu
-   ```
-   Lấy số liệu chính xác về: `BPM` (kèm half/double-time), `Key & Scale` (Krumhansl-Schmuckler chroma), `Crest Factor / Độ nén bản mix`, `Tỷ lệ năng lượng 6 dải tần số`, và `Các mốc phân đoạn năng lượng (Energy Sections)`. *(Nếu đầu vào là video hoặc file lớn >25MB, script tự động tách sẵn file `*_listen.mp3` nhẹ để AI nghe).*
-2. **Nghe Multimodal & Đọc SEO:** Dùng `view_file` đọc trực tiếp file âm thanh (hoặc file `*_listen.mp3`) từ đầu đến cuối, đồng thời đọc file SEO đối thủ trong `projects/XX/doi-thu/`.
-3. **Tổng hợp & Lưu kết quả:** Lập báo cáo theo Cấu trúc 3 Tầng bên dưới và lưu vào `projects/XX/phan-tich-nhac.md`.
+Tài liệu quy định Bước 1: Người dùng chỉ cần **ném link YouTube** (hoặc bỏ file vào `projects/XX/doi-thu/`), AI tự động tải video, đo thông số âm thanh, cắt lưới hình ảnh và phân tích trọn gói cả **Nhạc – Hình ảnh – Chuyển động** vào `projects/XX/phan-tich.md`.
 
 ---
 
-## 2. Cấu Trúc Phân Tích 3 Tầng (`projects/XX/phan-tich-nhac.md`)
+## 1. Đầu Vào & Thực Thi Tự Động
 
-Kết hợp số liệu đo từ `common/analyze_audio.py` với bằng chứng thính giác thực tế khi nghe file âm thanh và dữ liệu từ người dùng/khán giả:
+### Đầu vào từ Người dùng
+- Người dùng chỉ cần gửi **Link YouTube của video mẫu** (kèm hoặc không kèm file SEO từ `youtube-scraper` trong `projects/XX/doi-thu/`).
 
-### Tầng 1: Âm Thanh & Kỹ Thuật (Sound & DSP)
-- **Thể loại chính (Main Genre):** Xác định một thể loại âm nhạc cốt lõi.
-- **Nhánh phụ và Giao thoa (Sub-genres & Fusion):** Từ 2 đến 4 nhánh âm nhạc phụ và cách chúng kết hợp với nhau.
-- **Ảnh hưởng và Thời kỳ (Reference Era):** Thập niên, trào lưu hoặc dòng chảy âm nhạc được phản ánh qua cách phối khí.
-- **Không khí và Cảm xúc (Mood & Atmosphere):** Từ 4 đến 6 tính từ đặc tả và 1 đến 2 câu mô tả trạng thái cảm xúc mà bản nhạc gợi lên.
-- **Nhạc cụ và Thiết kế âm thanh (Instruments & Sound Design):** Liệt kê từng lớp nhạc cụ nghe được kèm theo vai trò (nền tảng, dẫn dắt, điểm xuyết, chuyển đoạn), đặc tính âm sắc, dải tần số (đối chiếu với `frequency_energy_pct` từ script) và hiệu ứng biến thiên điện tử.
-- **Giọng hát (Vocals):** Giới tính, chất giọng, kỹ thuật thanh nhạc, ngôn ngữ, vai trò trong bản phối, hiệu ứng xử lý âm thanh và sự thay đổi cảm xúc qua từng đoạn.
-- **Nhịp độ và Tiết tấu (Tempo & Rhythm):** Chỉ số **BPM chính xác** từ script (ghi rõ cả cảm giác nhịp thực tế nếu là half-time/double-time), số chỉ nhịp, độ ổn định nhịp (`beat_stability`), kiểu groove và đặc trưng tiết tấu.
-- **Hòa thanh (Key & Harmony):** **Giọng (Key) và Âm giai (Scale/Mode) chính xác** từ script kết hợp thẩm âm thực tế, cùng tính chất vòng hòa thanh.
-- **Giai điệu và Motif (Melody & Motifs):** Đường nét giai điệu, cấu trúc câu hook chính, quãng âm và nhạc cụ/giọng hát đảm nhận giai điệu chủ đạo.
-- **Cấu trúc bài nhạc (Song Structure):** Chia mốc thời gian (timestamp) chính xác cho từng phần (kết hợp `energy_sections` từ script và điểm chuyển đoạn nghe được) kèm mô tả diễn biến âm thanh.
-- **Đường cong năng lượng (Energy Arc):** Cách cường độ âm nhạc tích tụ, bùng nổ, lắng xuống và chuyển tiếp xuyên suốt bài.
-- **Ghi chú Sản xuất và Mix (Production & Mix Notes):** Độ rộng không gian stereo, đặc tính reverb, dải động thực tế (`crest_factor_db` & `compression_character`), tỷ lệ Sub-bass/Bass/Mid/High và các hiệu ứng chuyển đoạn.
-
-### Tầng 2: Nội Dung Ca Từ (Content)
-- **Lời bài hát đầy đủ (Full Lyrics):** Chép lại toàn bộ lời bài hát nghe được từ bản thu (đánh dấu `[unclear]` tại các vị trí âm thanh mờ; nếu là nhạc không lời ghi rõ `Instrumental`).
-- **Ngôn ngữ và Giọng văn (Language & Register):** Ngôn ngữ sử dụng và sắc thái biểu đạt của ca từ.
-- **Chủ đề cốt lõi (Theme & Core Message):** Tóm tắt thông điệp chính trong một câu và làm rõ các tầng ý nghĩa cảm xúc bên dưới.
-- **Mạch phát triển lời (Narrative Arc):** Cách nội dung ca từ tiến triển từ phần mở đầu đến phần kết thúc.
-- **Hình ảnh ẩn dụ trong lời (Lyrical Metaphors):** Các hình ảnh văn học và phép ẩn dụ nổi bật được sử dụng trong câu chữ.
-- **Sự đồng bộ giữa Lời và Nhạc (Lyrics-Music Alignment):** Cách các câu hát quan trọng ăn khớp với điểm rơi nhịp điệu và cao trào âm nhạc.
-
-### Tầng 3: Tác Động Tâm Lý Thính Giả & Phản Hồi Thực Tế (Impact & Audience Proof)
-- **Sức nặng của Hook (Hook Power):** Khoảnh khắc âm nhạc hoặc câu hát gây nhớ nhất và cơ chế tạo nên sự bắt tai đó.
-- **Điểm chạm cảm xúc (Emotional Triggers):** Từ 2 đến 4 mốc thời gian cụ thể tạo phản ứng cảm xúc mạnh mẽ nhất cùng cơ chế âm nhạc đứng sau.
-- **Phân tích Bình luận Khán giả (Audience Comments Insight):** *(Trích xuất từ phần `TOP COMMENTS` trong file SEO đối thủ)* Khán giả thực tế đang khen ngợi, ám ảnh hay bàn tán nhiều nhất về yếu tố nào (giọng hát, nhịp trống, cảm giác thôi miên, trang phục/vũ đạo ăn khớp nhạc...)?
-- **Yếu tố nghe lại (Replay Factor):** Những chi tiết âm thanh hoặc cảm xúc thúc đẩy người nghe bấm phát lại.
-- **Dư âm cảm xúc (Target Feeling):** Một câu mô tả trạng thái cảm xúc đọng lại trong lòng người nghe khi bài nhạc kết thúc.
+### Các bước AI tự động chạy 100%
+1. **Tải video & Cắt lưới hình ảnh/chuyển động:**
+   - Lưu link YouTube vào `projects/XX/doi-thu/` (nếu chưa có) và chạy:
+     ```bash
+     python3 common/analyze_motion.py projects/XX/doi-thu
+     ```
+   - Script tự động tải `competitor_video.mp4`, phát hiện toàn bộ điểm cắt cảnh (`shots`) và xuất bộ lưới ảnh `projects/XX/doi-thu/grids/grid_*.jpg` bao phủ toàn bộ video.
+2. **Đo thông số kỹ thuật Âm thanh (DSP):**
+   - Chạy tiếp lệnh:
+     ```bash
+     python3 common/analyze_audio.py projects/XX/doi-thu
+     ```
+   - Lấy chính xác: `BPM`, `Key & Scale`, `Crest Factor`, `Tỷ lệ 6 dải tần số`, `Energy Sections` và file `*_listen.mp3`.
+3. **Nghe Nhạc + Xem Lưới Ảnh (`grids/`) + Đọc SEO:**
+   - Dùng `view_file` nghe trực tiếp file `*_listen.mp3` và xem các tấm lưới ảnh trong `projects/XX/doi-thu/grids/`.
+4. **Xuất Báo Cáo Tổng Hợp (`projects/XX/phan-tich.md`):**
+   - Lưu toàn bộ kết quả phân tích 3 phần (Âm thanh, Hình ảnh, Chuyển động) vào `projects/XX/phan-tich.md`.
 
 ---
 
-## 3. Tổng Hợp & Đối Chiếu SEO (Synthesis & SEO Cross-check)
+## 2. Cấu Trúc Báo Cáo `projects/XX/phan-tich.md`
 
-- **Tóm tắt Chủ đề & Âm học (Theme & Sonic Brief):** Một đoạn văn ngắn (60 đến 90 từ) đúc kết chủ đề cốt lõi, mạch cảm xúc, thông số `BPM` + `Key` và công thức nhịp điệu để truyền thẳng sang Bước 2 (`02-san-xuat-nhac.md`).
-- **Đối chiếu SEO Đối thủ (SEO & Genre Cross-check):**
-  - So sánh kết quả phân tích âm học với `TITLE`, `DESCRIPTION`, `HASHTAGS` của đối thủ để chuẩn hóa bộ từ khóa thể loại chính xác nhất.
-  - Rút ra **Công thức SEO & Định vị (SEO Angle)** của video đối thủ (cách đặt tiêu đề, từ khóa ngách thu hút view) để tham khảo cho dự án.
+### Phần A: Phân Tích Âm Thanh & SEO (Phục vụ Bước 2 làm nhạc)
+- **Thể loại chính, Nhánh phụ & Thời kỳ tham chiếu:** Xác định dòng nhạc cốt lõi và cảm hứng thập niên.
+- **Thông số Kỹ thuật (DSP):** `BPM` (kèm cảm giác nhịp thực tế), `Key & Scale`, độ nén bản mix, tỷ lệ năng lượng các dải tần.
+- **Nhạc cụ, Giọng hát & Hòa thanh:** Lớp nhạc cụ dẫn dắt, chất giọng (nam/nữ, màu giọng, cách xử lý), vòng hòa thanh và câu Hook chính.
+- **Cấu trúc bài nhạc & Lời bài hát (Lyrics):** Chia mốc thời gian từng đoạn (Intro, Verse, Chorus, Bridge, Outro), chép lại lời bài hát và chủ đề cốt lõi.
+- **Insight Khán giả & Công thức SEO:** Khán giả khen gì nhất trong bình luận? Cách đặt Title/Keywords hút view của video gốc là gì?
+- **Tóm tắt Sonic Brief (60–90 từ):** Đúc kết công thức âm thanh để truyền thẳng sang Bước 2 (`02-san-xuat-nhac.md`).
+
+### Phần B: Phân Tích Hình Ảnh & Thế Giới Thị Giác (Phục vụ Bước 3 làm ảnh)
+- **Thể loại hình ảnh của video gốc:** Video gốc thuộc dạng nào? (Thời trang nhảy múa / Kể chuyện bình yên / Thế giới cổ tích thu nhỏ / Ngắm cảnh hoài niệm...).
+- **Nhân vật & Tạo hình:** Độ tuổi, giới tính, biểu cảm gương mặt, kiểu tóc, phụ kiện và số lượng nhân vật trong các cảnh.
+- **Trang phục & Chất liệu:** Phom dáng, chất liệu vải, màu sắc và các chi tiết thiết kế nổi bật.
+- **Bối cảnh, Ánh sáng & Bảng màu:** Không gian diễn ra ở đâu (trong phòng, ngoài thiên nhiên, thị trấn...)? Ánh sáng và bảng màu chủ đạo là gì?
+- **Yếu tố Siêu thực / Điểm chạm Thẩm mỹ:** Video gốc dùng chi tiết siêu thực hay nghệ thuật gì để làm khung hình đẹp và thu hút người xem?
+- **Danh sách các nhóm cảnh chính:** Tóm tắt các nhóm bối cảnh/ý tưởng xuất hiện dọc theo video.
+
+### Phần C: Phân Tích Chuyển Động & Nhịp Cắt Cảnh (Phục vụ Bước 4 làm video)
+- **Nhịp độ cắt cảnh (Pacing):** Tổng số cảnh (`shots`), thời lượng trung bình mỗi cảnh.
+- **Bản chất chuyển động của Nhân vật:** Nhân vật trong video gốc cử động như thế nào? (Đứng/ngồi tĩnh tại, đi bộ chậm, làm việc đời thường, tương tác cặp đôi, hay nhảy múa theo nhịp?).
+- **Chuyển động của Vật thể / Môi trường:** Gió thổi tà áo, hoa lá đung đưa, sóng biển, phương tiện di chuyển hay ánh sáng thay đổi ra sao?
+- **Chuyển động Máy quay (Camera Motion):** Máy đứng tĩnh (`static`), đẩy chậm (`slow push-in`), kéo ra (`pull-out`) hay trượt ngang (`tracking`)?

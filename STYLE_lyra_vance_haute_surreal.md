@@ -1,37 +1,39 @@
 # STYLE GỐC — LYRA VANCE (`STYLE_lyra_vance_haute_surreal.md`)
 
-> **QUY TẮC BẢO VỆ FILE:**
-> Đây là tài liệu định vị gốc của kênh Lyra Vance. AI không tự ý chỉnh sửa file này khi chưa hỏi rõ ràng và nhận được sự đồng ý từ người dùng.
+> **ĐỊNH VỊ CỐT LÕI:**
+> Kênh MV **AI Art & Siêu Thực Thơ Mộng (`Cinematic AI Art, Ageless Style & Gentle Surrealism`)** hướng tới khán giả trung niên và cao tuổi. Kết hợp âm nhạc cuốn hút với thế giới thị giác giàu cảm xúc (thời trang nghệ thuật, hành trình bình yên, câu chuyện siêu thực dịu dàng) ở chất lượng `8K Photorealistic Editorial`.
 
-## 1. Định vị kênh (Channel DNA)
+---
 
-- **Định vị cốt lõi:** Kênh MV **AI Siêu Thực Điện Ảnh (`Cinematic & Editorial AI Surrealism`)**, kết hợp âm nhạc cuốn hút với thế giới thị giác siêu thực, thời trang và kiến trúc nghệ thuật ở chất lượng điện ảnh `8K Photorealistic Editorial`.
-- **Nguyên tắc Sao chép Thích ứng (`Adaptive 1:1 Fidelity`):**
-  - Không khóa cứng kênh vào một khuôn mặt, một biểu cảm lạnh hay một bảng màu cố định.
-  - Khi sản xuất dựa trên một video mẫu thành công của đối thủ, giữ nguyên bảng màu, không khí ánh sáng, phong cách trang phục, đạo cụ và thần thái nhân vật đang tạo nên sức hút của video gốc đó (chỉ mô tả thành người mẫu độc lập để không trùng khớp khuôn mặt bản quyền của đối thủ).
-  - Khi nào cần phát triển dấu ấn cá nhân riêng biệt sẽ bổ sung lớp nhận diện nâng cao sau.
+## 1. Tinh Thần Cốt Lõi Toàn Kênh (Channel DNA)
 
-## 2. Năm chốt chặn cố định của toàn kênh (Universal Guardrails)
+1. **Nhân vật & Cảm xúc (`Ageless Grace & Warm Emotion`):**
+   - Chủ đạo là những nhân vật cao tuổi (**65–80 tuổi**) có thần thái rạng rỡ, hiền hậu, yêu đời, bình yên hoặc sâu lắng tùy theo câu chuyện của từng video (Đơn nữ, Đơn nam, Cặp đôi, hoặc Nhóm).
+   - Giữ tỉ lệ cơ thể cân đối, biểu cảm tự nhiên, có hồn; tránh khuôn mặt đơ cứng vô cảm.
+2. **Thích ứng Linh hoạt theo Video Mẫu (`Adaptive Concept` — Không đóng khung 1 kiểu):**
+   - Mỗi video có thể mang một hình thái nội dung khác nhau lấy cảm hứng từ các video thành công cùng ngách:
+     - *Thời trang & Vũ đạo (`Fashion Dance / Runway`)*
+     - *Hành trình Bình yên & Hoài niệm (`Scenic & Peaceful Journey`)*
+     - *Câu chuyện Siêu thực Dịu dàng / Cổ tích (`Gentle Surreal Film / Storybook World`)*
+   - Không ép buộc mọi video phải nhảy múa hay phải chia phòng triển lãm. Video gốc hấp dẫn ở điểm nào (trang phục, câu chuyện, bối cảnh, nhịp tĩnh hay nhịp động) thì kế thừa đúng tinh thần đó.
+3. **Siêu thực Làm Tăng Vẻ Đẹp (`Beauty-Enhancing Surrealism`):**
+   - Luôn cài cắm **1 chút siêu thực tinh tế** để khung hình đẹp, thơ mộng và ấn tượng hơn đời thực (ví dụ: chất liệu váy hoa 3D/kính màu, bông hoa khổng lồ, ngôi nhà ven biển cổ tích, thú cưng thanh lịch đồng hành, ánh sáng và bảng màu hội họa).
+   - Tuyệt đối không làm siêu thực theo hướng kinh dị, dị hợm hay rối mắt.
 
-Mọi hình ảnh (`image.txt`) và chuyển động (`video.txt`) sản xuất trên kênh đều phải tuân thủ 5 quy tắc nền tảng sau:
+---
 
-1. **Bố cục Tối giản & Chất lượng Điện ảnh (`Clean Single-Concept Composition`):**
-   - Mỗi cảnh cắt chỉ tập trung vào một ý niệm bối cảnh và đạo cụ sạch sẽ theo đúng cảnh gốc (`1 Shot = 1 Clean Surreal Concept`), không nhồi nhét đạo cụ của nhiều cảnh khác nhau vào chung một bức ảnh.
-   - Bề mặt chất liệu (vải vóc, kim loại, đá, da, ánh sáng) luôn có độ chân thực xúc giác cao (`hyper-tactile 8k photorealism`), tránh màu neon rẻ tiền hoặc chi tiết biến dạng kiểu AI lỗi.
-2. **Tĩnh trong Ảnh, Động trong Video:**
-   - Ảnh gốc (`image.txt`) luôn ở tư thế tĩnh hoặc bán tĩnh sắc nét, không nhòe chuyển động (`no motion blur`).
-   - Chuyển động của cơ thể, tà áo, đạo cụ và máy quay được điều khiển ở bước tạo video (`video.txt`).
-3. **Chuẩn mực Trang phục theo Giới tính (`Gender Wardrobe Alignment`):**
-   - Ghi rõ giới tính nhân vật trong mọi câu prompt (`female model` hoặc `male model`).
-   - Nhân vật nam mặc trang phục chuẩn nam tính/lịch lãm (áo choàng, suit, quần ống rộng, bốt đế bằng), không mặc váy, đầm hoặc đi giày cao gót.
+## 2. Năm Chốt Chặn Chất Lượng Cố Định (Universal Guardrails)
+
+1. **Bố cục Sạch & Tách Lớp Rõ (`Clean Composition & Depth Separation`):**
+   - Mỗi cảnh chỉ tập trung vào **1 ý niệm thị giác sạch sẽ (`1 Shot = 1 Clean Concept`)**, không nhồi nhét đạo cụ của nhiều cảnh vào chung một ảnh.
+   - Chủ thể luôn tách bạch rõ ràng khỏi hậu cảnh để khi chuyển sang bước làm video (`video.txt`) không bị dính hoặc lem hình vào nền.
+2. **Tĩnh trong Ảnh, Động Mượt trong Video:**
+   - Ảnh gốc (`image.txt`) luôn sắc nét, không nhòe chuyển động (`zero motion blur`), đứng/ngồi vững chãi trên mặt phẳng (`100% grounded`).
+   - Chuyển động trong `video.txt` luôn êm ái, có kiểm soát và đúng với bản chất cảnh (đứng đón gió, đọc sách, đi dạo, ngồi ngắm cảnh, hoặc nhảy múa nhịp nhàng), tránh động tác giật cục làm gãy biến dạng tay chân.
+3. **Chuẩn mực Trang phục theo Giới tính:**
+   - Ghi rõ giới tính nhân vật (`elderly female` / `elderly male`).
+   - Nhân vật nam mặc trang phục nam tính, lịch lãm phù hợp chủ đề (áo khoác nghệ thuật, suit, áo choàng, sơ mi/vest cổ điển phối quần dài). **Tuyệt đối không mặc váy, đầm hoặc đi giày cao gót.**
 4. **Khung hình:** Tỷ lệ cố định `16:9`.
-5. **Quy tắc Tính Toàn Vẹn, An Toàn & Thỏa Mãn Thị Giác (`Structural Integrity, Physical Safety & Visual Satisfaction`):**
-   - **Toàn vẹn Cấu trúc & Trật tự Vật lý (`Structural & Functional Integrity`):** Mọi thực thể vật chất (kiến trúc, đạo cụ, phương tiện) phải duy trì tính toàn vẹn hình học tuyệt đối (`pristine, intact, flawless`), đặt đúng môi trường vận hành chuẩn mực và đạt trạng thái cân bằng hài hòa; loại bỏ hoàn toàn mọi biến dạng phá hủy, phân mảnh, dìm ngập nước trái công năng, chất nhầy tan chảy hoặc trạng thái mất cân bằng gây bức bối thị giác.
-   - **An toàn Sinh học & Trọng tâm Vững chãi (`Biological Safety & Grounded Equilibrium`):** Chủ thể con người luôn định vị trên bề mặt kiến trúc kiên cố, an toàn và hoàn toàn tự chủ về cơ học hình thể; loại bỏ hoàn toàn mọi vị trí chênh vênh nguy hiểm, sự ràng buộc vật lý lên cơ thể hoặc các hành vi mạo hiểm vi phạm tiêu chuẩn an toàn nền tảng.
-
-## 3. Danh mục từ khóa cấm toàn kênh (`Global Forbidden Keywords`)
-
-Không sử dụng các nhóm từ khóa tiếng Anh sau trong mọi dự án:
-- **Phá hủy, ngập nước & mất cân bằng:** `destructive`, `damaged`, `fractured`, `broken`, `cracked`, `shattered`, `bisected`, `submerged`, `flooded`, `capsized`, `sinking`, `precarious`, `tethered body`, `unsafe stunt`.
-- **Dị dạng & chất lỏng gây khó chịu:** `melting`, `molten`, `dripping`, `oozing`, `slime`, `body horror`, `mutated limbs`, `demon horns`, `antlers`.
-- **Lệch chuẩn trang phục nam & lỗi nhòe ảnh tĩnh:** `men in skirts`, `men in dresses`, `male model wearing high heels`, `motion blur`, `spinning wildly`, `long exposure streaks`.
+5. **Từ khóa cấm toàn kênh (`Forbidden Keywords`):**
+   - **Lỗi trang phục & nhòe hình:** `men in skirts`, `men in dresses`, `male model wearing high heels`, `motion blur`, `spinning wildly`, `chaotic jumping`.
+   - **Hư hại & dị dạng gây khó chịu:** `damaged`, `broken`, `cracked`, `submerged`, `melting`, `slime`, `body horror`, `mutated limbs`, `extra fingers`.
