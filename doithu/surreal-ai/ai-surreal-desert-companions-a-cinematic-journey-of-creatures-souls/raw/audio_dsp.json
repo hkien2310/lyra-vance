@@ -1,0 +1,91 @@
+{
+  "source_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/surreal-ai/ai-surreal-desert-companions-a-cinematic-journey-of-creatures-souls/raw/video.mp4",
+  "listen_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/surreal-ai/ai-surreal-desert-companions-a-cinematic-journey-of-creatures-souls/raw/listen.mp3",
+  "track_count": 1,
+  "duration_sec": 333.8,
+  "duration_formatted": "05:34",
+  "tempo": {
+    "bpm": 103.4,
+    "bpm_rounded": 103,
+    "half_time_bpm": 51.7,
+    "double_time_bpm": 206.7,
+    "beat_stability": 0.97
+  },
+  "harmony": {
+    "primary_key": "D Minor",
+    "confidence": 0.762,
+    "secondary_key": "D Major",
+    "secondary_confidence": 0.74,
+    "dominant_notes": [
+      "A",
+      "D",
+      "E",
+      "G",
+      "C"
+    ]
+  },
+  "dynamics_and_mix": {
+    "mean_rms_db": -18.7,
+    "peak_db": -2.6,
+    "crest_factor_db": 16.2,
+    "compression_character": "Wide Dynamic / Breathing & Cinematic",
+    "frequency_energy_pct": {
+      "sub_bass_20_60Hz_pct": 31.9,
+      "bass_60_250Hz_pct": 49.9,
+      "low_mid_250_500Hz_pct": 8.4,
+      "mid_500_2000Hz_pct": 7.9,
+      "high_mid_2k_6kHz_pct": 1.6,
+      "high_6k_plus_pct": 0.4
+    }
+  },
+  "energy_sections": [
+    {
+      "time_range": "00:00 - 00:13",
+      "duration_sec": 12.8,
+      "energy_score": 0.0,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "00:13 - 00:50",
+      "duration_sec": 37.6,
+      "energy_score": 0.17,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "00:50 - 00:56",
+      "duration_sec": 5.3,
+      "energy_score": 0.43,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "00:56 - 01:00",
+      "duration_sec": 4.5,
+      "energy_score": 0.08,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "01:00 - 01:46",
+      "duration_sec": 46.0,
+      "energy_score": 0.31,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "01:46 - 03:50",
+      "duration_sec": 123.8,
+      "energy_score": 0.43,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "03:50 - 04:44",
+      "duration_sec": 53.9,
+      "energy_score": 0.7,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "04:44 - 05:34",
+      "duration_sec": 49.8,
+      "energy_score": 0.63,
+      "energy_level": "Medium / Groove"
+    }
+  ]
+}

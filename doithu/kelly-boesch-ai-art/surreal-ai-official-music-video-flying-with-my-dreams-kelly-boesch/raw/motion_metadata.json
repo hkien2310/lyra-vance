@@ -1,0 +1,507 @@
+{
+  "video_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-official-music-video-flying-with-my-dreams-kelly-boesch/raw/video.mp4",
+  "video_info": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24.0,
+    "duration_sec": 173.38
+  },
+  "shot_summary": {
+    "total_shots": 42,
+    "avg_shot_duration_sec": 4.13,
+    "min_shot_duration_sec": 2.46,
+    "max_shot_duration_sec": 5.79
+  },
+  "shot_sheets": [
+    {
+      "sheet_index": 1,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-official-music-video-flying-with-my-dreams-kelly-boesch/raw/shot_sheets/shots_01_shot01_to_shot09.jpg",
+      "shots_range": "1-9",
+      "layout": "3x3 @ 1280px/tile"
+    },
+    {
+      "sheet_index": 2,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-official-music-video-flying-with-my-dreams-kelly-boesch/raw/shot_sheets/shots_02_shot10_to_shot18.jpg",
+      "shots_range": "10-18",
+      "layout": "3x3 @ 1280px/tile"
+    },
+    {
+      "sheet_index": 3,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-official-music-video-flying-with-my-dreams-kelly-boesch/raw/shot_sheets/shots_03_shot19_to_shot27.jpg",
+      "shots_range": "19-27",
+      "layout": "3x3 @ 1280px/tile"
+    },
+    {
+      "sheet_index": 4,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-official-music-video-flying-with-my-dreams-kelly-boesch/raw/shot_sheets/shots_04_shot28_to_shot36.jpg",
+      "shots_range": "28-36",
+      "layout": "3x3 @ 1280px/tile"
+    },
+    {
+      "sheet_index": 5,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-official-music-video-flying-with-my-dreams-kelly-boesch/raw/shot_sheets/shots_05_shot37_to_shot42.jpg",
+      "shots_range": "37-42",
+      "layout": "3x3 @ 1280px/tile"
+    }
+  ],
+  "grids": [
+    {
+      "grid_index": 1,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-official-music-video-flying-with-my-dreams-kelly-boesch/raw/grids/grid_01_00m00s_00m15s.jpg",
+      "start_sec": 0.0,
+      "end_sec": 15.0,
+      "start_time": "00:00.0",
+      "end_time": "00:15.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 2,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-official-music-video-flying-with-my-dreams-kelly-boesch/raw/grids/grid_02_00m15s_00m30s.jpg",
+      "start_sec": 15.0,
+      "end_sec": 30.0,
+      "start_time": "00:15.0",
+      "end_time": "00:30.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 3,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-official-music-video-flying-with-my-dreams-kelly-boesch/raw/grids/grid_03_00m30s_00m45s.jpg",
+      "start_sec": 30.0,
+      "end_sec": 45.0,
+      "start_time": "00:30.0",
+      "end_time": "00:45.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 4,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-official-music-video-flying-with-my-dreams-kelly-boesch/raw/grids/grid_04_00m45s_01m00s.jpg",
+      "start_sec": 45.0,
+      "end_sec": 60.0,
+      "start_time": "00:45.0",
+      "end_time": "01:00.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 5,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-official-music-video-flying-with-my-dreams-kelly-boesch/raw/grids/grid_05_01m00s_01m15s.jpg",
+      "start_sec": 60.0,
+      "end_sec": 75.0,
+      "start_time": "01:00.0",
+      "end_time": "01:15.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 6,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-official-music-video-flying-with-my-dreams-kelly-boesch/raw/grids/grid_06_01m15s_01m30s.jpg",
+      "start_sec": 75.0,
+      "end_sec": 90.0,
+      "start_time": "01:15.0",
+      "end_time": "01:30.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 7,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-official-music-video-flying-with-my-dreams-kelly-boesch/raw/grids/grid_07_01m30s_01m45s.jpg",
+      "start_sec": 90.0,
+      "end_sec": 105.0,
+      "start_time": "01:30.0",
+      "end_time": "01:45.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 8,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-official-music-video-flying-with-my-dreams-kelly-boesch/raw/grids/grid_08_01m45s_02m00s.jpg",
+      "start_sec": 105.0,
+      "end_sec": 120.0,
+      "start_time": "01:45.0",
+      "end_time": "02:00.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 9,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-official-music-video-flying-with-my-dreams-kelly-boesch/raw/grids/grid_09_02m00s_02m15s.jpg",
+      "start_sec": 120.0,
+      "end_sec": 135.0,
+      "start_time": "02:00.0",
+      "end_time": "02:15.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 10,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-official-music-video-flying-with-my-dreams-kelly-boesch/raw/grids/grid_10_02m15s_02m30s.jpg",
+      "start_sec": 135.0,
+      "end_sec": 150.0,
+      "start_time": "02:15.0",
+      "end_time": "02:30.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 11,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-official-music-video-flying-with-my-dreams-kelly-boesch/raw/grids/grid_11_02m30s_02m45s.jpg",
+      "start_sec": 150.0,
+      "end_sec": 165.0,
+      "start_time": "02:30.0",
+      "end_time": "02:45.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 12,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-official-music-video-flying-with-my-dreams-kelly-boesch/raw/grids/grid_12_02m45s_02m53s.jpg",
+      "start_sec": 165.0,
+      "end_sec": 173.38,
+      "start_time": "02:45.0",
+      "end_time": "02:53.4",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    }
+  ],
+  "shots": [
+    {
+      "shot_index": 1,
+      "start_sec": 0.0,
+      "end_sec": 4.17,
+      "start_time": "00:00.0",
+      "end_time": "00:04.2",
+      "duration_sec": 4.17
+    },
+    {
+      "shot_index": 2,
+      "start_sec": 4.17,
+      "end_sec": 7.79,
+      "start_time": "00:04.2",
+      "end_time": "00:07.8",
+      "duration_sec": 3.62
+    },
+    {
+      "shot_index": 3,
+      "start_sec": 7.79,
+      "end_sec": 11.75,
+      "start_time": "00:07.8",
+      "end_time": "00:11.8",
+      "duration_sec": 3.96
+    },
+    {
+      "shot_index": 4,
+      "start_sec": 11.75,
+      "end_sec": 15.92,
+      "start_time": "00:11.8",
+      "end_time": "00:15.9",
+      "duration_sec": 4.17
+    },
+    {
+      "shot_index": 5,
+      "start_sec": 15.92,
+      "end_sec": 19.88,
+      "start_time": "00:15.9",
+      "end_time": "00:19.9",
+      "duration_sec": 3.96
+    },
+    {
+      "shot_index": 6,
+      "start_sec": 19.88,
+      "end_sec": 25.08,
+      "start_time": "00:19.9",
+      "end_time": "00:25.1",
+      "duration_sec": 5.2
+    },
+    {
+      "shot_index": 7,
+      "start_sec": 25.08,
+      "end_sec": 28.83,
+      "start_time": "00:25.1",
+      "end_time": "00:28.8",
+      "duration_sec": 3.75
+    },
+    {
+      "shot_index": 8,
+      "start_sec": 28.83,
+      "end_sec": 32.08,
+      "start_time": "00:28.8",
+      "end_time": "00:32.1",
+      "duration_sec": 3.25
+    },
+    {
+      "shot_index": 9,
+      "start_sec": 32.08,
+      "end_sec": 35.33,
+      "start_time": "00:32.1",
+      "end_time": "00:35.3",
+      "duration_sec": 3.25
+    },
+    {
+      "shot_index": 10,
+      "start_sec": 35.33,
+      "end_sec": 39.96,
+      "start_time": "00:35.3",
+      "end_time": "00:40.0",
+      "duration_sec": 4.63
+    },
+    {
+      "shot_index": 11,
+      "start_sec": 39.96,
+      "end_sec": 43.96,
+      "start_time": "00:40.0",
+      "end_time": "00:44.0",
+      "duration_sec": 4.0
+    },
+    {
+      "shot_index": 12,
+      "start_sec": 43.96,
+      "end_sec": 48.04,
+      "start_time": "00:44.0",
+      "end_time": "00:48.0",
+      "duration_sec": 4.08
+    },
+    {
+      "shot_index": 13,
+      "start_sec": 48.04,
+      "end_sec": 52.42,
+      "start_time": "00:48.0",
+      "end_time": "00:52.4",
+      "duration_sec": 4.38
+    },
+    {
+      "shot_index": 14,
+      "start_sec": 52.42,
+      "end_sec": 57.12,
+      "start_time": "00:52.4",
+      "end_time": "00:57.1",
+      "duration_sec": 4.7
+    },
+    {
+      "shot_index": 15,
+      "start_sec": 57.12,
+      "end_sec": 62.29,
+      "start_time": "00:57.1",
+      "end_time": "01:02.3",
+      "duration_sec": 5.17
+    },
+    {
+      "shot_index": 16,
+      "start_sec": 62.29,
+      "end_sec": 67.46,
+      "start_time": "01:02.3",
+      "end_time": "01:07.5",
+      "duration_sec": 5.17
+    },
+    {
+      "shot_index": 17,
+      "start_sec": 67.46,
+      "end_sec": 73.25,
+      "start_time": "01:07.5",
+      "end_time": "01:13.2",
+      "duration_sec": 5.79
+    },
+    {
+      "shot_index": 18,
+      "start_sec": 73.25,
+      "end_sec": 78.42,
+      "start_time": "01:13.2",
+      "end_time": "01:18.4",
+      "duration_sec": 5.17
+    },
+    {
+      "shot_index": 19,
+      "start_sec": 78.42,
+      "end_sec": 81.33,
+      "start_time": "01:18.4",
+      "end_time": "01:21.3",
+      "duration_sec": 2.91
+    },
+    {
+      "shot_index": 20,
+      "start_sec": 81.33,
+      "end_sec": 84.04,
+      "start_time": "01:21.3",
+      "end_time": "01:24.0",
+      "duration_sec": 2.71
+    },
+    {
+      "shot_index": 21,
+      "start_sec": 84.04,
+      "end_sec": 88.21,
+      "start_time": "01:24.0",
+      "end_time": "01:28.2",
+      "duration_sec": 4.17
+    },
+    {
+      "shot_index": 22,
+      "start_sec": 88.21,
+      "end_sec": 93.42,
+      "start_time": "01:28.2",
+      "end_time": "01:33.4",
+      "duration_sec": 5.21
+    },
+    {
+      "shot_index": 23,
+      "start_sec": 93.42,
+      "end_sec": 97.12,
+      "start_time": "01:33.4",
+      "end_time": "01:37.1",
+      "duration_sec": 3.7
+    },
+    {
+      "shot_index": 24,
+      "start_sec": 97.12,
+      "end_sec": 100.54,
+      "start_time": "01:37.1",
+      "end_time": "01:40.5",
+      "duration_sec": 3.42
+    },
+    {
+      "shot_index": 25,
+      "start_sec": 100.54,
+      "end_sec": 105.71,
+      "start_time": "01:40.5",
+      "end_time": "01:45.7",
+      "duration_sec": 5.17
+    },
+    {
+      "shot_index": 26,
+      "start_sec": 105.71,
+      "end_sec": 110.42,
+      "start_time": "01:45.7",
+      "end_time": "01:50.4",
+      "duration_sec": 4.71
+    },
+    {
+      "shot_index": 27,
+      "start_sec": 110.42,
+      "end_sec": 114.08,
+      "start_time": "01:50.4",
+      "end_time": "01:54.1",
+      "duration_sec": 3.66
+    },
+    {
+      "shot_index": 28,
+      "start_sec": 114.08,
+      "end_sec": 117.42,
+      "start_time": "01:54.1",
+      "end_time": "01:57.4",
+      "duration_sec": 3.34
+    },
+    {
+      "shot_index": 29,
+      "start_sec": 117.42,
+      "end_sec": 121.29,
+      "start_time": "01:57.4",
+      "end_time": "02:01.3",
+      "duration_sec": 3.87
+    },
+    {
+      "shot_index": 30,
+      "start_sec": 121.29,
+      "end_sec": 126.5,
+      "start_time": "02:01.3",
+      "end_time": "02:06.5",
+      "duration_sec": 5.21
+    },
+    {
+      "shot_index": 31,
+      "start_sec": 126.5,
+      "end_sec": 130.54,
+      "start_time": "02:06.5",
+      "end_time": "02:10.5",
+      "duration_sec": 4.04
+    },
+    {
+      "shot_index": 32,
+      "start_sec": 130.54,
+      "end_sec": 135.46,
+      "start_time": "02:10.5",
+      "end_time": "02:15.5",
+      "duration_sec": 4.92
+    },
+    {
+      "shot_index": 33,
+      "start_sec": 135.46,
+      "end_sec": 139.33,
+      "start_time": "02:15.5",
+      "end_time": "02:19.3",
+      "duration_sec": 3.87
+    },
+    {
+      "shot_index": 34,
+      "start_sec": 139.33,
+      "end_sec": 143.42,
+      "start_time": "02:19.3",
+      "end_time": "02:23.4",
+      "duration_sec": 4.09
+    },
+    {
+      "shot_index": 35,
+      "start_sec": 143.42,
+      "end_sec": 147.25,
+      "start_time": "02:23.4",
+      "end_time": "02:27.2",
+      "duration_sec": 3.83
+    },
+    {
+      "shot_index": 36,
+      "start_sec": 147.25,
+      "end_sec": 150.71,
+      "start_time": "02:27.2",
+      "end_time": "02:30.7",
+      "duration_sec": 3.46
+    },
+    {
+      "shot_index": 37,
+      "start_sec": 150.71,
+      "end_sec": 154.79,
+      "start_time": "02:30.7",
+      "end_time": "02:34.8",
+      "duration_sec": 4.08
+    },
+    {
+      "shot_index": 38,
+      "start_sec": 154.79,
+      "end_sec": 157.25,
+      "start_time": "02:34.8",
+      "end_time": "02:37.2",
+      "duration_sec": 2.46
+    },
+    {
+      "shot_index": 39,
+      "start_sec": 157.25,
+      "end_sec": 160.96,
+      "start_time": "02:37.2",
+      "end_time": "02:41.0",
+      "duration_sec": 3.71
+    },
+    {
+      "shot_index": 40,
+      "start_sec": 160.96,
+      "end_sec": 164.0,
+      "start_time": "02:41.0",
+      "end_time": "02:44.0",
+      "duration_sec": 3.04
+    },
+    {
+      "shot_index": 41,
+      "start_sec": 164.0,
+      "end_sec": 168.33,
+      "start_time": "02:44.0",
+      "end_time": "02:48.3",
+      "duration_sec": 4.33
+    },
+    {
+      "shot_index": 42,
+      "start_sec": 168.33,
+      "end_sec": 173.38,
+      "start_time": "02:48.3",
+      "end_time": "02:53.4",
+      "duration_sec": 5.05
+    }
+  ]
+}

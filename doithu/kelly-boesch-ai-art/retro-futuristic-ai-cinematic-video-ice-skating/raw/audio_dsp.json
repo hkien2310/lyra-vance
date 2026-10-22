@@ -1,0 +1,85 @@
+{
+  "source_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/retro-futuristic-ai-cinematic-video-ice-skating/raw/video.mp4",
+  "listen_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/retro-futuristic-ai-cinematic-video-ice-skating/raw/listen.mp3",
+  "track_count": 1,
+  "duration_sec": 166.2,
+  "duration_formatted": "02:46",
+  "tempo": {
+    "bpm": 123.0,
+    "bpm_rounded": 123,
+    "half_time_bpm": 61.5,
+    "double_time_bpm": 246.1,
+    "beat_stability": 0.97
+  },
+  "harmony": {
+    "primary_key": "A# Minor",
+    "confidence": 0.84,
+    "secondary_key": "D# Minor",
+    "secondary_confidence": 0.767,
+    "dominant_notes": [
+      "A#",
+      "D#",
+      "G#",
+      "C#",
+      "F#"
+    ]
+  },
+  "dynamics_and_mix": {
+    "mean_rms_db": -21.6,
+    "peak_db": -3.4,
+    "crest_factor_db": 18.1,
+    "compression_character": "Wide Dynamic / Breathing & Cinematic",
+    "frequency_energy_pct": {
+      "sub_bass_20_60Hz_pct": 30.5,
+      "bass_60_250Hz_pct": 49.1,
+      "low_mid_250_500Hz_pct": 7.4,
+      "mid_500_2000Hz_pct": 8.5,
+      "high_mid_2k_6kHz_pct": 3.0,
+      "high_6k_plus_pct": 1.5
+    }
+  },
+  "energy_sections": [
+    {
+      "time_range": "00:00 - 00:32",
+      "duration_sec": 31.9,
+      "energy_score": 0.17,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "00:32 - 01:10",
+      "duration_sec": 38.5,
+      "energy_score": 0.5,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "01:10 - 01:33",
+      "duration_sec": 22.6,
+      "energy_score": 0.28,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "01:33 - 01:38",
+      "duration_sec": 4.6,
+      "energy_score": 0.06,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "01:38 - 01:53",
+      "duration_sec": 15.2,
+      "energy_score": 0.79,
+      "energy_level": "High / Peak"
+    },
+    {
+      "time_range": "01:53 - 02:41",
+      "duration_sec": 48.3,
+      "energy_score": 0.66,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "02:41 - 02:46",
+      "duration_sec": 5.1,
+      "energy_score": 0.0,
+      "energy_level": "Low / Atmospheric"
+    }
+  ]
+}

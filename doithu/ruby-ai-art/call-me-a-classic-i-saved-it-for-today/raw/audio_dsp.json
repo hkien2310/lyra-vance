@@ -1,0 +1,85 @@
+{
+  "source_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/ruby-ai-art/call-me-a-classic-i-saved-it-for-today/raw/video.mp4",
+  "listen_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/ruby-ai-art/call-me-a-classic-i-saved-it-for-today/raw/listen.mp3",
+  "track_count": 1,
+  "duration_sec": 524.9,
+  "duration_formatted": "08:45",
+  "tempo": {
+    "bpm": 123.0,
+    "bpm_rounded": 123,
+    "half_time_bpm": 61.5,
+    "double_time_bpm": 246.1,
+    "beat_stability": 0.95
+  },
+  "harmony": {
+    "primary_key": "D Minor",
+    "confidence": 0.61,
+    "secondary_key": "A# Major",
+    "secondary_confidence": 0.335,
+    "dominant_notes": [
+      "D",
+      "C#",
+      "C",
+      "D#",
+      "F"
+    ]
+  },
+  "dynamics_and_mix": {
+    "mean_rms_db": -18.9,
+    "peak_db": -0.2,
+    "crest_factor_db": 18.7,
+    "compression_character": "Wide Dynamic / Breathing & Cinematic",
+    "frequency_energy_pct": {
+      "sub_bass_20_60Hz_pct": 30.3,
+      "bass_60_250Hz_pct": 29.9,
+      "low_mid_250_500Hz_pct": 8.0,
+      "mid_500_2000Hz_pct": 26.6,
+      "high_mid_2k_6kHz_pct": 4.1,
+      "high_6k_plus_pct": 1.1
+    }
+  },
+  "energy_sections": [
+    {
+      "time_range": "00:00 - 00:31",
+      "duration_sec": 31.5,
+      "energy_score": 0.0,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "00:31 - 02:56",
+      "duration_sec": 144.4,
+      "energy_score": 0.36,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "02:56 - 04:16",
+      "duration_sec": 80.2,
+      "energy_score": 0.63,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "04:16 - 04:24",
+      "duration_sec": 8.1,
+      "energy_score": 0.2,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "04:24 - 04:33",
+      "duration_sec": 8.8,
+      "energy_score": 0.87,
+      "energy_level": "High / Peak"
+    },
+    {
+      "time_range": "04:33 - 05:45",
+      "duration_sec": 71.9,
+      "energy_score": 0.28,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "05:45 - 08:45",
+      "duration_sec": 180.0,
+      "energy_score": 0.5,
+      "energy_level": "Medium / Groove"
+    }
+  ]
+}

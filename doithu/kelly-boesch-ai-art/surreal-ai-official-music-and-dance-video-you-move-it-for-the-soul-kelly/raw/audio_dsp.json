@@ -1,0 +1,67 @@
+{
+  "source_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-official-music-and-dance-video-you-move-it-for-the-soul-kelly/raw/video.mp4",
+  "listen_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-official-music-and-dance-video-you-move-it-for-the-soul-kelly/raw/listen.mp3",
+  "track_count": 1,
+  "duration_sec": 157.2,
+  "duration_formatted": "02:37",
+  "tempo": {
+    "bpm": 123.0,
+    "bpm_rounded": 123,
+    "half_time_bpm": 61.5,
+    "double_time_bpm": 246.1,
+    "beat_stability": 0.98
+  },
+  "harmony": {
+    "primary_key": "C Minor",
+    "confidence": 0.746,
+    "secondary_key": "C Major",
+    "secondary_confidence": 0.584,
+    "dominant_notes": [
+      "C",
+      "G",
+      "D",
+      "C#",
+      "D#"
+    ]
+  },
+  "dynamics_and_mix": {
+    "mean_rms_db": -18.0,
+    "peak_db": -3.0,
+    "crest_factor_db": 15.0,
+    "compression_character": "Wide Dynamic / Breathing & Cinematic",
+    "frequency_energy_pct": {
+      "sub_bass_20_60Hz_pct": 16.0,
+      "bass_60_250Hz_pct": 53.5,
+      "low_mid_250_500Hz_pct": 13.6,
+      "mid_500_2000Hz_pct": 14.7,
+      "high_mid_2k_6kHz_pct": 1.5,
+      "high_6k_plus_pct": 0.6
+    }
+  },
+  "energy_sections": [
+    {
+      "time_range": "00:00 - 00:14",
+      "duration_sec": 14.2,
+      "energy_score": 0.0,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "00:14 - 00:49",
+      "duration_sec": 34.8,
+      "energy_score": 0.32,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "00:49 - 01:06",
+      "duration_sec": 17.0,
+      "energy_score": 0.49,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "01:06 - 02:37",
+      "duration_sec": 91.2,
+      "energy_score": 0.45,
+      "energy_level": "Low / Atmospheric"
+    }
+  ]
+}

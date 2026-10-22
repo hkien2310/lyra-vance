@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 """
-Local Audio Technical Analyzer for Lyra Vance Workflow (Step 01).
+Local Audio Technical Analyzer for Lyra Vance Workflow.
+Đo thông số DSP tổng thể và tự động tách đo riêng từng bài hát (tracks) nếu video có chia Chapters.
 Usage:
-    python3 common/analyze_audio.py <path_to_audio_or_video_or_dir>
+    python3 common/analyze_audio.py <path_to_audio_or_video_or_raw_dir>
 """
 
 import json
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -24,22 +26,39 @@ MINOR_PROFILE = np.array([6.33, 2.68, 3.52, 5.38, 2.60, 3.53, 2.54, 4.75, 3.98, 
 
 def fmt_time(sec: float) -> str:
     m, s = divmod(int(round(sec)), 60)
-    return f"{m}:{s:02d}"
+    return f"{m:02d}:{s:02d}"
+
+
+def parse_time_str(t_str: str) -> float:
+    parts = [int(p) for p in t_str.strip().split(":")]
+    if len(parts) == 2:
+        return float(parts[0] * 60 + parts[1])
+    if len(parts) == 3:
+        return float(parts[0] * 3600 + parts[1] * 60 + parts[2])
+    return 0.0
 
 
 def ensure_listen_mp3(input_path: Path) -> Path:
-    """If input is video or oversized audio (>25MB), create a lightweight 128k mp3 for AI listening."""
+    """Tạo file listen.mp3 nhẹ (128kbps) trong cùng thư mục để AI nghe trực tiếp."""
+    parent = input_path.parent
+    standard_mp3 = parent / "listen.mp3"
+    legacy_mp3 = input_path.with_name(f"{input_path.stem}_listen.mp3")
+
+    if standard_mp3.exists():
+        return standard_mp3
+    if legacy_mp3.exists():
+        legacy_mp3.rename(standard_mp3)
+        return standard_mp3
     if input_path.suffix.lower() == ".mp3" and input_path.stat().st_size <= 25 * 1024 * 1024:
         return input_path
-    out_mp3 = input_path.with_name(f"{input_path.stem}_listen.mp3")
-    if not out_mp3.exists():
-        subprocess.run(
-            ["ffmpeg", "-y", "-i", str(input_path), "-vn", "-ac", "2", "-ar", "44100", "-b:a", "128k", str(out_mp3)],
-            stdout=subprocess.DEVNULL,
-            stderr=subprocess.DEVNULL,
-            check=True,
-        )
-    return out_mp3
+
+    subprocess.run(
+        ["ffmpeg", "-y", "-i", str(input_path), "-vn", "-ac", "2", "-ar", "44100", "-b:a", "128k", str(standard_mp3)],
+        stdout=subprocess.DEVNULL,
+        stderr=subprocess.DEVNULL,
+        check=True,
+    )
+    return standard_mp3
 
 
 def detect_key(y: np.ndarray, sr: int) -> dict:
@@ -55,7 +74,6 @@ def detect_key(y: np.ndarray, sr: int) -> dict:
     for i in range(12):
         maj_corr = float(np.dot(c_norm, np.roll(maj_norm, i)) / 12)
         min_corr = float(np.dot(c_norm, np.roll(min_norm, i)) / 12)
-        # Check third & seventh interval energy to distinguish Minor/Dorian from Major
         maj_3_7 = chroma_vals[(i + 4) % 12] + 0.5 * chroma_vals[(i + 11) % 12]
         min_3_7 = chroma_vals[(i + 3) % 12] + 0.5 * chroma_vals[(i + 10) % 12]
         if min_3_7 > maj_3_7 * 1.1:
@@ -74,9 +92,7 @@ def detect_key(y: np.ndarray, sr: int) -> dict:
     }
 
 
-def analyze_file(target: Path) -> dict:
-    listen_mp3 = ensure_listen_mp3(target)
-    y, sr = librosa.load(str(listen_mp3), sr=22050, mono=True)
+def analyze_segment(y: np.ndarray, sr: int, start_offset: float = 0.0) -> dict:
     duration = float(librosa.get_duration(y=y, sr=sr))
 
     # 1. Tempo & Beats
@@ -140,15 +156,13 @@ def analyze_file(target: Path) -> dict:
         else:
             level = "Low / Atmospheric"
         sections.append({
-            "time_range": f"{fmt_time(t0)} - {fmt_time(t1)}",
+            "time_range": f"{fmt_time(start_offset + t0)} - {fmt_time(start_offset + t1)}",
             "duration_sec": round(t1 - t0, 1),
             "energy_score": round(norm_e, 2),
             "energy_level": level,
         })
 
     return {
-        "source_file": str(target),
-        "listen_file": str(listen_mp3),
         "duration_sec": round(duration, 1),
         "duration_formatted": fmt_time(duration),
         "tempo": {
@@ -174,14 +188,100 @@ def analyze_file(target: Path) -> dict:
     }
 
 
+def extract_chapters(folder: Path, total_duration: float) -> list[dict]:
+    """Đọc danh sách Chapters từ seo_metadata.json hoặc seo.md để tách bài hát."""
+    meta_json = folder / "seo_metadata.json"
+    if meta_json.exists():
+        try:
+            data = json.loads(meta_json.read_text(encoding="utf-8"))
+            chapters = data.get("chapters") or []
+            if chapters:
+                valid = []
+                for ch in chapters:
+                    st = float(ch.get("start_time", 0.0))
+                    et = float(ch.get("end_time", total_duration))
+                    if et - st >= 30.0:  # Chỉ tính các chapter đủ dài là bài nhạc (>=30s)
+                        valid.append({
+                            "title": ch.get("title", ""),
+                            "start_sec": round(st, 1),
+                            "end_sec": round(min(et, total_duration), 1),
+                        })
+                if len(valid) >= 1:
+                    return valid
+        except Exception:
+            pass
+
+    seo_md = folder / "seo.md"
+    if seo_md.exists():
+        text = seo_md.read_text(encoding="utf-8", errors="ignore")
+        matches = re.findall(r"(?m)^\s*(\d{1,2}:\d{2}(?::\d{2})?)\s*[-–—]\s*(.+)$", text)
+        if len(matches) >= 2:
+            raw_ch = [(parse_time_str(t), title.strip()) for t, title in matches]
+            valid = []
+            for idx, (st, title) in enumerate(raw_ch):
+                et = raw_ch[idx + 1][0] if idx + 1 < len(raw_ch) else total_duration
+                if et - st >= 30.0:
+                    valid.append({
+                        "title": title,
+                        "start_sec": round(st, 1),
+                        "end_sec": round(min(et, total_duration), 1),
+                    })
+            if len(valid) >= 1:
+                return valid
+    return []
+
+
+def analyze_file(target: Path) -> dict:
+    listen_mp3 = ensure_listen_mp3(target)
+    y, sr = librosa.load(str(listen_mp3), sr=22050, mono=True)
+    total_duration = float(librosa.get_duration(y=y, sr=sr))
+
+    overall = analyze_segment(y, sr, start_offset=0.0)
+    chapters = extract_chapters(target.parent, total_duration)
+
+    tracks = []
+    if len(chapters) >= 2:
+        for idx, ch in enumerate(chapters, 1):
+            s_sample = int(ch["start_sec"] * sr)
+            e_sample = int(ch["end_sec"] * sr)
+            y_sub = y[s_sample:e_sample]
+            if len(y_sub) > sr * 10:
+                seg_info = analyze_segment(y_sub, sr, start_offset=ch["start_sec"])
+                tracks.append({
+                    "track_index": idx,
+                    "title": ch["title"],
+                    "time_range": f"{fmt_time(ch['start_sec'])} - {fmt_time(ch['end_sec'])}",
+                    "start_sec": ch["start_sec"],
+                    "end_sec": ch["end_sec"],
+                    **seg_info,
+                })
+
+    result = {
+        "source_file": str(target),
+        "listen_file": str(listen_mp3),
+        "track_count": len(tracks) if tracks else 1,
+        **overall,
+    }
+    if tracks:
+        result["tracks"] = tracks
+
+    out_json = target.parent / "audio_dsp.json"
+    out_json.write_text(json.dumps(result, indent=2, ensure_ascii=False), encoding="utf-8")
+    return result
+
+
 def resolve_input(path_str: str) -> Path:
-    p = Path(path_str)
+    p = Path(path_str).resolve()
     if p.is_file():
         return p
     if p.is_dir():
+        for preferred in ("video.mp4", "competitor_video.mp4", "listen.mp3"):
+            cand = p / preferred
+            if cand.exists():
+                return cand
         candidates = [
             f for f in sorted(p.iterdir())
-            if f.suffix.lower() in (AUDIO_EXTS | VIDEO_EXTS) and not f.stem.endswith("_listen")
+            if f.is_file() and f.suffix.lower() in (AUDIO_EXTS | VIDEO_EXTS)
         ]
         if not candidates:
             raise FileNotFoundError(f"Không tìm thấy file nhạc/video trong thư mục: {p}")
@@ -194,5 +294,5 @@ if __name__ == "__main__":
         print("Usage: python3 common/analyze_audio.py <file_or_folder_path>", file=sys.stderr)
         sys.exit(1)
     target_file = resolve_input(sys.argv[1])
-    result = analyze_file(target_file)
-    print(json.dumps(result, indent=2, ensure_ascii=False))
+    res = analyze_file(target_file)
+    print(json.dumps(res, indent=2, ensure_ascii=False))

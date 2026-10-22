@@ -1,0 +1,297 @@
+{
+  "source_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/surreal-ai/we-came-this-far-to-glow-desert-fashion-runway/raw/video.mp4",
+  "listen_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/surreal-ai/we-came-this-far-to-glow-desert-fashion-runway/raw/listen.mp3",
+  "track_count": 2,
+  "duration_sec": 507.6,
+  "duration_formatted": "08:28",
+  "tempo": {
+    "bpm": 95.7,
+    "bpm_rounded": 96,
+    "half_time_bpm": 47.9,
+    "double_time_bpm": 191.4,
+    "beat_stability": 0.97
+  },
+  "harmony": {
+    "primary_key": "G Minor",
+    "confidence": 0.634,
+    "secondary_key": "G Major",
+    "secondary_confidence": 0.589,
+    "dominant_notes": [
+      "D",
+      "C",
+      "G",
+      "C#",
+      "A#"
+    ]
+  },
+  "dynamics_and_mix": {
+    "mean_rms_db": -15.3,
+    "peak_db": 0.7,
+    "crest_factor_db": 15.9,
+    "compression_character": "Wide Dynamic / Breathing & Cinematic",
+    "frequency_energy_pct": {
+      "sub_bass_20_60Hz_pct": 17.0,
+      "bass_60_250Hz_pct": 38.1,
+      "low_mid_250_500Hz_pct": 11.5,
+      "mid_500_2000Hz_pct": 23.4,
+      "high_mid_2k_6kHz_pct": 8.2,
+      "high_6k_plus_pct": 1.8
+    }
+  },
+  "energy_sections": [
+    {
+      "time_range": "00:00 - 00:35",
+      "duration_sec": 34.9,
+      "energy_score": 0.18,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "00:35 - 03:45",
+      "duration_sec": 190.5,
+      "energy_score": 0.5,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "03:45 - 04:19",
+      "duration_sec": 33.7,
+      "energy_score": 0.36,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "04:19 - 04:50",
+      "duration_sec": 30.9,
+      "energy_score": 0.1,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "04:50 - 05:38",
+      "duration_sec": 47.7,
+      "energy_score": 0.41,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "05:38 - 07:32",
+      "duration_sec": 114.6,
+      "energy_score": 0.55,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "07:32 - 07:43",
+      "duration_sec": 10.5,
+      "energy_score": 0.28,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "07:43 - 08:17",
+      "duration_sec": 34.1,
+      "energy_score": 0.63,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "08:17 - 08:22",
+      "duration_sec": 5.4,
+      "energy_score": 0.35,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "08:22 - 08:28",
+      "duration_sec": 5.2,
+      "energy_score": 0.0,
+      "energy_level": "Low / Atmospheric"
+    }
+  ],
+  "tracks": [
+    {
+      "track_index": 1,
+      "title": "We Came This Far to Glow",
+      "time_range": "00:00 - 04:21",
+      "start_sec": 0.0,
+      "end_sec": 261.0,
+      "duration_sec": 261.0,
+      "duration_formatted": "04:21",
+      "tempo": {
+        "bpm": 95.7,
+        "bpm_rounded": 96,
+        "half_time_bpm": 47.9,
+        "double_time_bpm": 191.4,
+        "beat_stability": 0.97
+      },
+      "harmony": {
+        "primary_key": "G Minor",
+        "confidence": 0.655,
+        "secondary_key": "C Minor",
+        "secondary_confidence": 0.614,
+        "dominant_notes": [
+          "C",
+          "G",
+          "D",
+          "C#",
+          "F"
+        ]
+      },
+      "dynamics_and_mix": {
+        "mean_rms_db": -14.7,
+        "peak_db": 0.7,
+        "crest_factor_db": 15.3,
+        "compression_character": "Wide Dynamic / Breathing & Cinematic",
+        "frequency_energy_pct": {
+          "sub_bass_20_60Hz_pct": 17.6,
+          "bass_60_250Hz_pct": 37.6,
+          "low_mid_250_500Hz_pct": 8.7,
+          "mid_500_2000Hz_pct": 23.2,
+          "high_mid_2k_6kHz_pct": 10.8,
+          "high_6k_plus_pct": 2.0
+        }
+      },
+      "energy_sections": [
+        {
+          "time_range": "00:00 - 00:18",
+          "duration_sec": 18.4,
+          "energy_score": 0.02,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "00:18 - 00:35",
+          "duration_sec": 16.5,
+          "energy_score": 0.3,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "00:35 - 02:38",
+          "duration_sec": 122.8,
+          "energy_score": 0.51,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "02:38 - 03:17",
+          "duration_sec": 39.4,
+          "energy_score": 0.43,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "03:17 - 03:39",
+          "duration_sec": 22.3,
+          "energy_score": 0.71,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "03:39 - 04:02",
+          "duration_sec": 22.7,
+          "energy_score": 0.35,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "04:02 - 04:06",
+          "duration_sec": 4.4,
+          "energy_score": 0.04,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "04:06 - 04:21",
+          "duration_sec": 14.5,
+          "energy_score": 0.42,
+          "energy_level": "Low / Atmospheric"
+        }
+      ]
+    },
+    {
+      "track_index": 2,
+      "title": "Every Girl I’ve Been",
+      "time_range": "04:21 - 08:28",
+      "start_sec": 261.0,
+      "end_sec": 507.6,
+      "duration_sec": 246.6,
+      "duration_formatted": "04:07",
+      "tempo": {
+        "bpm": 92.3,
+        "bpm_rounded": 92,
+        "half_time_bpm": 46.1,
+        "double_time_bpm": 184.6,
+        "beat_stability": 0.97
+      },
+      "harmony": {
+        "primary_key": "G Minor",
+        "confidence": 0.589,
+        "secondary_key": "G Major",
+        "secondary_confidence": 0.563,
+        "dominant_notes": [
+          "D",
+          "C",
+          "G",
+          "C#",
+          "A#"
+        ]
+      },
+      "dynamics_and_mix": {
+        "mean_rms_db": -15.9,
+        "peak_db": 0.6,
+        "crest_factor_db": 16.5,
+        "compression_character": "Wide Dynamic / Breathing & Cinematic",
+        "frequency_energy_pct": {
+          "sub_bass_20_60Hz_pct": 16.4,
+          "bass_60_250Hz_pct": 38.6,
+          "low_mid_250_500Hz_pct": 14.3,
+          "mid_500_2000Hz_pct": 23.5,
+          "high_mid_2k_6kHz_pct": 5.6,
+          "high_6k_plus_pct": 1.6
+        }
+      },
+      "energy_sections": [
+        {
+          "time_range": "04:21 - 04:51",
+          "duration_sec": 30.3,
+          "energy_score": 0.13,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "04:51 - 05:38",
+          "duration_sec": 46.4,
+          "energy_score": 0.41,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "05:38 - 06:02",
+          "duration_sec": 24.1,
+          "energy_score": 0.57,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "06:02 - 06:13",
+          "duration_sec": 11.1,
+          "energy_score": 0.37,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "06:13 - 07:32",
+          "duration_sec": 79.5,
+          "energy_score": 0.55,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "07:32 - 07:41",
+          "duration_sec": 8.5,
+          "energy_score": 0.38,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "07:41 - 08:17",
+          "duration_sec": 36.1,
+          "energy_score": 0.57,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "08:17 - 08:23",
+          "duration_sec": 6.0,
+          "energy_score": 0.36,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "08:23 - 08:28",
+          "duration_sec": 4.7,
+          "energy_score": 0.0,
+          "energy_level": "Low / Atmospheric"
+        }
+      ]
+    }
+  ]
+}

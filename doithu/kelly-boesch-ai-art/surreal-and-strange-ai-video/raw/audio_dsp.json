@@ -1,0 +1,85 @@
+{
+  "source_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-and-strange-ai-video/raw/video.mp4",
+  "listen_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-and-strange-ai-video/raw/listen.mp3",
+  "track_count": 1,
+  "duration_sec": 276.6,
+  "duration_formatted": "04:37",
+  "tempo": {
+    "bpm": 99.4,
+    "bpm_rounded": 99,
+    "half_time_bpm": 49.7,
+    "double_time_bpm": 198.8,
+    "beat_stability": 0.98
+  },
+  "harmony": {
+    "primary_key": "F Minor",
+    "confidence": 0.859,
+    "secondary_key": "C Minor",
+    "secondary_confidence": 0.688,
+    "dominant_notes": [
+      "C",
+      "F",
+      "C#",
+      "D#",
+      "A#"
+    ]
+  },
+  "dynamics_and_mix": {
+    "mean_rms_db": -14.4,
+    "peak_db": 0.3,
+    "crest_factor_db": 14.7,
+    "compression_character": "Balanced / Punchy Dynamic",
+    "frequency_energy_pct": {
+      "sub_bass_20_60Hz_pct": 47.1,
+      "bass_60_250Hz_pct": 37.3,
+      "low_mid_250_500Hz_pct": 6.0,
+      "mid_500_2000Hz_pct": 7.5,
+      "high_mid_2k_6kHz_pct": 1.5,
+      "high_6k_plus_pct": 0.6
+    }
+  },
+  "energy_sections": [
+    {
+      "time_range": "00:00 - 00:32",
+      "duration_sec": 32.0,
+      "energy_score": 0.16,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "00:32 - 00:52",
+      "duration_sec": 20.3,
+      "energy_score": 0.36,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "00:52 - 01:36",
+      "duration_sec": 43.5,
+      "energy_score": 0.49,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "01:36 - 03:11",
+      "duration_sec": 95.6,
+      "energy_score": 0.45,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "03:11 - 03:32",
+      "duration_sec": 20.6,
+      "energy_score": 0.26,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "03:32 - 04:22",
+      "duration_sec": 49.8,
+      "energy_score": 0.51,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "04:22 - 04:37",
+      "duration_sec": 14.7,
+      "energy_score": 0.26,
+      "energy_level": "Low / Atmospheric"
+    }
+  ]
+}

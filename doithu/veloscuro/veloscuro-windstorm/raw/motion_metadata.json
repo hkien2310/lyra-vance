@@ -1,0 +1,683 @@
+{
+  "video_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/veloscuro/veloscuro-windstorm/raw/video.mp4",
+  "video_info": {
+    "width": 1280,
+    "height": 720,
+    "fps": 30.0,
+    "duration_sec": 364.17
+  },
+  "shot_summary": {
+    "total_shots": 47,
+    "avg_shot_duration_sec": 7.75,
+    "min_shot_duration_sec": 3.4,
+    "max_shot_duration_sec": 38.43
+  },
+  "shot_sheets": [
+    {
+      "sheet_index": 1,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/veloscuro/veloscuro-windstorm/raw/shot_sheets/shots_01_shot01_to_shot09.jpg",
+      "shots_range": "1-9",
+      "layout": "3x3 @ 1280px/tile"
+    },
+    {
+      "sheet_index": 2,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/veloscuro/veloscuro-windstorm/raw/shot_sheets/shots_02_shot10_to_shot18.jpg",
+      "shots_range": "10-18",
+      "layout": "3x3 @ 1280px/tile"
+    },
+    {
+      "sheet_index": 3,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/veloscuro/veloscuro-windstorm/raw/shot_sheets/shots_03_shot19_to_shot27.jpg",
+      "shots_range": "19-27",
+      "layout": "3x3 @ 1280px/tile"
+    },
+    {
+      "sheet_index": 4,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/veloscuro/veloscuro-windstorm/raw/shot_sheets/shots_04_shot28_to_shot36.jpg",
+      "shots_range": "28-36",
+      "layout": "3x3 @ 1280px/tile"
+    },
+    {
+      "sheet_index": 5,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/veloscuro/veloscuro-windstorm/raw/shot_sheets/shots_05_shot37_to_shot45.jpg",
+      "shots_range": "37-45",
+      "layout": "3x3 @ 1280px/tile"
+    },
+    {
+      "sheet_index": 6,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/veloscuro/veloscuro-windstorm/raw/shot_sheets/shots_06_shot46_to_shot47.jpg",
+      "shots_range": "46-47",
+      "layout": "3x3 @ 1280px/tile"
+    }
+  ],
+  "grids": [
+    {
+      "grid_index": 1,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/veloscuro/veloscuro-windstorm/raw/grids/grid_01_00m00s_00m15s.jpg",
+      "start_sec": 0.0,
+      "end_sec": 15.0,
+      "start_time": "00:00.0",
+      "end_time": "00:15.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 2,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/veloscuro/veloscuro-windstorm/raw/grids/grid_02_00m15s_00m30s.jpg",
+      "start_sec": 15.0,
+      "end_sec": 30.0,
+      "start_time": "00:15.0",
+      "end_time": "00:30.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 3,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/veloscuro/veloscuro-windstorm/raw/grids/grid_03_00m30s_00m45s.jpg",
+      "start_sec": 30.0,
+      "end_sec": 45.0,
+      "start_time": "00:30.0",
+      "end_time": "00:45.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 4,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/veloscuro/veloscuro-windstorm/raw/grids/grid_04_00m45s_01m00s.jpg",
+      "start_sec": 45.0,
+      "end_sec": 60.0,
+      "start_time": "00:45.0",
+      "end_time": "01:00.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 5,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/veloscuro/veloscuro-windstorm/raw/grids/grid_05_01m00s_01m15s.jpg",
+      "start_sec": 60.0,
+      "end_sec": 75.0,
+      "start_time": "01:00.0",
+      "end_time": "01:15.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 6,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/veloscuro/veloscuro-windstorm/raw/grids/grid_06_01m15s_01m30s.jpg",
+      "start_sec": 75.0,
+      "end_sec": 90.0,
+      "start_time": "01:15.0",
+      "end_time": "01:30.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 7,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/veloscuro/veloscuro-windstorm/raw/grids/grid_07_01m30s_01m45s.jpg",
+      "start_sec": 90.0,
+      "end_sec": 105.0,
+      "start_time": "01:30.0",
+      "end_time": "01:45.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 8,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/veloscuro/veloscuro-windstorm/raw/grids/grid_08_01m45s_02m00s.jpg",
+      "start_sec": 105.0,
+      "end_sec": 120.0,
+      "start_time": "01:45.0",
+      "end_time": "02:00.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 9,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/veloscuro/veloscuro-windstorm/raw/grids/grid_09_02m00s_02m15s.jpg",
+      "start_sec": 120.0,
+      "end_sec": 135.0,
+      "start_time": "02:00.0",
+      "end_time": "02:15.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 10,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/veloscuro/veloscuro-windstorm/raw/grids/grid_10_02m15s_02m30s.jpg",
+      "start_sec": 135.0,
+      "end_sec": 150.0,
+      "start_time": "02:15.0",
+      "end_time": "02:30.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 11,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/veloscuro/veloscuro-windstorm/raw/grids/grid_11_02m30s_02m45s.jpg",
+      "start_sec": 150.0,
+      "end_sec": 165.0,
+      "start_time": "02:30.0",
+      "end_time": "02:45.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 12,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/veloscuro/veloscuro-windstorm/raw/grids/grid_12_02m45s_03m00s.jpg",
+      "start_sec": 165.0,
+      "end_sec": 180.0,
+      "start_time": "02:45.0",
+      "end_time": "03:00.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 13,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/veloscuro/veloscuro-windstorm/raw/grids/grid_13_03m00s_03m15s.jpg",
+      "start_sec": 180.0,
+      "end_sec": 195.0,
+      "start_time": "03:00.0",
+      "end_time": "03:15.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 14,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/veloscuro/veloscuro-windstorm/raw/grids/grid_14_03m15s_03m30s.jpg",
+      "start_sec": 195.0,
+      "end_sec": 210.0,
+      "start_time": "03:15.0",
+      "end_time": "03:30.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 15,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/veloscuro/veloscuro-windstorm/raw/grids/grid_15_03m30s_03m45s.jpg",
+      "start_sec": 210.0,
+      "end_sec": 225.0,
+      "start_time": "03:30.0",
+      "end_time": "03:45.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 16,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/veloscuro/veloscuro-windstorm/raw/grids/grid_16_03m45s_04m00s.jpg",
+      "start_sec": 225.0,
+      "end_sec": 240.0,
+      "start_time": "03:45.0",
+      "end_time": "04:00.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 17,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/veloscuro/veloscuro-windstorm/raw/grids/grid_17_04m00s_04m15s.jpg",
+      "start_sec": 240.0,
+      "end_sec": 255.0,
+      "start_time": "04:00.0",
+      "end_time": "04:15.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 18,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/veloscuro/veloscuro-windstorm/raw/grids/grid_18_04m15s_04m30s.jpg",
+      "start_sec": 255.0,
+      "end_sec": 270.0,
+      "start_time": "04:15.0",
+      "end_time": "04:30.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 19,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/veloscuro/veloscuro-windstorm/raw/grids/grid_19_04m30s_04m45s.jpg",
+      "start_sec": 270.0,
+      "end_sec": 285.0,
+      "start_time": "04:30.0",
+      "end_time": "04:45.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 20,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/veloscuro/veloscuro-windstorm/raw/grids/grid_20_04m45s_05m00s.jpg",
+      "start_sec": 285.0,
+      "end_sec": 300.0,
+      "start_time": "04:45.0",
+      "end_time": "05:00.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 21,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/veloscuro/veloscuro-windstorm/raw/grids/grid_21_05m00s_05m15s.jpg",
+      "start_sec": 300.0,
+      "end_sec": 315.0,
+      "start_time": "05:00.0",
+      "end_time": "05:15.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 22,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/veloscuro/veloscuro-windstorm/raw/grids/grid_22_05m15s_05m30s.jpg",
+      "start_sec": 315.0,
+      "end_sec": 330.0,
+      "start_time": "05:15.0",
+      "end_time": "05:30.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 23,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/veloscuro/veloscuro-windstorm/raw/grids/grid_23_05m30s_05m45s.jpg",
+      "start_sec": 330.0,
+      "end_sec": 345.0,
+      "start_time": "05:30.0",
+      "end_time": "05:45.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 24,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/veloscuro/veloscuro-windstorm/raw/grids/grid_24_05m45s_06m00s.jpg",
+      "start_sec": 345.0,
+      "end_sec": 360.0,
+      "start_time": "05:45.0",
+      "end_time": "06:00.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 25,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/veloscuro/veloscuro-windstorm/raw/grids/grid_25_06m00s_06m04s.jpg",
+      "start_sec": 360.0,
+      "end_sec": 364.17,
+      "start_time": "06:00.0",
+      "end_time": "06:04.2",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    }
+  ],
+  "shots": [
+    {
+      "shot_index": 1,
+      "start_sec": 0.0,
+      "end_sec": 38.43,
+      "start_time": "00:00.0",
+      "end_time": "00:38.4",
+      "duration_sec": 38.43
+    },
+    {
+      "shot_index": 2,
+      "start_sec": 38.43,
+      "end_sec": 55.5,
+      "start_time": "00:38.4",
+      "end_time": "00:55.5",
+      "duration_sec": 17.07
+    },
+    {
+      "shot_index": 3,
+      "start_sec": 55.5,
+      "end_sec": 63.6,
+      "start_time": "00:55.5",
+      "end_time": "01:03.6",
+      "duration_sec": 8.1
+    },
+    {
+      "shot_index": 4,
+      "start_sec": 63.6,
+      "end_sec": 71.37,
+      "start_time": "01:03.6",
+      "end_time": "01:11.4",
+      "duration_sec": 7.77
+    },
+    {
+      "shot_index": 5,
+      "start_sec": 71.37,
+      "end_sec": 75.53,
+      "start_time": "01:11.4",
+      "end_time": "01:15.5",
+      "duration_sec": 4.16
+    },
+    {
+      "shot_index": 6,
+      "start_sec": 75.53,
+      "end_sec": 79.53,
+      "start_time": "01:15.5",
+      "end_time": "01:19.5",
+      "duration_sec": 4.0
+    },
+    {
+      "shot_index": 7,
+      "start_sec": 79.53,
+      "end_sec": 85.57,
+      "start_time": "01:19.5",
+      "end_time": "01:25.6",
+      "duration_sec": 6.04
+    },
+    {
+      "shot_index": 8,
+      "start_sec": 85.57,
+      "end_sec": 89.4,
+      "start_time": "01:25.6",
+      "end_time": "01:29.4",
+      "duration_sec": 3.83
+    },
+    {
+      "shot_index": 9,
+      "start_sec": 89.4,
+      "end_sec": 93.47,
+      "start_time": "01:29.4",
+      "end_time": "01:33.5",
+      "duration_sec": 4.07
+    },
+    {
+      "shot_index": 10,
+      "start_sec": 93.47,
+      "end_sec": 97.5,
+      "start_time": "01:33.5",
+      "end_time": "01:37.5",
+      "duration_sec": 4.03
+    },
+    {
+      "shot_index": 11,
+      "start_sec": 97.5,
+      "end_sec": 103.5,
+      "start_time": "01:37.5",
+      "end_time": "01:43.5",
+      "duration_sec": 6.0
+    },
+    {
+      "shot_index": 12,
+      "start_sec": 103.5,
+      "end_sec": 111.73,
+      "start_time": "01:43.5",
+      "end_time": "01:51.7",
+      "duration_sec": 8.23
+    },
+    {
+      "shot_index": 13,
+      "start_sec": 111.73,
+      "end_sec": 119.43,
+      "start_time": "01:51.7",
+      "end_time": "01:59.4",
+      "duration_sec": 7.7
+    },
+    {
+      "shot_index": 14,
+      "start_sec": 119.43,
+      "end_sec": 129.47,
+      "start_time": "01:59.4",
+      "end_time": "02:09.5",
+      "duration_sec": 10.04
+    },
+    {
+      "shot_index": 15,
+      "start_sec": 129.47,
+      "end_sec": 135.27,
+      "start_time": "02:09.5",
+      "end_time": "02:15.3",
+      "duration_sec": 5.8
+    },
+    {
+      "shot_index": 16,
+      "start_sec": 135.27,
+      "end_sec": 141.13,
+      "start_time": "02:15.3",
+      "end_time": "02:21.1",
+      "duration_sec": 5.86
+    },
+    {
+      "shot_index": 17,
+      "start_sec": 141.13,
+      "end_sec": 146.53,
+      "start_time": "02:21.1",
+      "end_time": "02:26.5",
+      "duration_sec": 5.4
+    },
+    {
+      "shot_index": 18,
+      "start_sec": 146.53,
+      "end_sec": 151.53,
+      "start_time": "02:26.5",
+      "end_time": "02:31.5",
+      "duration_sec": 5.0
+    },
+    {
+      "shot_index": 19,
+      "start_sec": 151.53,
+      "end_sec": 155.33,
+      "start_time": "02:31.5",
+      "end_time": "02:35.3",
+      "duration_sec": 3.8
+    },
+    {
+      "shot_index": 20,
+      "start_sec": 155.33,
+      "end_sec": 159.17,
+      "start_time": "02:35.3",
+      "end_time": "02:39.2",
+      "duration_sec": 3.84
+    },
+    {
+      "shot_index": 21,
+      "start_sec": 159.17,
+      "end_sec": 167.33,
+      "start_time": "02:39.2",
+      "end_time": "02:47.3",
+      "duration_sec": 8.16
+    },
+    {
+      "shot_index": 22,
+      "start_sec": 167.33,
+      "end_sec": 177.37,
+      "start_time": "02:47.3",
+      "end_time": "02:57.4",
+      "duration_sec": 10.04
+    },
+    {
+      "shot_index": 23,
+      "start_sec": 177.37,
+      "end_sec": 183.37,
+      "start_time": "02:57.4",
+      "end_time": "03:03.4",
+      "duration_sec": 6.0
+    },
+    {
+      "shot_index": 24,
+      "start_sec": 183.37,
+      "end_sec": 191.43,
+      "start_time": "03:03.4",
+      "end_time": "03:11.4",
+      "duration_sec": 8.06
+    },
+    {
+      "shot_index": 25,
+      "start_sec": 191.43,
+      "end_sec": 201.5,
+      "start_time": "03:11.4",
+      "end_time": "03:21.5",
+      "duration_sec": 10.07
+    },
+    {
+      "shot_index": 26,
+      "start_sec": 201.5,
+      "end_sec": 205.4,
+      "start_time": "03:21.5",
+      "end_time": "03:25.4",
+      "duration_sec": 3.9
+    },
+    {
+      "shot_index": 27,
+      "start_sec": 205.4,
+      "end_sec": 215.43,
+      "start_time": "03:25.4",
+      "end_time": "03:35.4",
+      "duration_sec": 10.03
+    },
+    {
+      "shot_index": 28,
+      "start_sec": 215.43,
+      "end_sec": 225.27,
+      "start_time": "03:35.4",
+      "end_time": "03:45.3",
+      "duration_sec": 9.84
+    },
+    {
+      "shot_index": 29,
+      "start_sec": 225.27,
+      "end_sec": 231.4,
+      "start_time": "03:45.3",
+      "end_time": "03:51.4",
+      "duration_sec": 6.13
+    },
+    {
+      "shot_index": 30,
+      "start_sec": 231.4,
+      "end_sec": 237.33,
+      "start_time": "03:51.4",
+      "end_time": "03:57.3",
+      "duration_sec": 5.93
+    },
+    {
+      "shot_index": 31,
+      "start_sec": 237.33,
+      "end_sec": 257.4,
+      "start_time": "03:57.3",
+      "end_time": "04:17.4",
+      "duration_sec": 20.07
+    },
+    {
+      "shot_index": 32,
+      "start_sec": 257.4,
+      "end_sec": 263.53,
+      "start_time": "04:17.4",
+      "end_time": "04:23.5",
+      "duration_sec": 6.13
+    },
+    {
+      "shot_index": 33,
+      "start_sec": 263.53,
+      "end_sec": 273.57,
+      "start_time": "04:23.5",
+      "end_time": "04:33.6",
+      "duration_sec": 10.04
+    },
+    {
+      "shot_index": 34,
+      "start_sec": 273.57,
+      "end_sec": 279.43,
+      "start_time": "04:33.6",
+      "end_time": "04:39.4",
+      "duration_sec": 5.86
+    },
+    {
+      "shot_index": 35,
+      "start_sec": 279.43,
+      "end_sec": 285.87,
+      "start_time": "04:39.4",
+      "end_time": "04:45.9",
+      "duration_sec": 6.44
+    },
+    {
+      "shot_index": 36,
+      "start_sec": 285.87,
+      "end_sec": 295.0,
+      "start_time": "04:45.9",
+      "end_time": "04:55.0",
+      "duration_sec": 9.13
+    },
+    {
+      "shot_index": 37,
+      "start_sec": 295.0,
+      "end_sec": 299.53,
+      "start_time": "04:55.0",
+      "end_time": "04:59.5",
+      "duration_sec": 4.53
+    },
+    {
+      "shot_index": 38,
+      "start_sec": 299.53,
+      "end_sec": 302.93,
+      "start_time": "04:59.5",
+      "end_time": "05:02.9",
+      "duration_sec": 3.4
+    },
+    {
+      "shot_index": 39,
+      "start_sec": 302.93,
+      "end_sec": 310.9,
+      "start_time": "05:02.9",
+      "end_time": "05:10.9",
+      "duration_sec": 7.97
+    },
+    {
+      "shot_index": 40,
+      "start_sec": 310.9,
+      "end_sec": 317.33,
+      "start_time": "05:10.9",
+      "end_time": "05:17.3",
+      "duration_sec": 6.43
+    },
+    {
+      "shot_index": 41,
+      "start_sec": 317.33,
+      "end_sec": 323.5,
+      "start_time": "05:17.3",
+      "end_time": "05:23.5",
+      "duration_sec": 6.17
+    },
+    {
+      "shot_index": 42,
+      "start_sec": 323.5,
+      "end_sec": 327.5,
+      "start_time": "05:23.5",
+      "end_time": "05:27.5",
+      "duration_sec": 4.0
+    },
+    {
+      "shot_index": 43,
+      "start_sec": 327.5,
+      "end_sec": 337.4,
+      "start_time": "05:27.5",
+      "end_time": "05:37.4",
+      "duration_sec": 9.9
+    },
+    {
+      "shot_index": 44,
+      "start_sec": 337.4,
+      "end_sec": 343.5,
+      "start_time": "05:37.4",
+      "end_time": "05:43.5",
+      "duration_sec": 6.1
+    },
+    {
+      "shot_index": 45,
+      "start_sec": 343.5,
+      "end_sec": 347.5,
+      "start_time": "05:43.5",
+      "end_time": "05:47.5",
+      "duration_sec": 4.0
+    },
+    {
+      "shot_index": 46,
+      "start_sec": 347.5,
+      "end_sec": 357.4,
+      "start_time": "05:47.5",
+      "end_time": "05:57.4",
+      "duration_sec": 9.9
+    },
+    {
+      "shot_index": 47,
+      "start_sec": 357.4,
+      "end_sec": 364.17,
+      "start_time": "05:57.4",
+      "end_time": "06:04.2",
+      "duration_sec": 6.77
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "source_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/bizarre-ai-short-film/raw/video.mp4",
+  "listen_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/bizarre-ai-short-film/raw/listen.mp3",
+  "track_count": 1,
+  "duration_sec": 188.1,
+  "duration_formatted": "03:08",
+  "tempo": {
+    "bpm": 117.5,
+    "bpm_rounded": 117,
+    "half_time_bpm": 58.7,
+    "double_time_bpm": 234.9,
+    "beat_stability": 0.97
+  },
+  "harmony": {
+    "primary_key": "A Minor",
+    "confidence": 0.775,
+    "secondary_key": "E Minor",
+    "secondary_confidence": 0.727,
+    "dominant_notes": [
+      "E",
+      "D",
+      "A",
+      "C",
+      "G"
+    ]
+  },
+  "dynamics_and_mix": {
+    "mean_rms_db": -18.8,
+    "peak_db": -4.8,
+    "crest_factor_db": 14.0,
+    "compression_character": "Balanced / Punchy Dynamic",
+    "frequency_energy_pct": {
+      "sub_bass_20_60Hz_pct": 17.3,
+      "bass_60_250Hz_pct": 56.4,
+      "low_mid_250_500Hz_pct": 11.8,
+      "mid_500_2000Hz_pct": 12.7,
+      "high_mid_2k_6kHz_pct": 1.2,
+      "high_6k_plus_pct": 0.6
+    }
+  },
+  "energy_sections": [
+    {
+      "time_range": "00:00 - 00:27",
+      "duration_sec": 26.5,
+      "energy_score": 0.24,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "00:27 - 01:37",
+      "duration_sec": 70.0,
+      "energy_score": 0.55,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "01:37 - 02:05",
+      "duration_sec": 28.2,
+      "energy_score": 0.63,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "02:05 - 02:09",
+      "duration_sec": 4.1,
+      "energy_score": 0.19,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "02:09 - 02:23",
+      "duration_sec": 14.4,
+      "energy_score": 0.0,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "02:23 - 03:08",
+      "duration_sec": 44.9,
+      "energy_score": 0.5,
+      "energy_level": "Medium / Groove"
+    }
+  ]
+}

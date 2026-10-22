@@ -1,0 +1,297 @@
+{
+  "source_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/surreal-ai/a-very-unusual-town-part-4/raw/video.mp4",
+  "listen_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/surreal-ai/a-very-unusual-town-part-4/raw/listen.mp3",
+  "track_count": 2,
+  "duration_sec": 509.2,
+  "duration_formatted": "08:29",
+  "tempo": {
+    "bpm": 184.6,
+    "bpm_rounded": 185,
+    "half_time_bpm": 92.3,
+    "double_time_bpm": 369.1,
+    "beat_stability": 0.96
+  },
+  "harmony": {
+    "primary_key": "A Major",
+    "confidence": 0.668,
+    "secondary_key": "D Minor",
+    "secondary_confidence": 0.653,
+    "dominant_notes": [
+      "D",
+      "E",
+      "A",
+      "C",
+      "G#"
+    ]
+  },
+  "dynamics_and_mix": {
+    "mean_rms_db": -18.9,
+    "peak_db": -1.8,
+    "crest_factor_db": 17.2,
+    "compression_character": "Wide Dynamic / Breathing & Cinematic",
+    "frequency_energy_pct": {
+      "sub_bass_20_60Hz_pct": 11.6,
+      "bass_60_250Hz_pct": 49.9,
+      "low_mid_250_500Hz_pct": 18.1,
+      "mid_500_2000Hz_pct": 13.3,
+      "high_mid_2k_6kHz_pct": 5.3,
+      "high_6k_plus_pct": 1.8
+    }
+  },
+  "energy_sections": [
+    {
+      "time_range": "00:00 - 00:04",
+      "duration_sec": 4.4,
+      "energy_score": 0.0,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "00:04 - 00:29",
+      "duration_sec": 24.3,
+      "energy_score": 0.39,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "00:29 - 02:29",
+      "duration_sec": 120.5,
+      "energy_score": 0.51,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "02:29 - 02:52",
+      "duration_sec": 23.0,
+      "energy_score": 0.23,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "02:52 - 03:27",
+      "duration_sec": 34.6,
+      "energy_score": 0.65,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "03:27 - 03:34",
+      "duration_sec": 7.1,
+      "energy_score": 0.1,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "03:34 - 03:58",
+      "duration_sec": 24.0,
+      "energy_score": 0.12,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "03:58 - 07:29",
+      "duration_sec": 211.1,
+      "energy_score": 0.4,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "07:29 - 08:02",
+      "duration_sec": 33.3,
+      "energy_score": 0.53,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "08:02 - 08:29",
+      "duration_sec": 26.9,
+      "energy_score": 0.28,
+      "energy_level": "Low / Atmospheric"
+    }
+  ],
+  "tracks": [
+    {
+      "track_index": 1,
+      "title": "STILL HERE (Someone Keeps the Light On)",
+      "time_range": "00:00 - 03:39",
+      "start_sec": 0.0,
+      "end_sec": 219.0,
+      "duration_sec": 219.0,
+      "duration_formatted": "03:39",
+      "tempo": {
+        "bpm": 95.7,
+        "bpm_rounded": 96,
+        "half_time_bpm": 47.9,
+        "double_time_bpm": 191.4,
+        "beat_stability": 0.96
+      },
+      "harmony": {
+        "primary_key": "D Minor",
+        "confidence": 0.838,
+        "secondary_key": "D Major",
+        "secondary_confidence": 0.688,
+        "dominant_notes": [
+          "D",
+          "A",
+          "G",
+          "E",
+          "F"
+        ]
+      },
+      "dynamics_and_mix": {
+        "mean_rms_db": -18.4,
+        "peak_db": -1.8,
+        "crest_factor_db": 16.7,
+        "compression_character": "Wide Dynamic / Breathing & Cinematic",
+        "frequency_energy_pct": {
+          "sub_bass_20_60Hz_pct": 15.4,
+          "bass_60_250Hz_pct": 45.6,
+          "low_mid_250_500Hz_pct": 14.3,
+          "mid_500_2000Hz_pct": 12.9,
+          "high_mid_2k_6kHz_pct": 8.4,
+          "high_6k_plus_pct": 3.4
+        }
+      },
+      "energy_sections": [
+        {
+          "time_range": "00:00 - 00:04",
+          "duration_sec": 4.4,
+          "energy_score": 0.0,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "00:04 - 00:29",
+          "duration_sec": 24.3,
+          "energy_score": 0.34,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "00:29 - 01:17",
+          "duration_sec": 47.8,
+          "energy_score": 0.44,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "01:17 - 02:29",
+          "duration_sec": 72.7,
+          "energy_score": 0.45,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "02:29 - 02:52",
+          "duration_sec": 23.0,
+          "energy_score": 0.19,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "02:52 - 03:27",
+          "duration_sec": 34.6,
+          "energy_score": 0.57,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "03:27 - 03:34",
+          "duration_sec": 7.1,
+          "energy_score": 0.07,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "03:34 - 03:39",
+          "duration_sec": 5.1,
+          "energy_score": 0.14,
+          "energy_level": "Low / Atmospheric"
+        }
+      ]
+    },
+    {
+      "track_index": 2,
+      "title": "Ding, Ding (The Town Says “Take Your Time”)",
+      "time_range": "03:39 - 08:29",
+      "start_sec": 219.0,
+      "end_sec": 509.0,
+      "duration_sec": 290.0,
+      "duration_formatted": "04:50",
+      "tempo": {
+        "bpm": 92.3,
+        "bpm_rounded": 92,
+        "half_time_bpm": 46.1,
+        "double_time_bpm": 184.6,
+        "beat_stability": 0.96
+      },
+      "harmony": {
+        "primary_key": "A Minor",
+        "confidence": 0.713,
+        "secondary_key": "E Major",
+        "secondary_confidence": 0.632,
+        "dominant_notes": [
+          "E",
+          "A",
+          "D",
+          "B",
+          "C"
+        ]
+      },
+      "dynamics_and_mix": {
+        "mean_rms_db": -19.3,
+        "peak_db": -3.6,
+        "crest_factor_db": 15.6,
+        "compression_character": "Wide Dynamic / Breathing & Cinematic",
+        "frequency_energy_pct": {
+          "sub_bass_20_60Hz_pct": 8.2,
+          "bass_60_250Hz_pct": 53.7,
+          "low_mid_250_500Hz_pct": 21.5,
+          "mid_500_2000Hz_pct": 13.6,
+          "high_mid_2k_6kHz_pct": 2.6,
+          "high_6k_plus_pct": 0.4
+        }
+      },
+      "energy_sections": [
+        {
+          "time_range": "03:39 - 03:43",
+          "duration_sec": 4.1,
+          "energy_score": 0.0,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "03:43 - 03:58",
+          "duration_sec": 14.9,
+          "energy_score": 0.22,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "03:58 - 04:58",
+          "duration_sec": 60.5,
+          "energy_score": 0.4,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "04:58 - 05:21",
+          "duration_sec": 22.6,
+          "energy_score": 0.6,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "05:21 - 05:27",
+          "duration_sec": 6.4,
+          "energy_score": 0.39,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "05:27 - 07:03",
+          "duration_sec": 95.3,
+          "energy_score": 0.55,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "07:03 - 07:29",
+          "duration_sec": 26.3,
+          "energy_score": 0.18,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "07:29 - 08:02",
+          "duration_sec": 33.3,
+          "energy_score": 0.61,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "08:02 - 08:29",
+          "duration_sec": 26.7,
+          "energy_score": 0.33,
+          "energy_level": "Low / Atmospheric"
+        }
+      ]
+    }
+  ]
+}

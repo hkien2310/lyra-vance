@@ -1,0 +1,73 @@
+{
+  "source_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/kelly-boesch-official-music-ai-video-salt-on-the-tide-4k/raw/video.mp4",
+  "listen_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/kelly-boesch-official-music-ai-video-salt-on-the-tide-4k/raw/listen.mp3",
+  "track_count": 1,
+  "duration_sec": 175.0,
+  "duration_formatted": "02:55",
+  "tempo": {
+    "bpm": 123.0,
+    "bpm_rounded": 123,
+    "half_time_bpm": 61.5,
+    "double_time_bpm": 246.1,
+    "beat_stability": 0.97
+  },
+  "harmony": {
+    "primary_key": "A# Minor",
+    "confidence": 0.75,
+    "secondary_key": "D# Minor",
+    "secondary_confidence": 0.708,
+    "dominant_notes": [
+      "D#",
+      "A#",
+      "C#",
+      "F",
+      "C"
+    ]
+  },
+  "dynamics_and_mix": {
+    "mean_rms_db": -18.9,
+    "peak_db": 0.3,
+    "crest_factor_db": 19.2,
+    "compression_character": "Wide Dynamic / Breathing & Cinematic",
+    "frequency_energy_pct": {
+      "sub_bass_20_60Hz_pct": 19.3,
+      "bass_60_250Hz_pct": 46.5,
+      "low_mid_250_500Hz_pct": 14.5,
+      "mid_500_2000Hz_pct": 14.1,
+      "high_mid_2k_6kHz_pct": 3.0,
+      "high_6k_plus_pct": 2.6
+    }
+  },
+  "energy_sections": [
+    {
+      "time_range": "00:00 - 00:16",
+      "duration_sec": 16.3,
+      "energy_score": 0.0,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "00:16 - 00:49",
+      "duration_sec": 32.7,
+      "energy_score": 0.47,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "00:49 - 01:16",
+      "duration_sec": 27.4,
+      "energy_score": 0.58,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "01:16 - 02:05",
+      "duration_sec": 48.9,
+      "energy_score": 0.44,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "02:05 - 02:55",
+      "duration_sec": 49.7,
+      "energy_score": 0.52,
+      "energy_level": "Medium / Groove"
+    }
+  ]
+}

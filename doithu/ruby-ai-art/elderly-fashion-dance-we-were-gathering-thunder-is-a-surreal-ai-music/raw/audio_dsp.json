@@ -1,0 +1,91 @@
+{
+  "source_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/ruby-ai-art/elderly-fashion-dance-we-were-gathering-thunder-is-a-surreal-ai-music/raw/video.mp4",
+  "listen_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/ruby-ai-art/elderly-fashion-dance-we-were-gathering-thunder-is-a-surreal-ai-music/raw/listen.mp3",
+  "track_count": 1,
+  "duration_sec": 281.7,
+  "duration_formatted": "04:42",
+  "tempo": {
+    "bpm": 117.5,
+    "bpm_rounded": 117,
+    "half_time_bpm": 58.7,
+    "double_time_bpm": 234.9,
+    "beat_stability": 0.97
+  },
+  "harmony": {
+    "primary_key": "C Minor",
+    "confidence": 0.659,
+    "secondary_key": "G# Major",
+    "secondary_confidence": 0.383,
+    "dominant_notes": [
+      "C",
+      "C#",
+      "D#",
+      "D",
+      "E"
+    ]
+  },
+  "dynamics_and_mix": {
+    "mean_rms_db": -18.7,
+    "peak_db": -4.5,
+    "crest_factor_db": 14.2,
+    "compression_character": "Balanced / Punchy Dynamic",
+    "frequency_energy_pct": {
+      "sub_bass_20_60Hz_pct": 20.1,
+      "bass_60_250Hz_pct": 36.8,
+      "low_mid_250_500Hz_pct": 6.6,
+      "mid_500_2000Hz_pct": 25.6,
+      "high_mid_2k_6kHz_pct": 9.1,
+      "high_6k_plus_pct": 1.9
+    }
+  },
+  "energy_sections": [
+    {
+      "time_range": "00:00 - 00:18",
+      "duration_sec": 17.6,
+      "energy_score": 0.0,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "00:18 - 01:10",
+      "duration_sec": 51.9,
+      "energy_score": 0.43,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "01:10 - 02:48",
+      "duration_sec": 98.2,
+      "energy_score": 0.62,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "02:48 - 03:03",
+      "duration_sec": 15.0,
+      "energy_score": 0.18,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "03:03 - 03:34",
+      "duration_sec": 30.7,
+      "energy_score": 0.49,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "03:34 - 03:51",
+      "duration_sec": 17.4,
+      "energy_score": 0.46,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "03:51 - 04:25",
+      "duration_sec": 34.4,
+      "energy_score": 0.68,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "04:25 - 04:42",
+      "duration_sec": 16.3,
+      "energy_score": 0.23,
+      "energy_level": "Low / Atmospheric"
+    }
+  ]
+}

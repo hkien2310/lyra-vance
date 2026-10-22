@@ -1,0 +1,291 @@
+{
+  "source_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/surreal-ai/timeless-fashion-i-still-do/raw/video.mp4",
+  "listen_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/surreal-ai/timeless-fashion-i-still-do/raw/listen.mp3",
+  "track_count": 2,
+  "duration_sec": 546.4,
+  "duration_formatted": "09:06",
+  "tempo": {
+    "bpm": 103.4,
+    "bpm_rounded": 103,
+    "half_time_bpm": 51.7,
+    "double_time_bpm": 206.7,
+    "beat_stability": 0.95
+  },
+  "harmony": {
+    "primary_key": "F Minor",
+    "confidence": 0.796,
+    "secondary_key": "A# Minor",
+    "secondary_confidence": 0.732,
+    "dominant_notes": [
+      "F",
+      "C",
+      "C#",
+      "A#",
+      "D#"
+    ]
+  },
+  "dynamics_and_mix": {
+    "mean_rms_db": -18.4,
+    "peak_db": -1.2,
+    "crest_factor_db": 17.1,
+    "compression_character": "Wide Dynamic / Breathing & Cinematic",
+    "frequency_energy_pct": {
+      "sub_bass_20_60Hz_pct": 24.9,
+      "bass_60_250Hz_pct": 37.5,
+      "low_mid_250_500Hz_pct": 9.1,
+      "mid_500_2000Hz_pct": 18.8,
+      "high_mid_2k_6kHz_pct": 8.1,
+      "high_6k_plus_pct": 1.6
+    }
+  },
+  "energy_sections": [
+    {
+      "time_range": "00:00 - 00:05",
+      "duration_sec": 4.9,
+      "energy_score": 0.0,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "00:05 - 00:50",
+      "duration_sec": 45.1,
+      "energy_score": 0.29,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "00:50 - 03:13",
+      "duration_sec": 142.5,
+      "energy_score": 0.53,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "03:13 - 03:27",
+      "duration_sec": 14.3,
+      "energy_score": 0.23,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "03:27 - 04:17",
+      "duration_sec": 49.9,
+      "energy_score": 0.58,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "04:17 - 04:34",
+      "duration_sec": 17.1,
+      "energy_score": 0.0,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "04:34 - 05:45",
+      "duration_sec": 70.8,
+      "energy_score": 0.32,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "05:45 - 07:01",
+      "duration_sec": 76.6,
+      "energy_score": 0.6,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "07:01 - 09:06",
+      "duration_sec": 125.0,
+      "energy_score": 0.59,
+      "energy_level": "Medium / Groove"
+    }
+  ],
+  "tracks": [
+    {
+      "track_index": 1,
+      "title": "The Roof Came Down",
+      "time_range": "00:00 - 04:23",
+      "start_sec": 0.0,
+      "end_sec": 263.0,
+      "duration_sec": 263.0,
+      "duration_formatted": "04:23",
+      "tempo": {
+        "bpm": 107.7,
+        "bpm_rounded": 108,
+        "half_time_bpm": 53.8,
+        "double_time_bpm": 215.3,
+        "beat_stability": 0.97
+      },
+      "harmony": {
+        "primary_key": "F Minor",
+        "confidence": 0.822,
+        "secondary_key": "F Major",
+        "secondary_confidence": 0.694,
+        "dominant_notes": [
+          "F",
+          "C",
+          "D#",
+          "A#",
+          "C#"
+        ]
+      },
+      "dynamics_and_mix": {
+        "mean_rms_db": -18.4,
+        "peak_db": -1.2,
+        "crest_factor_db": 17.2,
+        "compression_character": "Wide Dynamic / Breathing & Cinematic",
+        "frequency_energy_pct": {
+          "sub_bass_20_60Hz_pct": 18.7,
+          "bass_60_250Hz_pct": 37.2,
+          "low_mid_250_500Hz_pct": 9.9,
+          "mid_500_2000Hz_pct": 23.3,
+          "high_mid_2k_6kHz_pct": 9.1,
+          "high_6k_plus_pct": 1.9
+        }
+      },
+      "energy_sections": [
+        {
+          "time_range": "00:00 - 00:05",
+          "duration_sec": 4.9,
+          "energy_score": 0.0,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "00:05 - 00:19",
+          "duration_sec": 13.8,
+          "energy_score": 0.06,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "00:19 - 00:50",
+          "duration_sec": 31.3,
+          "energy_score": 0.4,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "00:50 - 01:31",
+          "duration_sec": 40.5,
+          "energy_score": 0.56,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "01:31 - 02:58",
+          "duration_sec": 87.5,
+          "energy_score": 0.58,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "02:58 - 03:13",
+          "duration_sec": 14.5,
+          "energy_score": 0.46,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "03:13 - 03:27",
+          "duration_sec": 14.3,
+          "energy_score": 0.23,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "03:27 - 04:17",
+          "duration_sec": 49.8,
+          "energy_score": 0.63,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "04:17 - 04:23",
+          "duration_sec": 6.3,
+          "energy_score": 0.15,
+          "energy_level": "Low / Atmospheric"
+        }
+      ]
+    },
+    {
+      "track_index": 2,
+      "title": "I Still Do",
+      "time_range": "04:23 - 09:03",
+      "start_sec": 263.0,
+      "end_sec": 543.0,
+      "duration_sec": 280.0,
+      "duration_formatted": "04:40",
+      "tempo": {
+        "bpm": 103.4,
+        "bpm_rounded": 103,
+        "half_time_bpm": 51.7,
+        "double_time_bpm": 206.7,
+        "beat_stability": 0.97
+      },
+      "harmony": {
+        "primary_key": "A# Minor",
+        "confidence": 0.868,
+        "secondary_key": "C# Major",
+        "secondary_confidence": 0.668,
+        "dominant_notes": [
+          "C#",
+          "A#",
+          "F",
+          "D#",
+          "G#"
+        ]
+      },
+      "dynamics_and_mix": {
+        "mean_rms_db": -18.3,
+        "peak_db": -2.5,
+        "crest_factor_db": 15.8,
+        "compression_character": "Wide Dynamic / Breathing & Cinematic",
+        "frequency_energy_pct": {
+          "sub_bass_20_60Hz_pct": 29.8,
+          "bass_60_250Hz_pct": 37.6,
+          "low_mid_250_500Hz_pct": 8.5,
+          "mid_500_2000Hz_pct": 15.3,
+          "high_mid_2k_6kHz_pct": 7.3,
+          "high_6k_plus_pct": 1.5
+        }
+      },
+      "energy_sections": [
+        {
+          "time_range": "04:23 - 04:34",
+          "duration_sec": 11.0,
+          "energy_score": 0.0,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "04:34 - 05:45",
+          "duration_sec": 70.8,
+          "energy_score": 0.3,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "05:45 - 06:30",
+          "duration_sec": 45.7,
+          "energy_score": 0.63,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "06:30 - 07:01",
+          "duration_sec": 31.0,
+          "energy_score": 0.46,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "07:01 - 07:45",
+          "duration_sec": 43.5,
+          "energy_score": 0.67,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "07:45 - 08:10",
+          "duration_sec": 25.4,
+          "energy_score": 0.43,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "08:10 - 08:48",
+          "duration_sec": 37.5,
+          "energy_score": 0.56,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "08:48 - 09:03",
+          "duration_sec": 15.2,
+          "energy_score": 0.51,
+          "energy_level": "Medium / Groove"
+        }
+      ]
+    }
+  ]
+}

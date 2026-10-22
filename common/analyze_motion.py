@@ -18,15 +18,22 @@ from pathlib import Path
 
 
 def find_or_download_video(target_dir: Path) -> Path:
+    standard_mp4 = target_dir / "video.mp4"
+    legacy_mp4 = target_dir / "competitor_video.mp4"
+    if legacy_mp4.exists() and not standard_mp4.exists():
+        legacy_mp4.rename(standard_mp4)
+    if standard_mp4.exists():
+        return standard_mp4
+
     video_exts = (".mp4", ".mov", ".mkv", ".webm")
     for f in sorted(target_dir.iterdir()):
         if f.is_file() and f.suffix.lower() in video_exts and not f.name.startswith("."):
             return f
 
-    # Nếu chưa có file video, tìm URL hoặc Video ID trong file .md / .txt của doi-thu
+    # Nếu chưa có file video, tìm URL hoặc Video ID trong file .md / .txt / .json của thư mục
     yt_url = None
     for f in sorted(target_dir.iterdir()):
-        if f.is_file() and f.suffix.lower() in (".md", ".txt"):
+        if f.is_file() and f.suffix.lower() in (".md", ".txt", ".json"):
             text = f.read_text(encoding="utf-8", errors="ignore")
             m_url = re.search(r"https?://(?:www\.)?(?:youtube\.com/watch\?v=|youtu\.be/)([A-Za-z0-9_-]{11})", text)
             if m_url:
@@ -40,7 +47,7 @@ def find_or_download_video(target_dir: Path) -> Path:
     if not yt_url:
         raise FileNotFoundError(f"Không tìm thấy file .mp4 hoặc link YouTube trong {target_dir}")
 
-    out_mp4 = target_dir / "competitor_video.mp4"
+    out_mp4 = standard_mp4
     print(f"[analyze_motion] Đang tải video đối thủ từ {yt_url} -> {out_mp4} ...")
     import shutil
     ytdlp_cmd = ["yt-dlp"] if shutil.which("yt-dlp") else ["uvx", "yt-dlp"]
@@ -147,11 +154,11 @@ def generate_full_video_grids(
     fps: int = 4,
     cols: int = 6,
     rows: int = 10,
-    tile_w: int = 360,
+    tile_w: int = 720,
 ) -> list[dict]:
     """
     Chia toàn bộ video từ 00:00 đến hết thành các tấm lưới liên tiếp (mặc định 4 FPS, 6x10 = 60 frames = 15 giây/grid).
-    Mỗi ô cách nhau đúng 0.25 giây (1/4 giây), đọc từ trái qua phải, từ trên xuống dưới.
+    Mỗi ô chuẩn 720p (4320x4050 toàn tấm), cách nhau đúng 0.25 giây (1/4 giây).
     """
     grids_dir.mkdir(parents=True, exist_ok=True)
     for old_f in grids_dir.glob("grid_*.jpg"):
@@ -189,7 +196,7 @@ def generate_full_video_grids(
             "-update",
             "1",
             "-q:v",
-            "4",
+            "2",
             str(out_path),
         ]
         subprocess.run(cmd, capture_output=True, check=True)
@@ -202,23 +209,128 @@ def generate_full_video_grids(
                 "start_time": fmt_time(start_sec),
                 "end_time": fmt_time(end_sec),
                 "fps": fps,
-                "layout": f"{cols}x{rows} (mỗi hàng {cols} hình = {cols/fps:.1f}s, mỗi ô = {1/fps:.2f}s)",
+                "layout": f"{cols}x{rows} (tile_w={tile_w}px, mỗi hàng {cols} hình = {cols/fps:.1f}s, mỗi ô = {1/fps:.2f}s)",
             }
         )
     return grids_meta
 
 
+def generate_shot_sheets(
+    video_path: Path,
+    shots_dir: Path,
+    shots: list[dict],
+    cols: int = 3,
+    rows: int = 3,
+    tile_w: int = 1280,
+) -> list[dict]:
+    """
+    Trích xuất frame chính giữa của từng Shot ở độ phân giải gốc HD (1280x720) và ghép thành các tấm 3x3 (3840x2160 4K).
+    Giúp soi chi tiết trang phục, chất liệu và gương mặt của từng cảnh nét gấp 12 lần so với lưới 6x10.
+    """
+    shots_dir.mkdir(parents=True, exist_ok=True)
+    for old_f in shots_dir.glob("*.jpg"):
+        old_f.unlink()
+
+    temp_frames = []
+    for s in shots:
+        mid_sec = round((s["start_sec"] + s["end_sec"]) / 2.0, 2)
+        frame_path = shots_dir / f"_tmp_shot_{s['shot_index']:03d}.jpg"
+        cmd = [
+            "ffmpeg",
+            "-y",
+            "-ss",
+            str(mid_sec),
+            "-i",
+            str(video_path),
+            "-vf",
+            f"scale={tile_w}:-1",
+            "-frames:v",
+            "1",
+            "-q:v",
+            "2",
+            str(frame_path),
+        ]
+        subprocess.run(cmd, capture_output=True, check=True)
+        if frame_path.exists():
+            temp_frames.append((s, frame_path))
+
+    per_sheet = cols * rows
+    num_sheets = math.ceil(len(temp_frames) / per_sheet)
+    sheets_meta = []
+
+    for idx in range(num_sheets):
+        batch = temp_frames[idx * per_sheet : (idx + 1) * per_sheet]
+        if not batch:
+            continue
+        first_shot = batch[0][0]["shot_index"]
+        last_shot = batch[-1][0]["shot_index"]
+        sheet_name = f"shots_{idx + 1:02d}_shot{first_shot:02d}_to_shot{last_shot:02d}.jpg"
+        out_path = shots_dir / sheet_name
+
+        n = len(batch)
+        if n == 1:
+            import shutil
+            shutil.copyfile(batch[0][1], out_path)
+        else:
+            inputs = []
+            for _, fp in batch:
+                inputs.extend(["-i", str(fp)])
+            filter_in = "".join(f"[{i}:v]" for i in range(n))
+            vf = f"{filter_in}xstack=inputs={n}:layout="
+            layouts = []
+            for i in range(n):
+                r = i // cols
+                c = i % cols
+                x_expr = "0" if c == 0 else "+".join("w0" for _ in range(c))
+                y_expr = "0" if r == 0 else "+".join("h0" for _ in range(r))
+                layouts.append(f"{x_expr}_{y_expr}")
+            vf += "|".join(layouts)
+
+            cmd = ["ffmpeg", "-y"] + inputs + ["-filter_complex", vf, "-frames:v", "1", "-q:v", "2", str(out_path)]
+            subprocess.run(cmd, capture_output=True, check=True)
+        sheets_meta.append(
+            {
+                "sheet_index": idx + 1,
+                "file": str(out_path),
+                "shots_range": f"{first_shot}-{last_shot}",
+                "layout": f"{cols}x{rows} @ {tile_w}px/tile",
+            }
+        )
+
+    for _, fp in temp_frames:
+        if fp.exists():
+            fp.unlink()
+
+    return sheets_meta
+
+
 def main():
     if len(sys.argv) < 2:
-        print("Cách dùng: python3 common/analyze_motion.py projects/XX/doi-thu")
+        print("Cách dùng: python3 common/analyze_motion.py <raw_dir> [--force]")
         sys.exit(1)
 
     target_dir = Path(sys.argv[1]).resolve()
+    force = "--force" in sys.argv
     if not target_dir.exists():
         print(f"Không tìm thấy thư mục: {target_dir}")
         sys.exit(1)
 
     video_path = find_or_download_video(target_dir)
+    meta_path = target_dir / "motion_metadata.json"
+    grids_dir = target_dir / "grids"
+    shots_dir = target_dir / "shot_sheets"
+
+    if not force and meta_path.exists() and any(grids_dir.glob("grid_*.jpg")) and any(shots_dir.glob("shots_*.jpg")):
+        data = json.loads(meta_path.read_text(encoding="utf-8"))
+        data["video_file"] = str(video_path)
+        for s in data.get("shot_sheets", []):
+            s["file"] = str(shots_dir / Path(s["file"]).name)
+        for g in data.get("grids", []):
+            g["file"] = str(grids_dir / Path(g["file"]).name)
+        meta_path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
+        print(f"[analyze_motion] Đã có sẵn {len(data.get('shot_sheets', []))} shot_sheets & {len(data.get('grids', []))} grids tại {target_dir} (bỏ qua cắt lại).")
+        return
+
     info = get_video_info(video_path)
     print(f"[analyze_motion] Video: {video_path.name} | {info['width']}x{info['height']} @ {info['fps']}fps | {info['duration_sec']}s")
 
@@ -227,7 +339,10 @@ def main():
     avg_shot = round(sum(durations) / len(durations), 2) if durations else 0.0
 
     grids_dir = target_dir / "grids"
-    grids = generate_full_video_grids(video_path, grids_dir, info["duration_sec"], fps=4, cols=6, rows=10, tile_w=360)
+    grids = generate_full_video_grids(video_path, grids_dir, info["duration_sec"], fps=4, cols=6, rows=10, tile_w=720)
+
+    shots_dir = target_dir / "shot_sheets"
+    shot_sheets = generate_shot_sheets(video_path, shots_dir, shots, cols=3, rows=3, tile_w=1280)
 
     report = {
         "video_file": str(video_path),
@@ -238,6 +353,7 @@ def main():
             "min_shot_duration_sec": min(durations) if durations else 0.0,
             "max_shot_duration_sec": max(durations) if durations else 0.0,
         },
+        "shot_sheets": shot_sheets,
         "grids": grids,
         "shots": shots,
     }
@@ -245,7 +361,8 @@ def main():
     meta_path = target_dir / "motion_metadata.json"
     meta_path.write_text(json.dumps(report, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"[analyze_motion] Đã phát hiện {len(shots)} shots (trung bình {avg_shot}s/shot).")
-    print(f"[analyze_motion] Đã xuất {len(grids)} tấm High-FPS Grids (4 FPS, bao phủ 100% video) tại: {grids_dir}")
+    print(f"[analyze_motion] Đã xuất {len(shot_sheets)} tấm 4K Shot Sheets (3x3 @ 1280px/ô) tại: {shots_dir}")
+    print(f"[analyze_motion] Đã xuất {len(grids)} tấm 4K High-FPS Grids (6x10 @ 720px/ô, 4320x4050) tại: {grids_dir}")
     print(f"[analyze_motion] Đã lưu metadata tại: {meta_path}")
 
 

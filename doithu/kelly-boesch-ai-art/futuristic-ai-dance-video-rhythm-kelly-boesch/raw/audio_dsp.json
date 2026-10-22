@@ -1,0 +1,73 @@
+{
+  "source_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/futuristic-ai-dance-video-rhythm-kelly-boesch/raw/video.mp4",
+  "listen_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/futuristic-ai-dance-video-rhythm-kelly-boesch/raw/listen.mp3",
+  "track_count": 1,
+  "duration_sec": 159.1,
+  "duration_formatted": "02:39",
+  "tempo": {
+    "bpm": 123.0,
+    "bpm_rounded": 123,
+    "half_time_bpm": 61.5,
+    "double_time_bpm": 246.1,
+    "beat_stability": 0.97
+  },
+  "harmony": {
+    "primary_key": "F Minor",
+    "confidence": 0.775,
+    "secondary_key": "F Major",
+    "secondary_confidence": 0.568,
+    "dominant_notes": [
+      "F",
+      "C",
+      "C#",
+      "E",
+      "D"
+    ]
+  },
+  "dynamics_and_mix": {
+    "mean_rms_db": -18.4,
+    "peak_db": -2.7,
+    "crest_factor_db": 15.7,
+    "compression_character": "Wide Dynamic / Breathing & Cinematic",
+    "frequency_energy_pct": {
+      "sub_bass_20_60Hz_pct": 32.6,
+      "bass_60_250Hz_pct": 50.9,
+      "low_mid_250_500Hz_pct": 6.0,
+      "mid_500_2000Hz_pct": 7.1,
+      "high_mid_2k_6kHz_pct": 2.1,
+      "high_6k_plus_pct": 1.2
+    }
+  },
+  "energy_sections": [
+    {
+      "time_range": "00:00 - 00:09",
+      "duration_sec": 8.7,
+      "energy_score": 0.32,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "00:09 - 00:25",
+      "duration_sec": 15.8,
+      "energy_score": 0.33,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "00:25 - 01:56",
+      "duration_sec": 91.7,
+      "energy_score": 0.51,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "01:56 - 02:23",
+      "duration_sec": 26.9,
+      "energy_score": 0.22,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "02:23 - 02:39",
+      "duration_sec": 16.0,
+      "energy_score": 0.34,
+      "energy_level": "Low / Atmospheric"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "source_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/veloscuro/veloscuro-windstorm/raw/video.mp4",
+  "listen_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/veloscuro/veloscuro-windstorm/raw/listen.mp3",
+  "track_count": 1,
+  "duration_sec": 364.2,
+  "duration_formatted": "06:04",
+  "tempo": {
+    "bpm": 117.5,
+    "bpm_rounded": 117,
+    "half_time_bpm": 58.7,
+    "double_time_bpm": 234.9,
+    "beat_stability": 0.97
+  },
+  "harmony": {
+    "primary_key": "E Minor",
+    "confidence": 0.781,
+    "secondary_key": "E Major",
+    "secondary_confidence": 0.661,
+    "dominant_notes": [
+      "E",
+      "D",
+      "B",
+      "A",
+      "C"
+    ]
+  },
+  "dynamics_and_mix": {
+    "mean_rms_db": -18.5,
+    "peak_db": -2.9,
+    "crest_factor_db": 15.6,
+    "compression_character": "Wide Dynamic / Breathing & Cinematic",
+    "frequency_energy_pct": {
+      "sub_bass_20_60Hz_pct": 30.7,
+      "bass_60_250Hz_pct": 45.1,
+      "low_mid_250_500Hz_pct": 10.4,
+      "mid_500_2000Hz_pct": 10.2,
+      "high_mid_2k_6kHz_pct": 2.5,
+      "high_6k_plus_pct": 1.1
+    }
+  },
+  "energy_sections": [
+    {
+      "time_range": "00:00 - 00:08",
+      "duration_sec": 7.9,
+      "energy_score": 0.0,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "00:08 - 01:27",
+      "duration_sec": 78.6,
+      "energy_score": 0.29,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "01:27 - 03:04",
+      "duration_sec": 97.2,
+      "energy_score": 0.51,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "03:04 - 03:30",
+      "duration_sec": 26.2,
+      "energy_score": 0.31,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "03:30 - 04:04",
+      "duration_sec": 34.1,
+      "energy_score": 0.62,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "04:04 - 04:38",
+      "duration_sec": 33.9,
+      "energy_score": 0.17,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "04:38 - 05:11",
+      "duration_sec": 33.0,
+      "energy_score": 0.26,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "05:11 - 05:53",
+      "duration_sec": 41.6,
+      "energy_score": 0.51,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "05:53 - 06:04",
+      "duration_sec": 11.6,
+      "energy_score": 0.17,
+      "energy_level": "Low / Atmospheric"
+    }
+  ]
+}

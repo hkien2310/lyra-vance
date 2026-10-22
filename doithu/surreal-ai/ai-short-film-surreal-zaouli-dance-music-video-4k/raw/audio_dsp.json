@@ -1,0 +1,504 @@
+{
+  "source_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/surreal-ai/ai-short-film-surreal-zaouli-dance-music-video-4k/raw/video.mp4",
+  "listen_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/surreal-ai/ai-short-film-surreal-zaouli-dance-music-video-4k/raw/listen.mp3",
+  "track_count": 5,
+  "duration_sec": 942.7,
+  "duration_formatted": "15:43",
+  "tempo": {
+    "bpm": 117.5,
+    "bpm_rounded": 117,
+    "half_time_bpm": 58.7,
+    "double_time_bpm": 234.9,
+    "beat_stability": 0.94
+  },
+  "harmony": {
+    "primary_key": "D Minor",
+    "confidence": 0.711,
+    "secondary_key": "A Major",
+    "secondary_confidence": 0.365,
+    "dominant_notes": [
+      "D",
+      "E",
+      "C",
+      "C#",
+      "A"
+    ]
+  },
+  "dynamics_and_mix": {
+    "mean_rms_db": -18.7,
+    "peak_db": -2.1,
+    "crest_factor_db": 16.6,
+    "compression_character": "Wide Dynamic / Breathing & Cinematic",
+    "frequency_energy_pct": {
+      "sub_bass_20_60Hz_pct": 26.9,
+      "bass_60_250Hz_pct": 36.7,
+      "low_mid_250_500Hz_pct": 10.7,
+      "mid_500_2000Hz_pct": 20.2,
+      "high_mid_2k_6kHz_pct": 4.0,
+      "high_6k_plus_pct": 1.5
+    }
+  },
+  "energy_sections": [
+    {
+      "time_range": "00:00 - 00:24",
+      "duration_sec": 23.5,
+      "energy_score": 0.11,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "00:24 - 03:44",
+      "duration_sec": 200.9,
+      "energy_score": 0.5,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "03:44 - 04:08",
+      "duration_sec": 23.4,
+      "energy_score": 0.03,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "04:08 - 06:38",
+      "duration_sec": 150.5,
+      "energy_score": 0.46,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "06:38 - 09:57",
+      "duration_sec": 198.3,
+      "energy_score": 0.43,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "09:57 - 10:24",
+      "duration_sec": 27.8,
+      "energy_score": 0.12,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "10:24 - 12:31",
+      "duration_sec": 126.1,
+      "energy_score": 0.51,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "12:31 - 13:03",
+      "duration_sec": 32.3,
+      "energy_score": 0.15,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "13:03 - 15:43",
+      "duration_sec": 159.8,
+      "energy_score": 0.38,
+      "energy_level": "Low / Atmospheric"
+    }
+  ],
+  "tracks": [
+    {
+      "track_index": 1,
+      "title": "Nighttime Ritual",
+      "time_range": "00:00 - 03:34",
+      "start_sec": 0.0,
+      "end_sec": 214.0,
+      "duration_sec": 214.0,
+      "duration_formatted": "03:34",
+      "tempo": {
+        "bpm": 123.0,
+        "bpm_rounded": 123,
+        "half_time_bpm": 61.5,
+        "double_time_bpm": 246.1,
+        "beat_stability": 0.96
+      },
+      "harmony": {
+        "primary_key": "A# Minor",
+        "confidence": 0.978,
+        "secondary_key": "A# Major",
+        "secondary_confidence": 0.702,
+        "dominant_notes": [
+          "A#",
+          "C#",
+          "F",
+          "D#",
+          "A"
+        ]
+      },
+      "dynamics_and_mix": {
+        "mean_rms_db": -18.0,
+        "peak_db": -2.1,
+        "crest_factor_db": 15.9,
+        "compression_character": "Wide Dynamic / Breathing & Cinematic",
+        "frequency_energy_pct": {
+          "sub_bass_20_60Hz_pct": 31.7,
+          "bass_60_250Hz_pct": 39.5,
+          "low_mid_250_500Hz_pct": 8.5,
+          "mid_500_2000Hz_pct": 16.0,
+          "high_mid_2k_6kHz_pct": 2.9,
+          "high_6k_plus_pct": 1.4
+        }
+      },
+      "energy_sections": [
+        {
+          "time_range": "00:00 - 00:24",
+          "duration_sec": 23.5,
+          "energy_score": 0.06,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "00:24 - 00:53",
+          "duration_sec": 29.8,
+          "energy_score": 0.2,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "00:53 - 01:37",
+          "duration_sec": 43.8,
+          "energy_score": 0.47,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "01:37 - 01:50",
+          "duration_sec": 12.5,
+          "energy_score": 0.5,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "01:50 - 02:20",
+          "duration_sec": 30.6,
+          "energy_score": 0.31,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "02:20 - 02:49",
+          "duration_sec": 28.3,
+          "energy_score": 0.49,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "02:49 - 03:03",
+          "duration_sec": 14.6,
+          "energy_score": 0.19,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "03:03 - 03:34",
+          "duration_sec": 30.9,
+          "energy_score": 0.59,
+          "energy_level": "Medium / Groove"
+        }
+      ]
+    },
+    {
+      "track_index": 2,
+      "title": "Midnight Medicine",
+      "time_range": "03:34 - 06:38",
+      "start_sec": 214.0,
+      "end_sec": 398.0,
+      "duration_sec": 184.0,
+      "duration_formatted": "03:04",
+      "tempo": {
+        "bpm": 117.5,
+        "bpm_rounded": 117,
+        "half_time_bpm": 58.7,
+        "double_time_bpm": 234.9,
+        "beat_stability": 0.97
+      },
+      "harmony": {
+        "primary_key": "E Minor",
+        "confidence": 0.85,
+        "secondary_key": "E Major",
+        "secondary_confidence": 0.549,
+        "dominant_notes": [
+          "E",
+          "D#",
+          "F#",
+          "G",
+          "A"
+        ]
+      },
+      "dynamics_and_mix": {
+        "mean_rms_db": -18.6,
+        "peak_db": -3.5,
+        "crest_factor_db": 15.1,
+        "compression_character": "Wide Dynamic / Breathing & Cinematic",
+        "frequency_energy_pct": {
+          "sub_bass_20_60Hz_pct": 22.8,
+          "bass_60_250Hz_pct": 45.9,
+          "low_mid_250_500Hz_pct": 11.1,
+          "mid_500_2000Hz_pct": 12.2,
+          "high_mid_2k_6kHz_pct": 5.7,
+          "high_6k_plus_pct": 2.3
+        }
+      },
+      "energy_sections": [
+        {
+          "time_range": "03:34 - 03:44",
+          "duration_sec": 10.4,
+          "energy_score": 0.34,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "03:44 - 03:58",
+          "duration_sec": 13.9,
+          "energy_score": 0.04,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "03:58 - 04:08",
+          "duration_sec": 9.5,
+          "energy_score": 0.01,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "04:08 - 05:53",
+          "duration_sec": 105.0,
+          "energy_score": 0.43,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "05:53 - 06:08",
+          "duration_sec": 15.4,
+          "energy_score": 0.2,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "06:08 - 06:38",
+          "duration_sec": 29.7,
+          "energy_score": 0.59,
+          "energy_level": "Medium / Groove"
+        }
+      ]
+    },
+    {
+      "track_index": 3,
+      "title": "IAO, Let It Roll",
+      "time_range": "06:38 - 09:56",
+      "start_sec": 398.0,
+      "end_sec": 596.0,
+      "duration_sec": 198.0,
+      "duration_formatted": "03:18",
+      "tempo": {
+        "bpm": 112.3,
+        "bpm_rounded": 112,
+        "half_time_bpm": 56.2,
+        "double_time_bpm": 224.7,
+        "beat_stability": 0.98
+      },
+      "harmony": {
+        "primary_key": "E Minor",
+        "confidence": 0.665,
+        "secondary_key": "D Major",
+        "secondary_confidence": 0.481,
+        "dominant_notes": [
+          "E",
+          "D",
+          "D#",
+          "C",
+          "C#"
+        ]
+      },
+      "dynamics_and_mix": {
+        "mean_rms_db": -18.4,
+        "peak_db": -4.9,
+        "crest_factor_db": 13.5,
+        "compression_character": "Balanced / Punchy Dynamic",
+        "frequency_energy_pct": {
+          "sub_bass_20_60Hz_pct": 31.2,
+          "bass_60_250Hz_pct": 26.9,
+          "low_mid_250_500Hz_pct": 12.3,
+          "mid_500_2000Hz_pct": 25.5,
+          "high_mid_2k_6kHz_pct": 3.2,
+          "high_6k_plus_pct": 0.8
+        }
+      },
+      "energy_sections": [
+        {
+          "time_range": "06:38 - 07:22",
+          "duration_sec": 43.7,
+          "energy_score": 0.28,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "07:22 - 07:59",
+          "duration_sec": 37.2,
+          "energy_score": 0.56,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "07:59 - 08:31",
+          "duration_sec": 32.4,
+          "energy_score": 0.34,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "08:31 - 09:09",
+          "duration_sec": 37.5,
+          "energy_score": 0.6,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "09:09 - 09:23",
+          "duration_sec": 13.8,
+          "energy_score": 0.32,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "09:23 - 09:56",
+          "duration_sec": 33.4,
+          "energy_score": 0.71,
+          "energy_level": "Medium / Groove"
+        }
+      ]
+    },
+    {
+      "track_index": 4,
+      "title": "Lanterns in the Dark",
+      "time_range": "09:56 - 12:29",
+      "start_sec": 596.0,
+      "end_sec": 749.0,
+      "duration_sec": 153.0,
+      "duration_formatted": "02:33",
+      "tempo": {
+        "bpm": 107.7,
+        "bpm_rounded": 108,
+        "half_time_bpm": 53.8,
+        "double_time_bpm": 215.3,
+        "beat_stability": 0.97
+      },
+      "harmony": {
+        "primary_key": "F Major",
+        "confidence": 0.787,
+        "secondary_key": "D Minor",
+        "secondary_confidence": 0.751,
+        "dominant_notes": [
+          "C",
+          "A",
+          "F",
+          "D",
+          "C#"
+        ]
+      },
+      "dynamics_and_mix": {
+        "mean_rms_db": -18.2,
+        "peak_db": -4.1,
+        "crest_factor_db": 14.1,
+        "compression_character": "Balanced / Punchy Dynamic",
+        "frequency_energy_pct": {
+          "sub_bass_20_60Hz_pct": 14.8,
+          "bass_60_250Hz_pct": 39.7,
+          "low_mid_250_500Hz_pct": 13.8,
+          "mid_500_2000Hz_pct": 26.9,
+          "high_mid_2k_6kHz_pct": 3.7,
+          "high_6k_plus_pct": 1.1
+        }
+      },
+      "energy_sections": [
+        {
+          "time_range": "09:56 - 10:03",
+          "duration_sec": 6.8,
+          "energy_score": 0.02,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "10:03 - 10:24",
+          "duration_sec": 21.7,
+          "energy_score": 0.11,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "10:24 - 11:45",
+          "duration_sec": 80.7,
+          "energy_score": 0.48,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "11:45 - 12:03",
+          "duration_sec": 17.6,
+          "energy_score": 0.27,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "12:03 - 12:07",
+          "duration_sec": 4.5,
+          "energy_score": 0.47,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "12:07 - 12:29",
+          "duration_sec": 21.8,
+          "energy_score": 0.61,
+          "energy_level": "Medium / Groove"
+        }
+      ]
+    },
+    {
+      "track_index": 5,
+      "title": "Stomp It Down",
+      "time_range": "12:29 - 15:43",
+      "start_sec": 749.0,
+      "end_sec": 942.7,
+      "duration_sec": 193.7,
+      "duration_formatted": "03:14",
+      "tempo": {
+        "bpm": 117.5,
+        "bpm_rounded": 117,
+        "half_time_bpm": 58.7,
+        "double_time_bpm": 234.9,
+        "beat_stability": 0.95
+      },
+      "harmony": {
+        "primary_key": "D Minor",
+        "confidence": 0.559,
+        "secondary_key": "D Major",
+        "secondary_confidence": 0.508,
+        "dominant_notes": [
+          "D",
+          "C#",
+          "C",
+          "A",
+          "D#"
+        ]
+      },
+      "dynamics_and_mix": {
+        "mean_rms_db": -20.2,
+        "peak_db": -4.0,
+        "crest_factor_db": 16.2,
+        "compression_character": "Wide Dynamic / Breathing & Cinematic",
+        "frequency_energy_pct": {
+          "sub_bass_20_60Hz_pct": 31.1,
+          "bass_60_250Hz_pct": 31.6,
+          "low_mid_250_500Hz_pct": 8.4,
+          "mid_500_2000Hz_pct": 22.1,
+          "high_mid_2k_6kHz_pct": 4.9,
+          "high_6k_plus_pct": 1.9
+        }
+      },
+      "energy_sections": [
+        {
+          "time_range": "12:29 - 13:03",
+          "duration_sec": 33.9,
+          "energy_score": 0.21,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "13:03 - 13:10",
+          "duration_sec": 6.9,
+          "energy_score": 0.41,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "13:10 - 14:08",
+          "duration_sec": 58.4,
+          "energy_score": 0.42,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "14:08 - 15:43",
+          "duration_sec": 94.5,
+          "energy_score": 0.45,
+          "energy_level": "Low / Atmospheric"
+        }
+      ]
+    }
+  ]
+}

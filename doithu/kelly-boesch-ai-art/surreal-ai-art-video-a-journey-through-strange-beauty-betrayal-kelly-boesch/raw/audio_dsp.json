@@ -1,0 +1,79 @@
+{
+  "source_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-art-video-a-journey-through-strange-beauty-betrayal-kelly-boesch/raw/video.mp4",
+  "listen_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-art-video-a-journey-through-strange-beauty-betrayal-kelly-boesch/raw/listen.mp3",
+  "track_count": 1,
+  "duration_sec": 173.6,
+  "duration_formatted": "02:54",
+  "tempo": {
+    "bpm": 63.0,
+    "bpm_rounded": 63,
+    "half_time_bpm": 31.5,
+    "double_time_bpm": 126.0,
+    "beat_stability": 0.97
+  },
+  "harmony": {
+    "primary_key": "F Minor",
+    "confidence": 1.01,
+    "secondary_key": "A# Minor",
+    "secondary_confidence": 0.636,
+    "dominant_notes": [
+      "F",
+      "C",
+      "C#",
+      "G#",
+      "A#"
+    ]
+  },
+  "dynamics_and_mix": {
+    "mean_rms_db": -19.4,
+    "peak_db": -4.0,
+    "crest_factor_db": 15.4,
+    "compression_character": "Wide Dynamic / Breathing & Cinematic",
+    "frequency_energy_pct": {
+      "sub_bass_20_60Hz_pct": 19.1,
+      "bass_60_250Hz_pct": 48.6,
+      "low_mid_250_500Hz_pct": 17.9,
+      "mid_500_2000Hz_pct": 10.9,
+      "high_mid_2k_6kHz_pct": 2.5,
+      "high_6k_plus_pct": 1.1
+    }
+  },
+  "energy_sections": [
+    {
+      "time_range": "00:00 - 00:16",
+      "duration_sec": 15.7,
+      "energy_score": 0.02,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "00:16 - 00:46",
+      "duration_sec": 30.4,
+      "energy_score": 0.27,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "00:46 - 01:39",
+      "duration_sec": 53.0,
+      "energy_score": 0.61,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "01:39 - 01:46",
+      "duration_sec": 7.0,
+      "energy_score": 0.18,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "01:46 - 02:48",
+      "duration_sec": 61.4,
+      "energy_score": 0.62,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "02:48 - 02:54",
+      "duration_sec": 6.1,
+      "energy_score": 0.0,
+      "energy_level": "Low / Atmospheric"
+    }
+  ]
+}
