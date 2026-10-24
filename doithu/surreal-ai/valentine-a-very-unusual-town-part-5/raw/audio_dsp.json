@@ -1,0 +1,396 @@
+{
+  "source_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/surreal-ai/valentine-a-very-unusual-town-part-5/raw/video.mp4",
+  "listen_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/surreal-ai/valentine-a-very-unusual-town-part-5/raw/listen.mp3",
+  "track_count": 3,
+  "duration_sec": 837.6,
+  "duration_formatted": "13:58",
+  "tempo": {
+    "bpm": 117.5,
+    "bpm_rounded": 117,
+    "half_time_bpm": 58.7,
+    "double_time_bpm": 234.9,
+    "beat_stability": 0.96
+  },
+  "harmony": {
+    "primary_key": "D Minor",
+    "confidence": 0.886,
+    "secondary_key": "D Major",
+    "secondary_confidence": 0.702,
+    "dominant_notes": [
+      "D",
+      "A",
+      "E",
+      "G",
+      "F"
+    ]
+  },
+  "dynamics_and_mix": {
+    "mean_rms_db": -19.0,
+    "peak_db": -2.6,
+    "crest_factor_db": 16.4,
+    "compression_character": "Wide Dynamic / Breathing & Cinematic",
+    "frequency_energy_pct": {
+      "sub_bass_20_60Hz_pct": 14.4,
+      "bass_60_250Hz_pct": 50.5,
+      "low_mid_250_500Hz_pct": 21.9,
+      "mid_500_2000Hz_pct": 11.0,
+      "high_mid_2k_6kHz_pct": 1.7,
+      "high_6k_plus_pct": 0.5
+    }
+  },
+  "energy_sections": [
+    {
+      "time_range": "00:00 - 00:08",
+      "duration_sec": 8.2,
+      "energy_score": 0.03,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "00:08 - 03:11",
+      "duration_sec": 182.8,
+      "energy_score": 0.54,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "03:11 - 03:36",
+      "duration_sec": 25.0,
+      "energy_score": 0.21,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "03:36 - 04:26",
+      "duration_sec": 50.3,
+      "energy_score": 0.96,
+      "energy_level": "High / Peak"
+    },
+    {
+      "time_range": "04:26 - 04:45",
+      "duration_sec": 19.0,
+      "energy_score": 0.08,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "04:45 - 07:14",
+      "duration_sec": 148.7,
+      "energy_score": 0.34,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "07:14 - 07:42",
+      "duration_sec": 28.1,
+      "energy_score": 0.55,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "07:42 - 10:11",
+      "duration_sec": 148.6,
+      "energy_score": 0.32,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "10:11 - 13:27",
+      "duration_sec": 196.4,
+      "energy_score": 0.42,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "13:27 - 13:58",
+      "duration_sec": 30.4,
+      "energy_score": 0.3,
+      "energy_level": "Low / Atmospheric"
+    }
+  ],
+  "tracks": [
+    {
+      "track_index": 1,
+      "title": "The Orange Thread Valentine",
+      "time_range": "00:00 - 04:28",
+      "start_sec": 0.0,
+      "end_sec": 268.0,
+      "duration_sec": 268.0,
+      "duration_formatted": "04:28",
+      "tempo": {
+        "bpm": 117.5,
+        "bpm_rounded": 117,
+        "half_time_bpm": 58.7,
+        "double_time_bpm": 234.9,
+        "beat_stability": 0.96
+      },
+      "harmony": {
+        "primary_key": "D Minor",
+        "confidence": 0.865,
+        "secondary_key": "D Major",
+        "secondary_confidence": 0.637,
+        "dominant_notes": [
+          "D",
+          "A",
+          "E",
+          "C#",
+          "F"
+        ]
+      },
+      "dynamics_and_mix": {
+        "mean_rms_db": -17.1,
+        "peak_db": -2.6,
+        "crest_factor_db": 14.5,
+        "compression_character": "Balanced / Punchy Dynamic",
+        "frequency_energy_pct": {
+          "sub_bass_20_60Hz_pct": 16.1,
+          "bass_60_250Hz_pct": 53.7,
+          "low_mid_250_500Hz_pct": 16.4,
+          "mid_500_2000Hz_pct": 11.9,
+          "high_mid_2k_6kHz_pct": 1.4,
+          "high_6k_plus_pct": 0.4
+        }
+      },
+      "energy_sections": [
+        {
+          "time_range": "00:00 - 00:08",
+          "duration_sec": 8.2,
+          "energy_score": 0.0,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "00:08 - 00:33",
+          "duration_sec": 24.6,
+          "energy_score": 0.25,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "00:33 - 01:04",
+          "duration_sec": 31.4,
+          "energy_score": 0.31,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "01:04 - 01:28",
+          "duration_sec": 23.9,
+          "energy_score": 0.61,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "01:28 - 01:38",
+          "duration_sec": 9.7,
+          "energy_score": 0.28,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "01:38 - 02:12",
+          "duration_sec": 34.6,
+          "energy_score": 0.39,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "02:12 - 03:11",
+          "duration_sec": 58.6,
+          "energy_score": 0.56,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "03:11 - 03:36",
+          "duration_sec": 25.0,
+          "energy_score": 0.1,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "03:36 - 04:28",
+          "duration_sec": 52.0,
+          "energy_score": 0.82,
+          "energy_level": "High / Peak"
+        }
+      ]
+    },
+    {
+      "track_index": 2,
+      "title": "A Slow Dance With the Empty Chair",
+      "time_range": "04:28 - 09:27",
+      "start_sec": 268.0,
+      "end_sec": 567.0,
+      "duration_sec": 299.0,
+      "duration_formatted": "04:59",
+      "tempo": {
+        "bpm": 123.0,
+        "bpm_rounded": 123,
+        "half_time_bpm": 61.5,
+        "double_time_bpm": 246.1,
+        "beat_stability": 0.96
+      },
+      "harmony": {
+        "primary_key": "D Minor",
+        "confidence": 0.841,
+        "secondary_key": "D Major",
+        "secondary_confidence": 0.73,
+        "dominant_notes": [
+          "D",
+          "A",
+          "G",
+          "E",
+          "F"
+        ]
+      },
+      "dynamics_and_mix": {
+        "mean_rms_db": -19.9,
+        "peak_db": -4.2,
+        "crest_factor_db": 15.7,
+        "compression_character": "Wide Dynamic / Breathing & Cinematic",
+        "frequency_energy_pct": {
+          "sub_bass_20_60Hz_pct": 16.4,
+          "bass_60_250Hz_pct": 56.7,
+          "low_mid_250_500Hz_pct": 15.9,
+          "mid_500_2000Hz_pct": 8.9,
+          "high_mid_2k_6kHz_pct": 1.6,
+          "high_6k_plus_pct": 0.4
+        }
+      },
+      "energy_sections": [
+        {
+          "time_range": "04:28 - 04:45",
+          "duration_sec": 17.4,
+          "energy_score": 0.12,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "04:45 - 05:34",
+          "duration_sec": 48.7,
+          "energy_score": 0.26,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "05:34 - 06:02",
+          "duration_sec": 28.1,
+          "energy_score": 0.54,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "06:02 - 06:56",
+          "duration_sec": 53.9,
+          "energy_score": 0.43,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "06:56 - 07:14",
+          "duration_sec": 17.9,
+          "energy_score": 0.13,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "07:14 - 07:42",
+          "duration_sec": 28.1,
+          "energy_score": 0.56,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "07:42 - 08:36",
+          "duration_sec": 53.8,
+          "energy_score": 0.48,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "08:36 - 09:00",
+          "duration_sec": 23.9,
+          "energy_score": 0.19,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "09:00 - 09:27",
+          "duration_sec": 27.2,
+          "energy_score": 0.46,
+          "energy_level": "Medium / Groove"
+        }
+      ]
+    },
+    {
+      "track_index": 3,
+      "title": "The Stitched-Heart Flash",
+      "time_range": "09:27 - 13:58",
+      "start_sec": 567.0,
+      "end_sec": 837.6,
+      "duration_sec": 270.6,
+      "duration_formatted": "04:31",
+      "tempo": {
+        "bpm": 117.5,
+        "bpm_rounded": 117,
+        "half_time_bpm": 58.7,
+        "double_time_bpm": 234.9,
+        "beat_stability": 0.95
+      },
+      "harmony": {
+        "primary_key": "D Minor",
+        "confidence": 0.872,
+        "secondary_key": "D Major",
+        "secondary_confidence": 0.66,
+        "dominant_notes": [
+          "A",
+          "D",
+          "E",
+          "F",
+          "G"
+        ]
+      },
+      "dynamics_and_mix": {
+        "mean_rms_db": -20.0,
+        "peak_db": -2.7,
+        "crest_factor_db": 17.2,
+        "compression_character": "Wide Dynamic / Breathing & Cinematic",
+        "frequency_energy_pct": {
+          "sub_bass_20_60Hz_pct": 9.1,
+          "bass_60_250Hz_pct": 37.4,
+          "low_mid_250_500Hz_pct": 38.3,
+          "mid_500_2000Hz_pct": 12.0,
+          "high_mid_2k_6kHz_pct": 2.4,
+          "high_6k_plus_pct": 0.8
+        }
+      },
+      "energy_sections": [
+        {
+          "time_range": "09:27 - 09:34",
+          "duration_sec": 7.3,
+          "energy_score": 0.0,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "09:34 - 10:09",
+          "duration_sec": 34.5,
+          "energy_score": 0.3,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "10:09 - 11:30",
+          "duration_sec": 81.3,
+          "energy_score": 0.56,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "11:30 - 11:38",
+          "duration_sec": 8.1,
+          "energy_score": 0.27,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "11:38 - 12:32",
+          "duration_sec": 54.0,
+          "energy_score": 0.6,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "12:32 - 13:04",
+          "duration_sec": 31.5,
+          "energy_score": 0.4,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "13:04 - 13:27",
+          "duration_sec": 23.6,
+          "energy_score": 0.77,
+          "energy_level": "High / Peak"
+        },
+        {
+          "time_range": "13:27 - 13:58",
+          "duration_sec": 30.4,
+          "energy_score": 0.42,
+          "energy_level": "Low / Atmospheric"
+        }
+      ]
+    }
+  ]
+}

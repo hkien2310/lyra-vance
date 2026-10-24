@@ -1,0 +1,395 @@
+{
+  "video_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-official-music-and-dance-video-you-move-it-for-the-soul-kelly/raw/video.mp4",
+  "video_info": {
+    "width": 1280,
+    "height": 720,
+    "fps": 29.97,
+    "duration_sec": 157.19
+  },
+  "shot_summary": {
+    "total_shots": 30,
+    "avg_shot_duration_sec": 5.24,
+    "min_shot_duration_sec": 2.94,
+    "max_shot_duration_sec": 7.01
+  },
+  "shot_sheets": [
+    {
+      "sheet_index": 1,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-official-music-and-dance-video-you-move-it-for-the-soul-kelly/raw/shot_sheets/shots_01_shot01_to_shot09.jpg",
+      "shots_range": "1-9",
+      "layout": "3x3 @ 1280px/tile"
+    },
+    {
+      "sheet_index": 2,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-official-music-and-dance-video-you-move-it-for-the-soul-kelly/raw/shot_sheets/shots_02_shot10_to_shot18.jpg",
+      "shots_range": "10-18",
+      "layout": "3x3 @ 1280px/tile"
+    },
+    {
+      "sheet_index": 3,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-official-music-and-dance-video-you-move-it-for-the-soul-kelly/raw/shot_sheets/shots_03_shot19_to_shot27.jpg",
+      "shots_range": "19-27",
+      "layout": "3x3 @ 1280px/tile"
+    },
+    {
+      "sheet_index": 4,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-official-music-and-dance-video-you-move-it-for-the-soul-kelly/raw/shot_sheets/shots_04_shot28_to_shot30.jpg",
+      "shots_range": "28-30",
+      "layout": "3x3 @ 1280px/tile"
+    }
+  ],
+  "grids": [
+    {
+      "grid_index": 1,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-official-music-and-dance-video-you-move-it-for-the-soul-kelly/raw/grids/grid_01_00m00s_00m15s.jpg",
+      "start_sec": 0.0,
+      "end_sec": 15.0,
+      "start_time": "00:00.0",
+      "end_time": "00:15.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 2,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-official-music-and-dance-video-you-move-it-for-the-soul-kelly/raw/grids/grid_02_00m15s_00m30s.jpg",
+      "start_sec": 15.0,
+      "end_sec": 30.0,
+      "start_time": "00:15.0",
+      "end_time": "00:30.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 3,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-official-music-and-dance-video-you-move-it-for-the-soul-kelly/raw/grids/grid_03_00m30s_00m45s.jpg",
+      "start_sec": 30.0,
+      "end_sec": 45.0,
+      "start_time": "00:30.0",
+      "end_time": "00:45.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 4,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-official-music-and-dance-video-you-move-it-for-the-soul-kelly/raw/grids/grid_04_00m45s_01m00s.jpg",
+      "start_sec": 45.0,
+      "end_sec": 60.0,
+      "start_time": "00:45.0",
+      "end_time": "01:00.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 5,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-official-music-and-dance-video-you-move-it-for-the-soul-kelly/raw/grids/grid_05_01m00s_01m15s.jpg",
+      "start_sec": 60.0,
+      "end_sec": 75.0,
+      "start_time": "01:00.0",
+      "end_time": "01:15.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 6,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-official-music-and-dance-video-you-move-it-for-the-soul-kelly/raw/grids/grid_06_01m15s_01m30s.jpg",
+      "start_sec": 75.0,
+      "end_sec": 90.0,
+      "start_time": "01:15.0",
+      "end_time": "01:30.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 7,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-official-music-and-dance-video-you-move-it-for-the-soul-kelly/raw/grids/grid_07_01m30s_01m45s.jpg",
+      "start_sec": 90.0,
+      "end_sec": 105.0,
+      "start_time": "01:30.0",
+      "end_time": "01:45.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 8,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-official-music-and-dance-video-you-move-it-for-the-soul-kelly/raw/grids/grid_08_01m45s_02m00s.jpg",
+      "start_sec": 105.0,
+      "end_sec": 120.0,
+      "start_time": "01:45.0",
+      "end_time": "02:00.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 9,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-official-music-and-dance-video-you-move-it-for-the-soul-kelly/raw/grids/grid_09_02m00s_02m15s.jpg",
+      "start_sec": 120.0,
+      "end_sec": 135.0,
+      "start_time": "02:00.0",
+      "end_time": "02:15.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 10,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-official-music-and-dance-video-you-move-it-for-the-soul-kelly/raw/grids/grid_10_02m15s_02m30s.jpg",
+      "start_sec": 135.0,
+      "end_sec": 150.0,
+      "start_time": "02:15.0",
+      "end_time": "02:30.0",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    },
+    {
+      "grid_index": 11,
+      "file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-official-music-and-dance-video-you-move-it-for-the-soul-kelly/raw/grids/grid_11_02m30s_02m37s.jpg",
+      "start_sec": 150.0,
+      "end_sec": 157.19,
+      "start_time": "02:30.0",
+      "end_time": "02:37.2",
+      "fps": 4,
+      "layout": "6x10 (tile_w=720px, mỗi hàng 6 hình = 1.5s, mỗi ô = 0.25s)"
+    }
+  ],
+  "shots": [
+    {
+      "shot_index": 1,
+      "start_sec": 0.0,
+      "end_sec": 4.6,
+      "start_time": "00:00.0",
+      "end_time": "00:04.6",
+      "duration_sec": 4.6
+    },
+    {
+      "shot_index": 2,
+      "start_sec": 4.6,
+      "end_sec": 10.11,
+      "start_time": "00:04.6",
+      "end_time": "00:10.1",
+      "duration_sec": 5.51
+    },
+    {
+      "shot_index": 3,
+      "start_sec": 10.11,
+      "end_sec": 14.45,
+      "start_time": "00:10.1",
+      "end_time": "00:14.4",
+      "duration_sec": 4.34
+    },
+    {
+      "shot_index": 4,
+      "start_sec": 14.45,
+      "end_sec": 17.78,
+      "start_time": "00:14.4",
+      "end_time": "00:17.8",
+      "duration_sec": 3.33
+    },
+    {
+      "shot_index": 5,
+      "start_sec": 17.78,
+      "end_sec": 21.65,
+      "start_time": "00:17.8",
+      "end_time": "00:21.6",
+      "duration_sec": 3.87
+    },
+    {
+      "shot_index": 6,
+      "start_sec": 21.65,
+      "end_sec": 27.63,
+      "start_time": "00:21.6",
+      "end_time": "00:27.6",
+      "duration_sec": 5.98
+    },
+    {
+      "shot_index": 7,
+      "start_sec": 27.63,
+      "end_sec": 34.6,
+      "start_time": "00:27.6",
+      "end_time": "00:34.6",
+      "duration_sec": 6.97
+    },
+    {
+      "shot_index": 8,
+      "start_sec": 34.6,
+      "end_sec": 40.51,
+      "start_time": "00:34.6",
+      "end_time": "00:40.5",
+      "duration_sec": 5.91
+    },
+    {
+      "shot_index": 9,
+      "start_sec": 40.51,
+      "end_sec": 43.74,
+      "start_time": "00:40.5",
+      "end_time": "00:43.7",
+      "duration_sec": 3.23
+    },
+    {
+      "shot_index": 10,
+      "start_sec": 43.74,
+      "end_sec": 47.65,
+      "start_time": "00:43.7",
+      "end_time": "00:47.6",
+      "duration_sec": 3.91
+    },
+    {
+      "shot_index": 11,
+      "start_sec": 47.65,
+      "end_sec": 52.69,
+      "start_time": "00:47.6",
+      "end_time": "00:52.7",
+      "duration_sec": 5.04
+    },
+    {
+      "shot_index": 12,
+      "start_sec": 52.69,
+      "end_sec": 59.53,
+      "start_time": "00:52.7",
+      "end_time": "00:59.5",
+      "duration_sec": 6.84
+    },
+    {
+      "shot_index": 13,
+      "start_sec": 59.53,
+      "end_sec": 66.1,
+      "start_time": "00:59.5",
+      "end_time": "01:06.1",
+      "duration_sec": 6.57
+    },
+    {
+      "shot_index": 14,
+      "start_sec": 66.1,
+      "end_sec": 72.07,
+      "start_time": "01:06.1",
+      "end_time": "01:12.1",
+      "duration_sec": 5.97
+    },
+    {
+      "shot_index": 15,
+      "start_sec": 72.07,
+      "end_sec": 77.81,
+      "start_time": "01:12.1",
+      "end_time": "01:17.8",
+      "duration_sec": 5.74
+    },
+    {
+      "shot_index": 16,
+      "start_sec": 77.81,
+      "end_sec": 83.92,
+      "start_time": "01:17.8",
+      "end_time": "01:23.9",
+      "duration_sec": 6.11
+    },
+    {
+      "shot_index": 17,
+      "start_sec": 83.92,
+      "end_sec": 90.89,
+      "start_time": "01:23.9",
+      "end_time": "01:30.9",
+      "duration_sec": 6.97
+    },
+    {
+      "shot_index": 18,
+      "start_sec": 90.89,
+      "end_sec": 95.3,
+      "start_time": "01:30.9",
+      "end_time": "01:35.3",
+      "duration_sec": 4.41
+    },
+    {
+      "shot_index": 19,
+      "start_sec": 95.3,
+      "end_sec": 99.2,
+      "start_time": "01:35.3",
+      "end_time": "01:39.2",
+      "duration_sec": 3.9
+    },
+    {
+      "shot_index": 20,
+      "start_sec": 99.2,
+      "end_sec": 102.94,
+      "start_time": "01:39.2",
+      "end_time": "01:42.9",
+      "duration_sec": 3.74
+    },
+    {
+      "shot_index": 21,
+      "start_sec": 102.94,
+      "end_sec": 109.81,
+      "start_time": "01:42.9",
+      "end_time": "01:49.8",
+      "duration_sec": 6.87
+    },
+    {
+      "shot_index": 22,
+      "start_sec": 109.81,
+      "end_sec": 116.55,
+      "start_time": "01:49.8",
+      "end_time": "01:56.5",
+      "duration_sec": 6.74
+    },
+    {
+      "shot_index": 23,
+      "start_sec": 116.55,
+      "end_sec": 123.56,
+      "start_time": "01:56.5",
+      "end_time": "02:03.6",
+      "duration_sec": 7.01
+    },
+    {
+      "shot_index": 24,
+      "start_sec": 123.56,
+      "end_sec": 129.23,
+      "start_time": "02:03.6",
+      "end_time": "02:09.2",
+      "duration_sec": 5.67
+    },
+    {
+      "shot_index": 25,
+      "start_sec": 129.23,
+      "end_sec": 133.93,
+      "start_time": "02:09.2",
+      "end_time": "02:13.9",
+      "duration_sec": 4.7
+    },
+    {
+      "shot_index": 26,
+      "start_sec": 133.93,
+      "end_sec": 138.27,
+      "start_time": "02:13.9",
+      "end_time": "02:18.3",
+      "duration_sec": 4.34
+    },
+    {
+      "shot_index": 27,
+      "start_sec": 138.27,
+      "end_sec": 144.31,
+      "start_time": "02:18.3",
+      "end_time": "02:24.3",
+      "duration_sec": 6.04
+    },
+    {
+      "shot_index": 28,
+      "start_sec": 144.31,
+      "end_sec": 147.25,
+      "start_time": "02:24.3",
+      "end_time": "02:27.2",
+      "duration_sec": 2.94
+    },
+    {
+      "shot_index": 29,
+      "start_sec": 147.25,
+      "end_sec": 151.68,
+      "start_time": "02:27.2",
+      "end_time": "02:31.7",
+      "duration_sec": 4.43
+    },
+    {
+      "shot_index": 30,
+      "start_sec": 151.68,
+      "end_sec": 157.19,
+      "start_time": "02:31.7",
+      "end_time": "02:37.2",
+      "duration_sec": 5.51
+    }
+  ]
+}

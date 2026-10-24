@@ -1,0 +1,73 @@
+{
+  "source_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-official-music-video-flying-with-my-dreams-kelly-boesch/raw/video.mp4",
+  "listen_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-official-music-video-flying-with-my-dreams-kelly-boesch/raw/listen.mp3",
+  "track_count": 1,
+  "duration_sec": 173.4,
+  "duration_formatted": "02:53",
+  "tempo": {
+    "bpm": 89.1,
+    "bpm_rounded": 89,
+    "half_time_bpm": 44.6,
+    "double_time_bpm": 178.2,
+    "beat_stability": 0.98
+  },
+  "harmony": {
+    "primary_key": "A Minor",
+    "confidence": 0.713,
+    "secondary_key": "D Minor",
+    "secondary_confidence": 0.704,
+    "dominant_notes": [
+      "D",
+      "A",
+      "E",
+      "C",
+      "D#"
+    ]
+  },
+  "dynamics_and_mix": {
+    "mean_rms_db": -14.9,
+    "peak_db": -0.8,
+    "crest_factor_db": 14.1,
+    "compression_character": "Balanced / Punchy Dynamic",
+    "frequency_energy_pct": {
+      "sub_bass_20_60Hz_pct": 12.9,
+      "bass_60_250Hz_pct": 44.1,
+      "low_mid_250_500Hz_pct": 17.5,
+      "mid_500_2000Hz_pct": 20.2,
+      "high_mid_2k_6kHz_pct": 4.4,
+      "high_6k_plus_pct": 0.8
+    }
+  },
+  "energy_sections": [
+    {
+      "time_range": "00:00 - 00:21",
+      "duration_sec": 21.0,
+      "energy_score": 0.04,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "00:21 - 00:57",
+      "duration_sec": 35.8,
+      "energy_score": 0.43,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "00:57 - 02:05",
+      "duration_sec": 67.9,
+      "energy_score": 0.49,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "02:05 - 02:24",
+      "duration_sec": 19.8,
+      "energy_score": 0.59,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "02:24 - 02:53",
+      "duration_sec": 29.0,
+      "energy_score": 0.47,
+      "energy_level": "Medium / Groove"
+    }
+  ]
+}

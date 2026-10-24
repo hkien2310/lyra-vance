@@ -1,0 +1,79 @@
+{
+  "source_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-official-music-video-bite-my-lip-kelly-boesch/raw/video.mp4",
+  "listen_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-official-music-video-bite-my-lip-kelly-boesch/raw/listen.mp3",
+  "track_count": 1,
+  "duration_sec": 178.5,
+  "duration_formatted": "02:59",
+  "tempo": {
+    "bpm": 123.0,
+    "bpm_rounded": 123,
+    "half_time_bpm": 61.5,
+    "double_time_bpm": 246.1,
+    "beat_stability": 0.97
+  },
+  "harmony": {
+    "primary_key": "B Minor",
+    "confidence": 0.769,
+    "secondary_key": "B Major",
+    "secondary_confidence": 0.593,
+    "dominant_notes": [
+      "B",
+      "C#",
+      "F#",
+      "C",
+      "D"
+    ]
+  },
+  "dynamics_and_mix": {
+    "mean_rms_db": -16.0,
+    "peak_db": -1.8,
+    "crest_factor_db": 14.2,
+    "compression_character": "Balanced / Punchy Dynamic",
+    "frequency_energy_pct": {
+      "sub_bass_20_60Hz_pct": 21.4,
+      "bass_60_250Hz_pct": 57.1,
+      "low_mid_250_500Hz_pct": 10.4,
+      "mid_500_2000Hz_pct": 7.6,
+      "high_mid_2k_6kHz_pct": 2.3,
+      "high_6k_plus_pct": 1.1
+    }
+  },
+  "energy_sections": [
+    {
+      "time_range": "00:00 - 00:11",
+      "duration_sec": 10.6,
+      "energy_score": 0.07,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "00:11 - 00:30",
+      "duration_sec": 19.5,
+      "energy_score": 0.36,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "00:30 - 01:15",
+      "duration_sec": 45.3,
+      "energy_score": 0.44,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "01:15 - 01:49",
+      "duration_sec": 33.7,
+      "energy_score": 0.41,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "01:49 - 02:42",
+      "duration_sec": 52.8,
+      "energy_score": 0.46,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "02:42 - 02:59",
+      "duration_sec": 16.6,
+      "energy_score": 0.2,
+      "energy_level": "Low / Atmospheric"
+    }
+  ]
+}

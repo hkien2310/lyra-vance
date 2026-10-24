@@ -1,0 +1,79 @@
+{
+  "source_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/creative-ai-dance-video-i-m-living-in-color-kelly-boesch/raw/video.mp4",
+  "listen_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/creative-ai-dance-video-i-m-living-in-color-kelly-boesch/raw/listen.mp3",
+  "track_count": 1,
+  "duration_sec": 166.9,
+  "duration_formatted": "02:47",
+  "tempo": {
+    "bpm": 123.0,
+    "bpm_rounded": 123,
+    "half_time_bpm": 61.5,
+    "double_time_bpm": 246.1,
+    "beat_stability": 0.96
+  },
+  "harmony": {
+    "primary_key": "D# Major",
+    "confidence": 0.743,
+    "secondary_key": "D# Minor",
+    "secondary_confidence": 0.678,
+    "dominant_notes": [
+      "D#",
+      "A#",
+      "C#",
+      "D",
+      "G#"
+    ]
+  },
+  "dynamics_and_mix": {
+    "mean_rms_db": -18.1,
+    "peak_db": -3.7,
+    "crest_factor_db": 14.4,
+    "compression_character": "Balanced / Punchy Dynamic",
+    "frequency_energy_pct": {
+      "sub_bass_20_60Hz_pct": 20.0,
+      "bass_60_250Hz_pct": 44.8,
+      "low_mid_250_500Hz_pct": 9.4,
+      "mid_500_2000Hz_pct": 18.8,
+      "high_mid_2k_6kHz_pct": 4.1,
+      "high_6k_plus_pct": 2.8
+    }
+  },
+  "energy_sections": [
+    {
+      "time_range": "00:00 - 00:07",
+      "duration_sec": 7.5,
+      "energy_score": 0.0,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "00:07 - 00:31",
+      "duration_sec": 23.5,
+      "energy_score": 0.24,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "00:31 - 01:12",
+      "duration_sec": 41.4,
+      "energy_score": 0.5,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "01:12 - 01:25",
+      "duration_sec": 13.0,
+      "energy_score": 0.15,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "01:25 - 02:14",
+      "duration_sec": 48.8,
+      "energy_score": 0.53,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "02:14 - 02:47",
+      "duration_sec": 32.7,
+      "energy_score": 0.31,
+      "energy_level": "Low / Atmospheric"
+    }
+  ]
+}

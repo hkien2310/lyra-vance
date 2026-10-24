@@ -1,0 +1,73 @@
+{
+  "source_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/dreamlike-ai-dance-short-film-i-love-the-dance-kelly-boesch/raw/video.mp4",
+  "listen_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/dreamlike-ai-dance-short-film-i-love-the-dance-kelly-boesch/raw/listen.mp3",
+  "track_count": 1,
+  "duration_sec": 179.6,
+  "duration_formatted": "03:00",
+  "tempo": {
+    "bpm": 123.0,
+    "bpm_rounded": 123,
+    "half_time_bpm": 61.5,
+    "double_time_bpm": 246.1,
+    "beat_stability": 0.98
+  },
+  "harmony": {
+    "primary_key": "G Major",
+    "confidence": 0.689,
+    "secondary_key": "G Minor",
+    "secondary_confidence": 0.658,
+    "dominant_notes": [
+      "D",
+      "G",
+      "F",
+      "F#",
+      "C#"
+    ]
+  },
+  "dynamics_and_mix": {
+    "mean_rms_db": -17.5,
+    "peak_db": -4.4,
+    "crest_factor_db": 13.1,
+    "compression_character": "Balanced / Punchy Dynamic",
+    "frequency_energy_pct": {
+      "sub_bass_20_60Hz_pct": 23.2,
+      "bass_60_250Hz_pct": 52.0,
+      "low_mid_250_500Hz_pct": 11.4,
+      "mid_500_2000Hz_pct": 12.6,
+      "high_mid_2k_6kHz_pct": 0.6,
+      "high_6k_plus_pct": 0.1
+    }
+  },
+  "energy_sections": [
+    {
+      "time_range": "00:00 - 00:19",
+      "duration_sec": 18.8,
+      "energy_score": 0.16,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "00:19 - 02:01",
+      "duration_sec": 102.0,
+      "energy_score": 0.42,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "02:01 - 02:38",
+      "duration_sec": 37.5,
+      "energy_score": 0.48,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "02:38 - 02:54",
+      "duration_sec": 16.1,
+      "energy_score": 0.55,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "02:54 - 03:00",
+      "duration_sec": 5.2,
+      "energy_score": 0.0,
+      "energy_level": "Low / Atmospheric"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "source_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/kelly-boesch-official-music-video-beautiful-things-4k/raw/video.mp4",
+  "listen_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/kelly-boesch-official-music-video-beautiful-things-4k/raw/listen.mp3",
+  "track_count": 1,
+  "duration_sec": 212.7,
+  "duration_formatted": "03:33",
+  "tempo": {
+    "bpm": 123.0,
+    "bpm_rounded": 123,
+    "half_time_bpm": 61.5,
+    "double_time_bpm": 246.1,
+    "beat_stability": 0.97
+  },
+  "harmony": {
+    "primary_key": "C Minor",
+    "confidence": 0.758,
+    "secondary_key": "F Minor",
+    "secondary_confidence": 0.669,
+    "dominant_notes": [
+      "C",
+      "C#",
+      "F",
+      "D#",
+      "D"
+    ]
+  },
+  "dynamics_and_mix": {
+    "mean_rms_db": -16.3,
+    "peak_db": 0.5,
+    "crest_factor_db": 16.7,
+    "compression_character": "Wide Dynamic / Breathing & Cinematic",
+    "frequency_energy_pct": {
+      "sub_bass_20_60Hz_pct": 21.8,
+      "bass_60_250Hz_pct": 45.2,
+      "low_mid_250_500Hz_pct": 10.1,
+      "mid_500_2000Hz_pct": 16.2,
+      "high_mid_2k_6kHz_pct": 5.1,
+      "high_6k_plus_pct": 1.6
+    }
+  },
+  "energy_sections": [
+    {
+      "time_range": "00:00 - 00:05",
+      "duration_sec": 4.9,
+      "energy_score": 0.05,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "00:05 - 00:17",
+      "duration_sec": 12.1,
+      "energy_score": 0.24,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "00:17 - 00:47",
+      "duration_sec": 30.0,
+      "energy_score": 0.47,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "00:47 - 02:38",
+      "duration_sec": 110.9,
+      "energy_score": 0.48,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "02:38 - 02:57",
+      "duration_sec": 19.5,
+      "energy_score": 0.08,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "02:57 - 03:13",
+      "duration_sec": 15.7,
+      "energy_score": 0.56,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "03:13 - 03:25",
+      "duration_sec": 12.3,
+      "energy_score": 0.1,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "03:25 - 03:33",
+      "duration_sec": 7.3,
+      "energy_score": 0.0,
+      "energy_level": "Low / Atmospheric"
+    }
+  ]
+}

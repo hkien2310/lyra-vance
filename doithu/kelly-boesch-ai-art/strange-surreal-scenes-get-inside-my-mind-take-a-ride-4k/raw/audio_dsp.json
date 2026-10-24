@@ -1,0 +1,73 @@
+{
+  "source_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/strange-surreal-scenes-get-inside-my-mind-take-a-ride-4k/raw/video.mp4",
+  "listen_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/strange-surreal-scenes-get-inside-my-mind-take-a-ride-4k/raw/listen.mp3",
+  "track_count": 1,
+  "duration_sec": 179.1,
+  "duration_formatted": "02:59",
+  "tempo": {
+    "bpm": 83.4,
+    "bpm_rounded": 83,
+    "half_time_bpm": 41.7,
+    "double_time_bpm": 166.7,
+    "beat_stability": 0.96
+  },
+  "harmony": {
+    "primary_key": "C Minor",
+    "confidence": 0.702,
+    "secondary_key": "C Major",
+    "secondary_confidence": 0.561,
+    "dominant_notes": [
+      "C",
+      "D",
+      "G",
+      "C#",
+      "A#"
+    ]
+  },
+  "dynamics_and_mix": {
+    "mean_rms_db": -16.0,
+    "peak_db": 0.1,
+    "crest_factor_db": 16.1,
+    "compression_character": "Wide Dynamic / Breathing & Cinematic",
+    "frequency_energy_pct": {
+      "sub_bass_20_60Hz_pct": 46.1,
+      "bass_60_250Hz_pct": 41.8,
+      "low_mid_250_500Hz_pct": 5.4,
+      "mid_500_2000Hz_pct": 5.9,
+      "high_mid_2k_6kHz_pct": 0.3,
+      "high_6k_plus_pct": 0.5
+    }
+  },
+  "energy_sections": [
+    {
+      "time_range": "00:00 - 00:18",
+      "duration_sec": 18.1,
+      "energy_score": 0.29,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "00:18 - 01:53",
+      "duration_sec": 94.4,
+      "energy_score": 0.45,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "01:53 - 02:06",
+      "duration_sec": 13.3,
+      "energy_score": 0.07,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "02:06 - 02:52",
+      "duration_sec": 46.0,
+      "energy_score": 0.54,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "02:52 - 02:59",
+      "duration_sec": 7.3,
+      "energy_score": 0.0,
+      "energy_level": "Low / Atmospheric"
+    }
+  ]
+}

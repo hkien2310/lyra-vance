@@ -1,0 +1,309 @@
+{
+  "source_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/surreal-ai/surreal-ai-film-the-house-that-waited-for-us/raw/video.mp4",
+  "listen_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/surreal-ai/surreal-ai-film-the-house-that-waited-for-us/raw/listen.mp3",
+  "track_count": 2,
+  "duration_sec": 566.7,
+  "duration_formatted": "09:27",
+  "tempo": {
+    "bpm": 123.0,
+    "bpm_rounded": 123,
+    "half_time_bpm": 61.5,
+    "double_time_bpm": 246.1,
+    "beat_stability": 0.97
+  },
+  "harmony": {
+    "primary_key": "C# Minor",
+    "confidence": 0.37,
+    "secondary_key": "C Minor",
+    "secondary_confidence": 0.273,
+    "dominant_notes": [
+      "C#",
+      "D#",
+      "D",
+      "C",
+      "E"
+    ]
+  },
+  "dynamics_and_mix": {
+    "mean_rms_db": -18.7,
+    "peak_db": -4.1,
+    "crest_factor_db": 14.6,
+    "compression_character": "Balanced / Punchy Dynamic",
+    "frequency_energy_pct": {
+      "sub_bass_20_60Hz_pct": 29.6,
+      "bass_60_250Hz_pct": 50.8,
+      "low_mid_250_500Hz_pct": 6.7,
+      "mid_500_2000Hz_pct": 9.8,
+      "high_mid_2k_6kHz_pct": 1.9,
+      "high_6k_plus_pct": 1.2
+    }
+  },
+  "energy_sections": [
+    {
+      "time_range": "00:00 - 00:52",
+      "duration_sec": 52.4,
+      "energy_score": 0.28,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "00:52 - 03:44",
+      "duration_sec": 171.4,
+      "energy_score": 0.44,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "03:44 - 03:57",
+      "duration_sec": 13.5,
+      "energy_score": 0.06,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "03:57 - 04:33",
+      "duration_sec": 35.5,
+      "energy_score": 0.49,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "04:33 - 05:05",
+      "duration_sec": 32.3,
+      "energy_score": 0.14,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "05:05 - 05:55",
+      "duration_sec": 49.8,
+      "energy_score": 0.29,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "05:55 - 07:38",
+      "duration_sec": 103.5,
+      "energy_score": 0.51,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "07:38 - 08:05",
+      "duration_sec": 26.2,
+      "energy_score": 0.13,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "08:05 - 09:18",
+      "duration_sec": 73.0,
+      "energy_score": 0.52,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "09:18 - 09:27",
+      "duration_sec": 9.1,
+      "energy_score": 0.09,
+      "energy_level": "Low / Atmospheric"
+    }
+  ],
+  "tracks": [
+    {
+      "track_index": 1,
+      "title": "A Million Miles For This",
+      "time_range": "00:00 - 04:37",
+      "start_sec": 0.0,
+      "end_sec": 277.0,
+      "duration_sec": 277.0,
+      "duration_formatted": "04:37",
+      "tempo": {
+        "bpm": 123.0,
+        "bpm_rounded": 123,
+        "half_time_bpm": 61.5,
+        "double_time_bpm": 246.1,
+        "beat_stability": 0.97
+      },
+      "harmony": {
+        "primary_key": "E Minor",
+        "confidence": 0.707,
+        "secondary_key": "G Major",
+        "secondary_confidence": 0.615,
+        "dominant_notes": [
+          "D",
+          "E",
+          "C",
+          "C#",
+          "B"
+        ]
+      },
+      "dynamics_and_mix": {
+        "mean_rms_db": -18.5,
+        "peak_db": -4.7,
+        "crest_factor_db": 13.8,
+        "compression_character": "Balanced / Punchy Dynamic",
+        "frequency_energy_pct": {
+          "sub_bass_20_60Hz_pct": 26.2,
+          "bass_60_250Hz_pct": 52.5,
+          "low_mid_250_500Hz_pct": 5.1,
+          "mid_500_2000Hz_pct": 12.4,
+          "high_mid_2k_6kHz_pct": 2.3,
+          "high_6k_plus_pct": 1.3
+        }
+      },
+      "energy_sections": [
+        {
+          "time_range": "00:00 - 00:16",
+          "duration_sec": 16.3,
+          "energy_score": 0.06,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "00:16 - 00:52",
+          "duration_sec": 36.1,
+          "energy_score": 0.36,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "00:52 - 01:39",
+          "duration_sec": 46.3,
+          "energy_score": 0.47,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "01:39 - 02:12",
+          "duration_sec": 33.6,
+          "energy_score": 0.51,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "02:12 - 02:31",
+          "duration_sec": 18.2,
+          "energy_score": 0.2,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "02:31 - 03:44",
+          "duration_sec": 73.2,
+          "energy_score": 0.43,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "03:44 - 03:57",
+          "duration_sec": 13.5,
+          "energy_score": 0.04,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "03:57 - 04:33",
+          "duration_sec": 35.5,
+          "energy_score": 0.48,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "04:33 - 04:37",
+          "duration_sec": 4.2,
+          "energy_score": 0.16,
+          "energy_level": "Low / Atmospheric"
+        }
+      ]
+    },
+    {
+      "track_index": 2,
+      "title": "The House That Waited For Us",
+      "time_range": "04:37 - 09:27",
+      "start_sec": 277.0,
+      "end_sec": 566.7,
+      "duration_sec": 289.7,
+      "duration_formatted": "04:50",
+      "tempo": {
+        "bpm": 123.0,
+        "bpm_rounded": 123,
+        "half_time_bpm": 61.5,
+        "double_time_bpm": 246.1,
+        "beat_stability": 0.97
+      },
+      "harmony": {
+        "primary_key": "D# Minor",
+        "confidence": 0.62,
+        "secondary_key": "A# Minor",
+        "secondary_confidence": 0.519,
+        "dominant_notes": [
+          "D#",
+          "C#",
+          "D",
+          "A#",
+          "C"
+        ]
+      },
+      "dynamics_and_mix": {
+        "mean_rms_db": -18.9,
+        "peak_db": -4.1,
+        "crest_factor_db": 14.8,
+        "compression_character": "Balanced / Punchy Dynamic",
+        "frequency_energy_pct": {
+          "sub_bass_20_60Hz_pct": 32.7,
+          "bass_60_250Hz_pct": 49.2,
+          "low_mid_250_500Hz_pct": 8.2,
+          "mid_500_2000Hz_pct": 7.2,
+          "high_mid_2k_6kHz_pct": 1.5,
+          "high_6k_plus_pct": 1.1
+        }
+      },
+      "energy_sections": [
+        {
+          "time_range": "04:37 - 04:49",
+          "duration_sec": 12.0,
+          "energy_score": 0.0,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "04:49 - 05:21",
+          "duration_sec": 31.6,
+          "energy_score": 0.26,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "05:21 - 06:29",
+          "duration_sec": 68.7,
+          "energy_score": 0.4,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "06:29 - 06:34",
+          "duration_sec": 4.4,
+          "energy_score": 0.14,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "06:34 - 07:38",
+          "duration_sec": 64.6,
+          "energy_score": 0.56,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "07:38 - 08:05",
+          "duration_sec": 26.2,
+          "energy_score": 0.14,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "08:05 - 08:40",
+          "duration_sec": 35.3,
+          "energy_score": 0.52,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "08:40 - 08:45",
+          "duration_sec": 4.8,
+          "energy_score": 0.15,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "08:45 - 09:18",
+          "duration_sec": 32.9,
+          "energy_score": 0.59,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "09:18 - 09:27",
+          "duration_sec": 9.1,
+          "energy_score": 0.11,
+          "energy_level": "Low / Atmospheric"
+        }
+      ]
+    }
+  ]
+}

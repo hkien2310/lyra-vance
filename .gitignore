@@ -1,0 +1,21 @@
+# macOS & Python
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Heavy media & generated grids in competitor reference library (raw/)
+doithu/**/raw/*.mp4
+doithu/**/raw/*.mov
+doithu/**/raw/*.mkv
+doithu/**/raw/*.webm
+doithu/**/raw/*.mp3
+doithu/**/raw/*.wav
+doithu/**/raw/grids/
+doithu/**/raw/shot_sheets/
+
+# Legacy project raw files if any
+projects/**/doi-thu/*.mp4
+projects/**/doi-thu/*.mp3
+projects/**/doi-thu/grids/
+projects/**/doi-thu/shot_sheets/
+*.zip

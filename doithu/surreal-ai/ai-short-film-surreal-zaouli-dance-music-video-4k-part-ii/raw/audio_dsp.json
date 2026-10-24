@@ -1,0 +1,441 @@
+{
+  "source_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/surreal-ai/ai-short-film-surreal-zaouli-dance-music-video-4k-part-ii/raw/video.mp4",
+  "listen_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/surreal-ai/ai-short-film-surreal-zaouli-dance-music-video-4k-part-ii/raw/listen.mp3",
+  "track_count": 4,
+  "duration_sec": 777.5,
+  "duration_formatted": "12:57",
+  "tempo": {
+    "bpm": 112.3,
+    "bpm_rounded": 112,
+    "half_time_bpm": 56.2,
+    "double_time_bpm": 224.7,
+    "beat_stability": 0.96
+  },
+  "harmony": {
+    "primary_key": "G Minor",
+    "confidence": 0.407,
+    "secondary_key": "D Minor",
+    "secondary_confidence": 0.397,
+    "dominant_notes": [
+      "D",
+      "C#",
+      "A#",
+      "D#",
+      "C"
+    ]
+  },
+  "dynamics_and_mix": {
+    "mean_rms_db": -18.9,
+    "peak_db": -3.0,
+    "crest_factor_db": 15.9,
+    "compression_character": "Wide Dynamic / Breathing & Cinematic",
+    "frequency_energy_pct": {
+      "sub_bass_20_60Hz_pct": 22.0,
+      "bass_60_250Hz_pct": 40.7,
+      "low_mid_250_500Hz_pct": 9.3,
+      "mid_500_2000Hz_pct": 21.2,
+      "high_mid_2k_6kHz_pct": 5.0,
+      "high_6k_plus_pct": 1.7
+    }
+  },
+  "energy_sections": [
+    {
+      "time_range": "00:00 - 00:50",
+      "duration_sec": 49.6,
+      "energy_score": 0.14,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "00:50 - 03:10",
+      "duration_sec": 140.4,
+      "energy_score": 0.47,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "03:10 - 03:46",
+      "duration_sec": 35.8,
+      "energy_score": 0.22,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "03:46 - 06:19",
+      "duration_sec": 153.0,
+      "energy_score": 0.51,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "06:19 - 06:37",
+      "duration_sec": 17.8,
+      "energy_score": 0.0,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "06:37 - 07:25",
+      "duration_sec": 48.0,
+      "energy_score": 0.26,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "07:25 - 09:01",
+      "duration_sec": 96.8,
+      "energy_score": 0.54,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "09:01 - 09:23",
+      "duration_sec": 21.3,
+      "energy_score": 0.21,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "09:23 - 12:57",
+      "duration_sec": 214.8,
+      "energy_score": 0.46,
+      "energy_level": "Medium / Groove"
+    }
+  ],
+  "tracks": [
+    {
+      "track_index": 1,
+      "title": "One More Stomp (Stay for the Light)",
+      "time_range": "00:00 - 03:11",
+      "start_sec": 0.0,
+      "end_sec": 191.0,
+      "duration_sec": 191.0,
+      "duration_formatted": "03:11",
+      "tempo": {
+        "bpm": 117.5,
+        "bpm_rounded": 117,
+        "half_time_bpm": 58.7,
+        "double_time_bpm": 234.9,
+        "beat_stability": 0.98
+      },
+      "harmony": {
+        "primary_key": "G Major",
+        "confidence": 0.776,
+        "secondary_key": "E Minor",
+        "secondary_confidence": 0.678,
+        "dominant_notes": [
+          "D",
+          "G",
+          "E",
+          "C",
+          "C#"
+        ]
+      },
+      "dynamics_and_mix": {
+        "mean_rms_db": -19.4,
+        "peak_db": -3.0,
+        "crest_factor_db": 16.5,
+        "compression_character": "Wide Dynamic / Breathing & Cinematic",
+        "frequency_energy_pct": {
+          "sub_bass_20_60Hz_pct": 29.6,
+          "bass_60_250Hz_pct": 34.7,
+          "low_mid_250_500Hz_pct": 7.9,
+          "mid_500_2000Hz_pct": 20.8,
+          "high_mid_2k_6kHz_pct": 5.4,
+          "high_6k_plus_pct": 1.6
+        }
+      },
+      "energy_sections": [
+        {
+          "time_range": "00:00 - 00:12",
+          "duration_sec": 12.5,
+          "energy_score": 0.04,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "00:12 - 00:50",
+          "duration_sec": 37.1,
+          "energy_score": 0.23,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "00:50 - 01:47",
+          "duration_sec": 57.0,
+          "energy_score": 0.47,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "01:47 - 02:12",
+          "duration_sec": 25.5,
+          "energy_score": 0.71,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "02:12 - 02:44",
+          "duration_sec": 31.4,
+          "energy_score": 0.25,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "02:44 - 03:07",
+          "duration_sec": 23.5,
+          "energy_score": 0.82,
+          "energy_level": "High / Peak"
+        },
+        {
+          "time_range": "03:07 - 03:11",
+          "duration_sec": 4.0,
+          "energy_score": 0.0,
+          "energy_level": "Low / Atmospheric"
+        }
+      ]
+    },
+    {
+      "track_index": 2,
+      "title": "Still Moving in the Dark",
+      "time_range": "03:11 - 06:31",
+      "start_sec": 191.0,
+      "end_sec": 391.0,
+      "duration_sec": 200.0,
+      "duration_formatted": "03:20",
+      "tempo": {
+        "bpm": 112.3,
+        "bpm_rounded": 112,
+        "half_time_bpm": 56.2,
+        "double_time_bpm": 224.7,
+        "beat_stability": 0.96
+      },
+      "harmony": {
+        "primary_key": "D Minor",
+        "confidence": 0.881,
+        "secondary_key": "D Major",
+        "secondary_confidence": 0.619,
+        "dominant_notes": [
+          "D",
+          "A",
+          "C",
+          "C#",
+          "F"
+        ]
+      },
+      "dynamics_and_mix": {
+        "mean_rms_db": -18.8,
+        "peak_db": -3.6,
+        "crest_factor_db": 15.2,
+        "compression_character": "Wide Dynamic / Breathing & Cinematic",
+        "frequency_energy_pct": {
+          "sub_bass_20_60Hz_pct": 23.7,
+          "bass_60_250Hz_pct": 38.5,
+          "low_mid_250_500Hz_pct": 8.0,
+          "mid_500_2000Hz_pct": 22.2,
+          "high_mid_2k_6kHz_pct": 5.9,
+          "high_6k_plus_pct": 1.7
+        }
+      },
+      "energy_sections": [
+        {
+          "time_range": "03:11 - 03:28",
+          "duration_sec": 17.4,
+          "energy_score": 0.05,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "03:28 - 03:46",
+          "duration_sec": 17.4,
+          "energy_score": 0.44,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "03:46 - 04:17",
+          "duration_sec": 30.9,
+          "energy_score": 0.44,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "04:17 - 05:55",
+          "duration_sec": 98.7,
+          "energy_score": 0.5,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "05:55 - 06:04",
+          "duration_sec": 8.1,
+          "energy_score": 0.25,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "06:04 - 06:19",
+          "duration_sec": 15.3,
+          "energy_score": 0.77,
+          "energy_level": "High / Peak"
+        },
+        {
+          "time_range": "06:19 - 06:31",
+          "duration_sec": 12.2,
+          "energy_score": 0.08,
+          "energy_level": "Low / Atmospheric"
+        }
+      ]
+    },
+    {
+      "track_index": 3,
+      "title": "We Don’t Dance Alone",
+      "time_range": "06:31 - 09:47",
+      "start_sec": 391.0,
+      "end_sec": 587.0,
+      "duration_sec": 196.0,
+      "duration_formatted": "03:16",
+      "tempo": {
+        "bpm": 107.7,
+        "bpm_rounded": 108,
+        "half_time_bpm": 53.8,
+        "double_time_bpm": 215.3,
+        "beat_stability": 0.97
+      },
+      "harmony": {
+        "primary_key": "A# Minor",
+        "confidence": 0.922,
+        "secondary_key": "A# Major",
+        "secondary_confidence": 0.549,
+        "dominant_notes": [
+          "A#",
+          "C#",
+          "C",
+          "D#",
+          "G#"
+        ]
+      },
+      "dynamics_and_mix": {
+        "mean_rms_db": -18.8,
+        "peak_db": -4.0,
+        "crest_factor_db": 14.8,
+        "compression_character": "Balanced / Punchy Dynamic",
+        "frequency_energy_pct": {
+          "sub_bass_20_60Hz_pct": 23.8,
+          "bass_60_250Hz_pct": 40.7,
+          "low_mid_250_500Hz_pct": 9.8,
+          "mid_500_2000Hz_pct": 18.1,
+          "high_mid_2k_6kHz_pct": 5.4,
+          "high_6k_plus_pct": 2.0
+        }
+      },
+      "energy_sections": [
+        {
+          "time_range": "06:31 - 06:37",
+          "duration_sec": 5.6,
+          "energy_score": 0.0,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "06:37 - 06:57",
+          "duration_sec": 20.8,
+          "energy_score": 0.14,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "06:57 - 07:25",
+          "duration_sec": 27.3,
+          "energy_score": 0.28,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "07:25 - 08:15",
+          "duration_sec": 50.6,
+          "energy_score": 0.47,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "08:15 - 09:01",
+          "duration_sec": 46.1,
+          "energy_score": 0.52,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "09:01 - 09:23",
+          "duration_sec": 21.3,
+          "energy_score": 0.17,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "09:23 - 09:47",
+          "duration_sec": 24.3,
+          "energy_score": 0.58,
+          "energy_level": "Medium / Groove"
+        }
+      ]
+    },
+    {
+      "track_index": 4,
+      "title": "Lanterns in the Drum",
+      "time_range": "09:47 - 12:57",
+      "start_sec": 587.0,
+      "end_sec": 777.0,
+      "duration_sec": 190.0,
+      "duration_formatted": "03:10",
+      "tempo": {
+        "bpm": 112.3,
+        "bpm_rounded": 112,
+        "half_time_bpm": 56.2,
+        "double_time_bpm": 224.7,
+        "beat_stability": 0.98
+      },
+      "harmony": {
+        "primary_key": "D# Minor",
+        "confidence": 0.773,
+        "secondary_key": "F# Major",
+        "secondary_confidence": 0.692,
+        "dominant_notes": [
+          "D#",
+          "C#",
+          "F#",
+          "D",
+          "A#"
+        ]
+      },
+      "dynamics_and_mix": {
+        "mean_rms_db": -18.3,
+        "peak_db": -4.0,
+        "crest_factor_db": 14.3,
+        "compression_character": "Balanced / Punchy Dynamic",
+        "frequency_energy_pct": {
+          "sub_bass_20_60Hz_pct": 11.0,
+          "bass_60_250Hz_pct": 48.7,
+          "low_mid_250_500Hz_pct": 11.7,
+          "mid_500_2000Hz_pct": 23.6,
+          "high_mid_2k_6kHz_pct": 3.4,
+          "high_6k_plus_pct": 1.4
+        }
+      },
+      "energy_sections": [
+        {
+          "time_range": "09:47 - 09:56",
+          "duration_sec": 9.5,
+          "energy_score": 0.08,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "09:56 - 10:30",
+          "duration_sec": 34.0,
+          "energy_score": 0.35,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "10:30 - 11:47",
+          "duration_sec": 76.4,
+          "energy_score": 0.49,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "11:47 - 11:53",
+          "duration_sec": 5.9,
+          "energy_score": 0.23,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "11:53 - 12:19",
+          "duration_sec": 26.1,
+          "energy_score": 0.16,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "12:19 - 12:57",
+          "duration_sec": 38.1,
+          "energy_score": 0.48,
+          "energy_level": "Medium / Groove"
+        }
+      ]
+    }
+  ]
+}

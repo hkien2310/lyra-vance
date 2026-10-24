@@ -1,0 +1,103 @@
+{
+  "source_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/ai-film-compilation-kelly-boesch-s-ai-short-films-music-videos-4k/raw/video.mp4",
+  "listen_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/ai-film-compilation-kelly-boesch-s-ai-short-films-music-videos-4k/raw/listen.mp3",
+  "track_count": 1,
+  "duration_sec": 3722.1,
+  "duration_formatted": "62:02",
+  "tempo": {
+    "bpm": 123.0,
+    "bpm_rounded": 123,
+    "half_time_bpm": 61.5,
+    "double_time_bpm": 246.1,
+    "beat_stability": 0.96
+  },
+  "harmony": {
+    "primary_key": "A Major",
+    "confidence": 0.583,
+    "secondary_key": "A Minor",
+    "secondary_confidence": 0.537,
+    "dominant_notes": [
+      "D",
+      "E",
+      "C",
+      "C#",
+      "A"
+    ]
+  },
+  "dynamics_and_mix": {
+    "mean_rms_db": -18.8,
+    "peak_db": 0.5,
+    "crest_factor_db": 19.3,
+    "compression_character": "Wide Dynamic / Breathing & Cinematic",
+    "frequency_energy_pct": {
+      "sub_bass_20_60Hz_pct": 23.0,
+      "bass_60_250Hz_pct": 51.8,
+      "low_mid_250_500Hz_pct": 11.5,
+      "mid_500_2000Hz_pct": 10.7,
+      "high_mid_2k_6kHz_pct": 2.0,
+      "high_6k_plus_pct": 1.0
+    }
+  },
+  "energy_sections": [
+    {
+      "time_range": "00:00 - 09:26",
+      "duration_sec": 566.2,
+      "energy_score": 0.42,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "09:26 - 15:53",
+      "duration_sec": 387.2,
+      "energy_score": 0.65,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "15:53 - 19:18",
+      "duration_sec": 204.8,
+      "energy_score": 0.26,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "19:18 - 32:55",
+      "duration_sec": 816.9,
+      "energy_score": 0.41,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "32:55 - 33:12",
+      "duration_sec": 17.4,
+      "energy_score": 0.0,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "33:12 - 37:02",
+      "duration_sec": 229.5,
+      "energy_score": 0.39,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "37:02 - 42:43",
+      "duration_sec": 340.6,
+      "energy_score": 0.3,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "42:43 - 59:04",
+      "duration_sec": 981.7,
+      "energy_score": 0.38,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "59:04 - 59:25",
+      "duration_sec": 20.4,
+      "energy_score": 0.0,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "59:25 - 62:02",
+      "duration_sec": 157.5,
+      "energy_score": 0.35,
+      "energy_level": "Low / Atmospheric"
+    }
+  ]
+}

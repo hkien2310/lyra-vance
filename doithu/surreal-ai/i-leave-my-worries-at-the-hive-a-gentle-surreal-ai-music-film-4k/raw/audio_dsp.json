@@ -1,0 +1,309 @@
+{
+  "source_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/surreal-ai/i-leave-my-worries-at-the-hive-a-gentle-surreal-ai-music-film-4k/raw/video.mp4",
+  "listen_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/surreal-ai/i-leave-my-worries-at-the-hive-a-gentle-surreal-ai-music-film-4k/raw/listen.mp3",
+  "track_count": 2,
+  "duration_sec": 480.2,
+  "duration_formatted": "08:00",
+  "tempo": {
+    "bpm": 152.0,
+    "bpm_rounded": 152,
+    "half_time_bpm": 76.0,
+    "double_time_bpm": 304.0,
+    "beat_stability": 0.95
+  },
+  "harmony": {
+    "primary_key": "A# Minor",
+    "confidence": 1.012,
+    "secondary_key": "D# Minor",
+    "secondary_confidence": 0.633,
+    "dominant_notes": [
+      "A#",
+      "C#",
+      "F",
+      "F#",
+      "D#"
+    ]
+  },
+  "dynamics_and_mix": {
+    "mean_rms_db": -20.8,
+    "peak_db": -3.5,
+    "crest_factor_db": 17.3,
+    "compression_character": "Wide Dynamic / Breathing & Cinematic",
+    "frequency_energy_pct": {
+      "sub_bass_20_60Hz_pct": 16.3,
+      "bass_60_250Hz_pct": 30.1,
+      "low_mid_250_500Hz_pct": 30.0,
+      "mid_500_2000Hz_pct": 20.1,
+      "high_mid_2k_6kHz_pct": 3.1,
+      "high_6k_plus_pct": 0.3
+    }
+  },
+  "energy_sections": [
+    {
+      "time_range": "00:00 - 00:17",
+      "duration_sec": 17.1,
+      "energy_score": 0.11,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "00:17 - 01:42",
+      "duration_sec": 85.0,
+      "energy_score": 0.37,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "01:42 - 03:46",
+      "duration_sec": 123.8,
+      "energy_score": 0.53,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "03:46 - 04:19",
+      "duration_sec": 32.6,
+      "energy_score": 0.24,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "04:19 - 04:59",
+      "duration_sec": 40.0,
+      "energy_score": 0.29,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "04:59 - 05:27",
+      "duration_sec": 28.9,
+      "energy_score": 0.7,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "05:27 - 05:42",
+      "duration_sec": 14.2,
+      "energy_score": 0.35,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "05:42 - 07:34",
+      "duration_sec": 112.6,
+      "energy_score": 0.68,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "07:34 - 07:54",
+      "duration_sec": 19.5,
+      "energy_score": 0.23,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "07:54 - 08:00",
+      "duration_sec": 6.5,
+      "energy_score": 0.0,
+      "energy_level": "Low / Atmospheric"
+    }
+  ],
+  "tracks": [
+    {
+      "track_index": 1,
+      "title": "WHERE THE HONEY LEARNS TO BREATHE",
+      "time_range": "00:00 - 04:08",
+      "start_sec": 0.0,
+      "end_sec": 248.0,
+      "duration_sec": 248.0,
+      "duration_formatted": "04:08",
+      "tempo": {
+        "bpm": 152.0,
+        "bpm_rounded": 152,
+        "half_time_bpm": 76.0,
+        "double_time_bpm": 304.0,
+        "beat_stability": 0.95
+      },
+      "harmony": {
+        "primary_key": "A# Minor",
+        "confidence": 0.959,
+        "secondary_key": "D# Minor",
+        "secondary_confidence": 0.775,
+        "dominant_notes": [
+          "A#",
+          "F#",
+          "D#",
+          "C#",
+          "F"
+        ]
+      },
+      "dynamics_and_mix": {
+        "mean_rms_db": -20.4,
+        "peak_db": -5.0,
+        "crest_factor_db": 15.4,
+        "compression_character": "Wide Dynamic / Breathing & Cinematic",
+        "frequency_energy_pct": {
+          "sub_bass_20_60Hz_pct": 21.7,
+          "bass_60_250Hz_pct": 28.2,
+          "low_mid_250_500Hz_pct": 28.8,
+          "mid_500_2000Hz_pct": 18.9,
+          "high_mid_2k_6kHz_pct": 1.9,
+          "high_6k_plus_pct": 0.4
+        }
+      },
+      "energy_sections": [
+        {
+          "time_range": "00:00 - 00:17",
+          "duration_sec": 17.1,
+          "energy_score": 0.08,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "00:17 - 01:42",
+          "duration_sec": 85.0,
+          "energy_score": 0.37,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "01:42 - 02:32",
+          "duration_sec": 49.7,
+          "energy_score": 0.57,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "02:32 - 02:39",
+          "duration_sec": 7.2,
+          "energy_score": 0.34,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "02:39 - 03:02",
+          "duration_sec": 23.1,
+          "energy_score": 0.65,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "03:02 - 03:10",
+          "duration_sec": 8.2,
+          "energy_score": 0.15,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "03:10 - 03:20",
+          "duration_sec": 10.1,
+          "energy_score": 0.56,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "03:20 - 03:29",
+          "duration_sec": 8.5,
+          "energy_score": 0.45,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "03:29 - 03:46",
+          "duration_sec": 17.2,
+          "energy_score": 0.69,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "03:46 - 04:08",
+          "duration_sec": 22.0,
+          "energy_score": 0.29,
+          "energy_level": "Low / Atmospheric"
+        }
+      ]
+    },
+    {
+      "track_index": 2,
+      "title": "I LEAVE MY WORRIES AT THE HIVE",
+      "time_range": "04:08 - 08:00",
+      "start_sec": 248.0,
+      "end_sec": 480.0,
+      "duration_sec": 232.0,
+      "duration_formatted": "03:52",
+      "tempo": {
+        "bpm": 152.0,
+        "bpm_rounded": 152,
+        "half_time_bpm": 76.0,
+        "double_time_bpm": 304.0,
+        "beat_stability": 0.95
+      },
+      "harmony": {
+        "primary_key": "A# Minor",
+        "confidence": 1.01,
+        "secondary_key": "C# Major",
+        "secondary_confidence": 0.681,
+        "dominant_notes": [
+          "F",
+          "A#",
+          "C#",
+          "F#",
+          "D#"
+        ]
+      },
+      "dynamics_and_mix": {
+        "mean_rms_db": -21.2,
+        "peak_db": -3.5,
+        "crest_factor_db": 17.7,
+        "compression_character": "Wide Dynamic / Breathing & Cinematic",
+        "frequency_energy_pct": {
+          "sub_bass_20_60Hz_pct": 11.9,
+          "bass_60_250Hz_pct": 31.7,
+          "low_mid_250_500Hz_pct": 30.9,
+          "mid_500_2000Hz_pct": 21.1,
+          "high_mid_2k_6kHz_pct": 4.1,
+          "high_6k_plus_pct": 0.3
+        }
+      },
+      "energy_sections": [
+        {
+          "time_range": "04:08 - 04:19",
+          "duration_sec": 10.5,
+          "energy_score": 0.15,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "04:19 - 04:59",
+          "duration_sec": 40.0,
+          "energy_score": 0.31,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "04:59 - 05:27",
+          "duration_sec": 28.9,
+          "energy_score": 0.68,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "05:27 - 05:42",
+          "duration_sec": 14.2,
+          "energy_score": 0.37,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "05:42 - 06:16",
+          "duration_sec": 34.2,
+          "energy_score": 0.69,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "06:16 - 06:22",
+          "duration_sec": 6.1,
+          "energy_score": 0.33,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "06:22 - 07:34",
+          "duration_sec": 71.9,
+          "energy_score": 0.69,
+          "energy_level": "Medium / Groove"
+        },
+        {
+          "time_range": "07:34 - 07:54",
+          "duration_sec": 19.9,
+          "energy_score": 0.26,
+          "energy_level": "Low / Atmospheric"
+        },
+        {
+          "time_range": "07:54 - 08:00",
+          "duration_sec": 6.3,
+          "energy_score": 0.0,
+          "energy_level": "Low / Atmospheric"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "source_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/veloscuro/veloscuro-the-distant-ridge/raw/video.mp4",
+  "listen_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/veloscuro/veloscuro-the-distant-ridge/raw/listen.mp3",
+  "track_count": 1,
+  "duration_sec": 333.6,
+  "duration_formatted": "05:34",
+  "tempo": {
+    "bpm": 117.5,
+    "bpm_rounded": 117,
+    "half_time_bpm": 58.7,
+    "double_time_bpm": 234.9,
+    "beat_stability": 0.97
+  },
+  "harmony": {
+    "primary_key": "F Minor",
+    "confidence": 0.72,
+    "secondary_key": "F Major",
+    "secondary_confidence": 0.504,
+    "dominant_notes": [
+      "F",
+      "D#",
+      "C",
+      "E",
+      "C#"
+    ]
+  },
+  "dynamics_and_mix": {
+    "mean_rms_db": -14.7,
+    "peak_db": -0.1,
+    "crest_factor_db": 14.6,
+    "compression_character": "Balanced / Punchy Dynamic",
+    "frequency_energy_pct": {
+      "sub_bass_20_60Hz_pct": 40.4,
+      "bass_60_250Hz_pct": 40.0,
+      "low_mid_250_500Hz_pct": 6.3,
+      "mid_500_2000Hz_pct": 8.2,
+      "high_mid_2k_6kHz_pct": 3.7,
+      "high_6k_plus_pct": 1.5
+    }
+  },
+  "energy_sections": [
+    {
+      "time_range": "00:00 - 00:04",
+      "duration_sec": 4.2,
+      "energy_score": 0.0,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "00:04 - 00:41",
+      "duration_sec": 36.5,
+      "energy_score": 0.21,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "00:41 - 01:38",
+      "duration_sec": 57.5,
+      "energy_score": 0.39,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "01:38 - 03:23",
+      "duration_sec": 105.0,
+      "energy_score": 0.5,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "03:23 - 04:14",
+      "duration_sec": 50.3,
+      "energy_score": 0.48,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "04:14 - 04:34",
+      "duration_sec": 20.4,
+      "energy_score": 0.67,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "04:34 - 04:59",
+      "duration_sec": 25.2,
+      "energy_score": 0.67,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "04:59 - 05:27",
+      "duration_sec": 27.5,
+      "energy_score": 0.52,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "05:27 - 05:34",
+      "duration_sec": 7.1,
+      "energy_score": 0.0,
+      "energy_level": "Low / Atmospheric"
+    }
+  ]
+}

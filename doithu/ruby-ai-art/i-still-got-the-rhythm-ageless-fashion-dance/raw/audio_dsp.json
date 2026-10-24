@@ -1,0 +1,79 @@
+{
+  "source_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/ruby-ai-art/i-still-got-the-rhythm-ageless-fashion-dance/raw/video.mp4",
+  "listen_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/ruby-ai-art/i-still-got-the-rhythm-ageless-fashion-dance/raw/listen.mp3",
+  "track_count": 1,
+  "duration_sec": 199.2,
+  "duration_formatted": "03:19",
+  "tempo": {
+    "bpm": 117.5,
+    "bpm_rounded": 117,
+    "half_time_bpm": 58.7,
+    "double_time_bpm": 234.9,
+    "beat_stability": 0.98
+  },
+  "harmony": {
+    "primary_key": "C Minor",
+    "confidence": 0.612,
+    "secondary_key": "G# Major",
+    "secondary_confidence": 0.301,
+    "dominant_notes": [
+      "C",
+      "C#",
+      "D",
+      "D#",
+      "F"
+    ]
+  },
+  "dynamics_and_mix": {
+    "mean_rms_db": -19.8,
+    "peak_db": -4.3,
+    "crest_factor_db": 15.5,
+    "compression_character": "Wide Dynamic / Breathing & Cinematic",
+    "frequency_energy_pct": {
+      "sub_bass_20_60Hz_pct": 24.2,
+      "bass_60_250Hz_pct": 39.5,
+      "low_mid_250_500Hz_pct": 4.4,
+      "mid_500_2000Hz_pct": 22.7,
+      "high_mid_2k_6kHz_pct": 7.8,
+      "high_6k_plus_pct": 1.4
+    }
+  },
+  "energy_sections": [
+    {
+      "time_range": "00:00 - 00:15",
+      "duration_sec": 14.9,
+      "energy_score": 0.1,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "00:15 - 00:30",
+      "duration_sec": 14.8,
+      "energy_score": 0.44,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "00:30 - 02:37",
+      "duration_sec": 127.5,
+      "energy_score": 0.55,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "02:37 - 02:45",
+      "duration_sec": 7.5,
+      "energy_score": 0.29,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "02:45 - 03:14",
+      "duration_sec": 29.1,
+      "energy_score": 0.68,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "03:14 - 03:19",
+      "duration_sec": 5.4,
+      "energy_score": 0.0,
+      "energy_level": "Low / Atmospheric"
+    }
+  ]
+}

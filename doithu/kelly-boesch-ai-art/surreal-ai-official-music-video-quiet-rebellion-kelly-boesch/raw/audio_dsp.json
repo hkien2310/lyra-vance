@@ -1,0 +1,79 @@
+{
+  "source_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-official-music-video-quiet-rebellion-kelly-boesch/raw/video.mp4",
+  "listen_file": "/Users/hoangkien/Youtube/lyra-vance/doithu/kelly-boesch-ai-art/surreal-ai-official-music-video-quiet-rebellion-kelly-boesch/raw/listen.mp3",
+  "track_count": 1,
+  "duration_sec": 176.1,
+  "duration_formatted": "02:56",
+  "tempo": {
+    "bpm": 117.5,
+    "bpm_rounded": 117,
+    "half_time_bpm": 58.7,
+    "double_time_bpm": 234.9,
+    "beat_stability": 0.96
+  },
+  "harmony": {
+    "primary_key": "F# Minor",
+    "confidence": 0.684,
+    "secondary_key": "B Minor",
+    "secondary_confidence": 0.658,
+    "dominant_notes": [
+      "C#",
+      "F#",
+      "D",
+      "B",
+      "C"
+    ]
+  },
+  "dynamics_and_mix": {
+    "mean_rms_db": -21.1,
+    "peak_db": -3.6,
+    "crest_factor_db": 17.4,
+    "compression_character": "Wide Dynamic / Breathing & Cinematic",
+    "frequency_energy_pct": {
+      "sub_bass_20_60Hz_pct": 24.6,
+      "bass_60_250Hz_pct": 49.3,
+      "low_mid_250_500Hz_pct": 13.9,
+      "mid_500_2000Hz_pct": 10.2,
+      "high_mid_2k_6kHz_pct": 1.1,
+      "high_6k_plus_pct": 0.9
+    }
+  },
+  "energy_sections": [
+    {
+      "time_range": "00:00 - 00:48",
+      "duration_sec": 48.4,
+      "energy_score": 0.27,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "00:48 - 01:57",
+      "duration_sec": 68.9,
+      "energy_score": 0.46,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "01:57 - 02:09",
+      "duration_sec": 11.5,
+      "energy_score": 0.17,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "02:09 - 02:37",
+      "duration_sec": 28.4,
+      "energy_score": 0.57,
+      "energy_level": "Medium / Groove"
+    },
+    {
+      "time_range": "02:37 - 02:46",
+      "duration_sec": 9.3,
+      "energy_score": 0.39,
+      "energy_level": "Low / Atmospheric"
+    },
+    {
+      "time_range": "02:46 - 02:56",
+      "duration_sec": 9.6,
+      "energy_score": 0.09,
+      "energy_level": "Low / Atmospheric"
+    }
+  ]
+}
