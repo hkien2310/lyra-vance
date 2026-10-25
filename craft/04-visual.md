@@ -10,8 +10,9 @@ Tuyệt đối không viết Use Case mà phải đúc kết thành Rule.
 ## 1. Đầu Vào (`Input`)
 - **Tài liệu bắt buộc đọc kèm:**
   1. [craft/01-dinh-vi-kenh.md](file:///Users/hoangkien/Youtube/lyra-vance/craft/01-dinh-vi-kenh.md) — Hệ quy chiếu thế giới và định vị toàn kênh.
-  2. `projects/<STT>/idea.md` — Bản thiết kế tổ hợp `Sự kiện x Nỗi niềm` và mạch tự sự của dự án.
-  3. `projects/<STT>/nhac.md` — Bản thiết kế nhịp điệu, âm thanh định danh và lời bài hát của dự án.
+  2. [style/STYLE-BIBLE.md](file:///Users/hoangkien/Youtube/lyra-vance/style/STYLE-BIBLE.md) — Thư viện chi tiết về từ điển 5 mảnh và 12 mẫu nhân vật/sinh vật chuẩn của phong cách.
+  3. `projects/<STT>/idea.md` — Bản thiết kế tổ hợp `Sự kiện x Nỗi niềm` và mạch tự sự của dự án.
+  4. `projects/<STT>/nhac.md` — Bản thiết kế nhịp điệu, âm thanh định danh và lời bài hát của dự án.
 
 ---
 

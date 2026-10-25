@@ -1,32 +1,39 @@
-# Lyra Vance — AI Art & Music Video Workflow
+# Lyra Vance — Minimalist Production System
 
-> **Nguyên tắc vận hành:** Tách riêng **Bước 0 (Xử lý vật lý thuần bằng code)** khỏi 4 bước AI làm việc (`01` Phân tích nhạc $\rightarrow$ `02` Sản xuất nhạc $\rightarrow$ `03` Phân tích hình ảnh & Tạo File Style Hình ảnh $\rightarrow$ `04` Phân tích Animation & Tạo File Style Chuyển động).
+> **Nguyên tắc vận hành:** Hệ thống sản xuất tinh gọn qua 4 bước tại `craft/` (`01` Định vị $\rightarrow$ `02` Idea $\rightarrow$ `03` Nhạc $\rightarrow$ `04` Visual) kết hợp thư viện phong cách tại `style/`.
 
 ---
 
-## 1. Cấu Trúc Thư Mục & Công Cụ
+## 1. Cấu Trúc Thư Mục Tối Giản
 
 ```text
 lyra-vance/
-├── README.md                              # Tổng quan hệ thống (file này)
-├── 00-xu-ly-vat-ly.md                     # B0 (Code thuần): Tải video, tách nhạc, tách ảnh grid 4 FPS & đo DSP bằng code
-├── 01-phan-tich-nhac.md                   # B1: AI nghe lại âm thanh + đọc SEO/Comment + đọc DSP -> phan-tich-nhac.md
-├── 02-san-xuat-nhac.md                    # B2: Sản xuất & Remake nhạc trên Suno/Udio -> docs-nhac.md
-├── 03-phan-tich-hinh-anh.md               # B3: Phân tích quy luật Hình ảnh -> Test Prompt & Feedback -> Style Bible (phan-tich-hinh-anh.md) & image.txt
-├── 04-phan-tich-animation.md              # B4: Phân tích quy luật Animation -> Test Motion & Feedback -> Motion Style Bible (phan-tich-animation.md) & video.txt
-├── common/                                # BỘ TOOL CHẠY BƯỚC 0
-│   ├── ingest_doithu.py                   # Lệnh tổng Bước 0: Từ link YouTube -> tải video, SEO/Comments, tách nhạc, đo DSP & cắt lưới 4 FPS
-│   ├── analyze_audio.py                   # Tách listen.mp3 & phân tích âm thanh bằng code (audio_dsp.json)
-│   └── analyze_motion.py                  # Phát hiện cảnh cắt & xuất lưới ảnh 4 FPS (grids/) + shot_sheets/
-├── doithu/                                # Thư viện 46 video đối thủ đã chạy sẵn Bước 0
-│   └── INDEX.md                           # Bảng mục lục tra cứu 46 video đối thủ
-└── projects/
-    └── XX/                                # Thư mục từng dự án (01, 02, 03...)
-        ├── doi-thu/                       # Đầu ra Bước 0 (video.mp4, listen.mp3, seo.md, audio_dsp.json, grids/, shot_sheets/)
-        ├── phan-tich-nhac.md              # Đầu ra Bước 1 (Báo cáo phân tích Nhạc & SEO 3 Tầng)
-        ├── docs-nhac.md                   # Đầu ra Bước 2 (Gói Suno Style + Lyrics đã chốt)
-        ├── phan-tich-hinh-anh.md          # Đầu ra Bước 3 (Hệ Quy luật Hình ảnh & Living Style Bible)
-        ├── phan-tich-animation.md         # Đầu ra Bước 4 (Hệ Quy luật Animation & Living Motion Style Bible)
-        ├── image.txt                      # Danh sách prompt ảnh tĩnh sinh từ phan-tich-hinh-anh.md
-        └── video.txt                      # Danh sách prompt chuyển động sinh từ phan-tich-animation.md
+├── README.md                              # Tổng quan hệ thống & luồng chạy dự án
+├── craft/                                 # BỘ QUY TẮC VẬN HÀNH LÕI (4 BƯỚC)
+│   ├── 01-dinh-vi-kenh.md                 # B1: Định vị kênh, Bản chất thế giới & Ngụ ngôn chủ thể kỳ lạ
+│   ├── 02-idea.md                         # B2: Quy tắc xây dựng Idea (Ma trận: Sự kiện bất kỳ x Nỗi niềm nhỏ bé)
+│   ├── 03-san-xuat-nhac.md                # B3: Kỹ thuật âm học 2 lớp, Âm thanh định danh độc bản & Cú pháp Suno 4 mệnh đề
+│   └── 04-visual.md                       # B4: Quy tắc thiết kế thị giác & chuyển động (Planimetric Stop-Motion 2.5D)
+├── style/                                 # THƯ VIỆN PHONG CÁCH THỊ GIÁC
+│   └── STYLE-BIBLE.md                     # Cẩm nang chi tiết, Từ điển lắp ghép 5 mảnh & 12 mẫu nhân vật/sinh vật chuẩn
+├── common/                                # Công cụ hỗ trợ phân tích vật lý (Audio DSP / Motion Grids)
+├── doithu/                                # Thư viện dữ liệu & phân tích đối thủ tham khảo
+└── projects/                              # THƯ MỤC SẢN XUẤT TỪNG VIDEO
+    └── <STT>/                             # Ví dụ: 01, 02, 03...
+        ├── idea.md                        # Đầu ra B2: Tổ hợp (Sự kiện x Nỗi niềm) & Đường cong tự sự 3 hồi
+        ├── nhac.md                        # Đầu ra B3: Thiết kế âm học, Style Prompt (4 mệnh đề), Exclude & Lyrics
+        ├── visual.md                      # Đầu ra B4: Dàn nhân vật, Sân khấu 2.5D & Bảng phân cảnh khớp nhạc
+        ├── image.txt                      # Tệp câu lệnh sinh ảnh hàng loạt (1 dòng = 1 prompt hoàn chỉnh)
+        └── video.txt                      # Tệp câu lệnh chuyển động I2V tương ứng 1:1 với image.txt
 ```
+
+---
+
+## 2. Quy Trình Sản Xuất 1 Video (`projects/<STT>/`)
+
+1. **Bước 1 — Khởi tạo Idea (`idea.md`):**
+   Đọc [craft/01-dinh-vi-kenh.md](file:///Users/hoangkien/Youtube/lyra-vance/craft/01-dinh-vi-kenh.md) và [craft/02-idea.md](file:///Users/hoangkien/Youtube/lyra-vance/craft/02-idea.md) $\rightarrow$ Chốt tổ hợp `1 Sự kiện bất kỳ x 1 Nỗi niềm nhỏ bé` và xuất `projects/<STT>/idea.md`.
+2. **Bước 2 — Sản xuất Nhạc (`nhac.md`):**
+   Đọc [craft/03-san-xuat-nhac.md](file:///Users/hoangkien/Youtube/lyra-vance/craft/03-san-xuat-nhac.md) và `projects/<STT>/idea.md` $\rightarrow$ AI tự chọn thể loại khớp cảm xúc, áp dụng kỹ thuật nhạc 2 lớp + âm thanh độc bản và xuất `projects/<STT>/nhac.md`.
+3. **Bước 3 — Thiết kế Visual & Xuất Prompt (`visual.md`, `image.txt`, `video.txt`):**
+   Đọc [craft/04-visual.md](file:///Users/hoangkien/Youtube/lyra-vance/craft/04-visual.md) và [style/STYLE-BIBLE.md](file:///Users/hoangkien/Youtube/lyra-vance/style/STYLE-BIBLE.md) $\rightarrow$ Chốt dàn nhân vật, bối cảnh sân khấu 2.5D trong `projects/<STT>/visual.md`, sau đó xuất thẳng `projects/<STT>/image.txt` và `projects/<STT>/video.txt`.
