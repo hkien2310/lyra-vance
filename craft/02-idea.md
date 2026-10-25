@@ -19,9 +19,9 @@ Tuyệt đối không viết Use Case mà phải đúc kết thành Rule.
 - Hình thành mỗi hạt nhân ý tưởng từ sự va chạm trực tiếp giữa **Một Sự Kiện Đời Sống Bất Kỳ** (điểm kích hoạt bên ngoài) và **Một Nỗi Niềm Nhỏ Bé** (trạng thái rung động bên trong).
 - Tận dụng tính độc lập của hai biến số để nhân bản kịch bản: giữ nguyên một sự kiện nhưng thay đổi nỗi niềm bên trong sẽ tự động bẻ lái phản ứng tâm lý, hướng giải quyết và cái kết thành một câu chuyện hoàn toàn mới.
 
-### 2.2. Quy Luật Phóng Chiếu Ngụ Ngôn Sang Hệ Chủ Thể Kỳ Lạ
-- Giữ nguyên vẹn chiều sâu tâm lý của người trưởng thành ở tầng ý niệm, đồng thời dịch chuyển tự do chủ thể thực hiện hành động sang các sinh vật kỳ lạ, thực thể lai ghép hoặc hình tượng con người cách điệu phù hợp nhất với từng câu chuyện.
-- Chuyển hóa các bối cảnh và vật dụng gắn liền với sự kiện đời sống thành những không gian và chất liệu tương ứng trong thế giới siêu thực hữu cơ của dự án.
+### 2.2. Quy Luật Kiến Tạo Thị Trấn Kỳ Lạ Định Danh (`Named Strange Town Concept`)
+- Gắn mỗi tổ hợp `Sự kiện x Cảm giác` vào một **Thị trấn kỳ lạ có đặc điểm định danh gọi tên được** (một quy luật sinh hoạt đặc biệt, một hiện tượng thời tiết/ánh sáng vĩnh cửu, hoặc sự chung sống kỳ lạ giữa cư dân và một loài sinh vật/sự vật).
+- Sử dụng chính đặc điểm kỳ lạ của thị trấn đó làm chất xúc tác trực tiếp cho sự kiện và cảm giác của nhân vật, đồng thời tự do lựa chọn cư dân đóng vai chính từ 3 nhóm (Con người, Dạng người, Sinh vật khác).
 
 ### 2.3. Quy Luật Vật Chất Hóa Nỗi Niềm Nội Tâm
 - Biểu đạt trạng thái tâm lý của nhân vật thông qua hành vi cơ học, dáng điệu hình thể của sinh vật và điều kiện thời tiết, ánh sáng của môi trường xung quanh.
